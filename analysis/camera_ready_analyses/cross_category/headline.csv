@@ -1,0 +1,7 @@
+category,roster,n_models_roster,n_langs,median_inversion,median_tau,n_FDR_reject,rho_nt_inversion,rho_p,median_n_models,underpowered
+Classification,extended,54,11,0.1016,0.7968,11,-0.5913,0.0554,53.0,False
+Classification,curated25,22,11,0.1558,0.6883,11,-0.2365,0.4838,22.0,False
+STS,extended,53,8,0.1022,0.7957,8,-0.0563,0.8946,51.5,False
+STS,curated25,22,8,0.1905,0.619,8,-0.169,0.6891,21.5,False
+Reranking,extended,56,0,,,0,,,,False
+Reranking,curated25,22,0,,,0,,,,False

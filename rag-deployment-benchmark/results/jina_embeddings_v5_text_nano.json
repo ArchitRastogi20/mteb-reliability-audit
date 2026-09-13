@@ -1,0 +1,22 @@
+{
+  "model_id": "jinaai/jina-embeddings-v5-text-nano",
+  "params": "212M",
+  "dim": 1024,
+  "embedding_dim": 0,
+  "batch_size": 32,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 8560.267,
+  "vram_corpus_mb_std": 3.583,
+  "vram_query_mb_mean": 1362.9,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 40.016,
+  "corpus_encode_sec_std": 0.118,
+  "query_throughput_qps_mean": 622.133,
+  "query_throughput_qps_std": 10.213,
+  "latency_p50_ms_mean": 31.38,
+  "latency_p50_ms_std": 0.098,
+  "latency_p99_ms_mean": 35.404,
+  "latency_p99_ms_std": 0.074
+}

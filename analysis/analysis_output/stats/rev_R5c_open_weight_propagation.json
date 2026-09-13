@@ -1,0 +1,1664 @@
+{
+  "judge_models": [
+    "gpt-5.4-mini",
+    "judge-llm-small"
+  ],
+  "answer_model": "gpt-5.4-mini",
+  "seed": 42,
+  "headline": {
+    "pair": "bge-m3 / snowflake-arctic-embed-l-v2.0",
+    "config": "ja_finance",
+    "n_queries_per_model": 50,
+    "gpt_judge_ratio": 1.257,
+    "claude_judge_ratio": 1.262,
+    "claim_holds_under_both_judges": true
+  },
+  "per_model_summary": [
+    {
+      "provider": "hf",
+      "model": "BAAI/bge-m3",
+      "lang": "ja",
+      "domain": "finance",
+      "n_queries": 50,
+      "top_k": 3,
+      "gpt_mean_keypoint_coverage": 0.8441630212752504,
+      "claude_mean_keypoint_coverage": 0.8357486023608317
+    },
+    {
+      "provider": "hf",
+      "model": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "lang": "ja",
+      "domain": "finance",
+      "n_queries": 50,
+      "top_k": 3,
+      "gpt_mean_keypoint_coverage": 0.6716919850015826,
+      "claude_mean_keypoint_coverage": 0.6623095896191871
+    }
+  ],
+  "detailed": {
+    "hf/BAAI/bge-m3/ja_finance": {
+      "provider": "hf",
+      "model": "BAAI/bge-m3",
+      "lang": "ja",
+      "domain": "finance",
+      "n_queries": 50,
+      "top_k": 3,
+      "gpt_mean_keypoint_coverage": 0.8441630212752504,
+      "claude_mean_keypoint_coverage": 0.8357486023608317,
+      "per_query": [
+        {
+          "qid": "ja_finance_multihop_0160",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0160",
+            "ja_finance_0031",
+            "ja_finance_0091"
+          ],
+          "answer": "2010年に導入したオートローン・モビリティ関連リースの提携スキームは、在庫リスクを抑えながら回転効率を高め、粗利の増加と貸倒関連費用の抑制につながったため、営業利益率を約1.2ポイント改善させました。\n\n2019年に開始したサステナビリティ連動型リースや省エネ設備向けの新商品は、環境分野の需要を取り込み、契約件数とリース料収入を拡大させる一方、低炭素投資需要の取り込みによって収益の安定化にも寄与し、利益率を約0.8ポイント押し上げました。\n\nこれらの施策は、収益拡大とリスク抑制を両立させる形で同社の基盤を強化し、直近年度の見込み売上高約1,120億円、売上高利益率約5.3％という安定した収益水準につながっていると考えられます。",
+          "gpt_covered": 17,
+          "gpt_total": 17,
+          "gpt_rate": 1.0,
+          "judge_covered": 16,
+          "judge_total": 17,
+          "judge_rate": 0.9411764705882353
+        },
+        {
+          "qid": "ja_finance_factual_0057",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0057",
+            "ja_finance_0148",
+            "ja_finance_0096"
+          ],
+          "answer": "2006年10月1日に導入されたのは、**オンラインバンキングと信用審査の自動化**です。",
+          "gpt_covered": 2,
+          "gpt_total": 2,
+          "gpt_rate": 1.0,
+          "judge_covered": 2,
+          "judge_total": 2,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0012",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0012",
+            "ja_finance_0239",
+            "ja_finance_0193"
+          ],
+          "answer": "1998年10月1日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0140",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0140",
+            "ja_finance_0186",
+            "ja_finance_0073"
+          ],
+          "answer": "約620億円です】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0125",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0230",
+            "ja_finance_0088",
+            "ja_finance_0241"
+          ],
+          "answer": "提供されたコンテキストの中には、**「瀬戸内リース・ファイナンス株式会社」が2013年10月1日に何を開始し、どのような商品を導入したか**についての記載はありません。  \nしたがって、**答えは不明です**。",
+          "gpt_covered": 0,
+          "gpt_total": 2,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 2,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0114",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0156",
+            "ja_finance_0114",
+            "ja_finance_0196"
+          ],
+          "answer": "2011年9月1日に拡充したのは、**オルタナティブ運用**です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0071",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0071",
+            "ja_finance_0082",
+            "ja_finance_0226"
+          ],
+          "answer": "1987年です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0052",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0239",
+            "ja_finance_0012",
+            "ja_finance_0193"
+          ],
+          "answer": "提示された3つのコンテキスト内には、**リース債権の証券化（流動化スキーム）を導入した時期**についての記述はありません。したがって、**いつ導入したのかは特定できません**。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_multihop_0111",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0111",
+            "ja_finance_0013",
+            "ja_finance_0175"
+          ],
+          "answer": "青海フィナンシャルリース株式会社が収益の安定化と成長を同時に進められた理由は、以下の3点が連動していたためです。\n\n1. **1995年の「設備導入パッケージ型リース」**  \n   単なる機器の貸与ではなく、導入支援・調達手続き・設置・更新計画までまとめて提供することで、顧客の初期負担を下げつつ設備更新を促進できました。これにより契約の継続性が高まり、地域の中小企業との長期的な取引基盤ができて、収益が安定しました。\n\n2. **2006年の信用格付連動型の審査・モニタリング**  \n   延滞率や回収率などを定量的に見て、顧客の信用度に応じて審査基準や監視の頻度を最適化したため、案件選別の精度が上がりました。結果として貸倒関連費用が抑えられ、利益のブレが小さくなり、安定した収益体質が強まりました。\n\n3. **2018年の環境投資向けリース商品の拡充**  \n   省エネ設備や再生可能エネルギー関連の案件を増やしたことで、成長分野の需要を取り込めました。環境投資は政策支援や更新需要の追い風を受けやすく、案件数の増加が金利収益や手数料収益の伸長につながりました。\n\nつまり、**1995年の施策で顧客基盤を広",
+          "gpt_covered": 8,
+          "gpt_total": 9,
+          "gpt_rate": 0.8888888888888888,
+          "judge_covered": 8,
+          "judge_total": 9,
+          "judge_rate": 0.8888888888888888
+        },
+        {
+          "qid": "ja_finance_factual_0044",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0044",
+            "ja_finance_0082",
+            "ja_finance_0086"
+          ],
+          "answer": "２０１６年１月１５日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0135",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0135",
+            "ja_finance_0100",
+            "ja_finance_0238"
+          ],
+          "answer": "みなと第一リース株式会社は、**1995年6月15日の中古車両・設備向けスキーム拡充**で、オフバランス化を求める顧客ニーズに応えつつ、中古資産を使うことで**初期コストの低い提案**を可能にしました。これにより、価格感度の高い顧客を取り込みやすくなり、販売会社との提携網拡大もあって案件獲得チャネルが広がりました。結果として、**利息収益の増加**と**営業キャッシュ・フローの改善**、さらに**与信費用の抑制**が進み、収益性が高まりました。\n\nまた、**2016年10月20日のESG連動型プログラム開始**では、再生可能エネルギー設備や省エネ機器などの**環境配慮型設備**を積極的に取り込むことで、営業面での差別化を図りました。近年強まる環境対応ニーズに合致したため、**新規案件の成約率が向上**し、加えて**信用コストの抑制効果**も得られたことで、営業利益の増加につながりました。\n\nこのように、同社は中古資産の活用による案件拡大と、ESG対応による差別化を通じて、**収益獲得と営業優位性の両方を強化**してきました。  \nその結果、現在は**年間売上高約420億円、営業利益率約6.2％**という、リース業界の中でも**堅実で安定した収",
+          "gpt_covered": 15,
+          "gpt_total": 17,
+          "gpt_rate": 0.8823529411764706,
+          "judge_covered": 16,
+          "judge_total": 17,
+          "judge_rate": 0.9411764705882353
+        },
+        {
+          "qid": "ja_finance_multihop_0042",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0042",
+            "ja_finance_0088",
+            "ja_finance_0053"
+          ],
+          "answer": "瀬戸内バンク＆トラスト株式会社は、2001年10月1日の資産運用業務拡充で投資一任契約と年金関連信託の取扱いを開始し、信託受託中心の事業から、より高付加価値で継続性の高い運用サービスへと事業領域を広げました。これにより、運用報酬や信託報酬といった安定収益が積み上がる構造が強まり、長期契約の獲得も進みました。初年度はシステム投資や管理体制整備で費用増がありましたが、将来の収益源を拡張する基盤整備として機能しました。\n\nさらに、2016年11月15日のESG・スチュワードシップ方針導入では、全商品ラインでESGを重視した運用へ転換し、商品競争力と運用の透明性を高めました。その結果、機関投資家や企業年金などからの評価が向上し、資金流入が進んで手数料収入が伸びました。また、運用品質向上によって信用コストの抑制にもつながり、利益率の改善に寄与しました。\n\nこの2つの施策によって、同社は「安定した受託残高の拡大」と「高付加価値な運用報酬の増加」を実現し、当期の年換算売上高2,450億円、営業利益率14.2％という堅調な業績につながったと説明できます。",
+          "gpt_covered": 13,
+          "gpt_total": 15,
+          "gpt_rate": 0.8666666666666667,
+          "judge_covered": 13,
+          "judge_total": 15,
+          "judge_rate": 0.8666666666666667
+        },
+        {
+          "qid": "ja_finance_factual_0016",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0016",
+            "ja_finance_0107",
+            "ja_finance_0062"
+          ],
+          "answer": "2001年4月1日です】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0015",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0015",
+            "ja_finance_0053",
+            "ja_finance_0043"
+          ],
+          "answer": "１９９８年４月１日から始まりました】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0047",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0047",
+            "ja_finance_0163",
+            "ja_finance_0202"
+          ],
+          "answer": "2006年4月1日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0111",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0111",
+            "ja_finance_0154",
+            "ja_finance_0175"
+          ],
+          "answer": "2018年7月1日に、**環境投資向けリース商品の拡充**を実施しました。  \n具体的には、**省エネ設備や再生可能エネルギー関連のファイナンス枠を増額し、環境対応投資を行う企業への支援を強化**しました。",
+          "gpt_covered": 3,
+          "gpt_total": 3,
+          "gpt_rate": 1.0,
+          "judge_covered": 3,
+          "judge_total": 3,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0119",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0119",
+            "ja_finance_0196",
+            "ja_finance_0114"
+          ],
+          "answer": "記事では、**受託資産の管理や信託報酬を通じて収益を上げる**と説明されています。",
+          "gpt_covered": 3,
+          "gpt_total": 3,
+          "gpt_rate": 1.0,
+          "judge_covered": 3,
+          "judge_total": 3,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0088",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0088",
+            "ja_finance_0125",
+            "ja_finance_0230"
+          ],
+          "answer": "株式会社瀬戸内リース＆信託ホールディングスは、3つの転機を通じて、**収益源の多様化**と**資本効率・信用コストの改善**を進めながら、単なるリース会社から**総合金融機関**へと発展してきたといえます。\n\n- **1987年4月1日：設備リース事業拡大とリース料債権の証券化**\n  - 設備リースの対象を広げると同時に、リース料債権を証券化することで、資金調達手段を多様化しました。\n  - これにより、従来のバランスシート依存型の成長から、より**資本効率を意識した成長**へ転換できました。\n  - 調達コストが抑えられ、**営業利益率が0.8ポイント改善**したとされています。\n\n- **2002年10月1日：信託業務の新設**\n  - 不動産信託や事業承継関連信託を加えたことで、リースに加えて**資産保全・運用・承継**まで支援できるようになりました。\n  - これにより、法人顧客との長期的な関係が深まり、**安定的な手数料収入**が増加しました。\n  - 運用受託残高の積み上がりなども背景に、**利益率が1.2ポイント改善**し、収益源の多角化が進みました。\n\n- **2016年6月30日：ESG・サステナ",
+          "gpt_covered": 13,
+          "gpt_total": 21,
+          "gpt_rate": 0.6190476190476191,
+          "judge_covered": 16,
+          "judge_total": 21,
+          "judge_rate": 0.7619047619047619
+        },
+        {
+          "qid": "ja_finance_multihop_0141",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0125",
+            "ja_finance_0141",
+            "ja_finance_0088"
+          ],
+          "answer": "瀬戸内信用リース株式会社（仮）は、次の3つの施策を組み合わせることで、収益性の改善と新たな需要の取り込みを両立させてきました。\n\n- **2012年4月1日**：中堅企業向けに、**省エネ型かつ長期固定金利の設備リース商品**を開始し、販売会社との提携を拡大しました。これにより、省エネ投資や設備更新を求める顧客需要を取り込みました。  \n- **2016年10月1日**：**与信審査にスコアリングモデルを導入**し、財務情報や業種特性などを基に審査精度を高めました。これによって延滞率や貸倒引当金負担を抑え、収益性を改善しました。  \n- **2021年6月1日**：**環境関連ファイナンスを強化**し、再生可能エネルギー設備や脱炭素関連設備のリースを拡大しました。さらに、環境を重視する資金供給の仕組みと連動した商品提供を始め、新たな脱炭素需要を取り込みました。\n\nつまり、**商品開発で需要を広げる（2012年）→審査高度化で信用コストを抑える（2016年）→環境分野で成長需要を取り込む（2021年）**という流れで、成長と収益改善を進めてきたと言えます。",
+          "gpt_covered": 15,
+          "gpt_total": 16,
+          "gpt_rate": 0.9375,
+          "judge_covered": 13,
+          "judge_total": 16,
+          "judge_rate": 0.8125
+        },
+        {
+          "qid": "ja_finance_factual_0013",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0013",
+            "ja_finance_0064",
+            "ja_finance_0112"
+          ],
+          "answer": "年間約2億円削減されました】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0119",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0119",
+            "ja_finance_0156",
+            "ja_finance_0059"
+          ],
+          "answer": "みなとライフ信託株式会社が利益率を高めながら安定した収益基盤を築けた要因は、**長期・継続型の受託収益を積み上げる事業モデルを、年金分野と法人向け信託分野の両方で強化したこと**にあります。\n\n具体的には、  \n- **1995年6月1日の年金資産運用・管理サービスの拡充**によって、企業年金向けの提案力が高まり、信託報酬や資産管理報酬といった継続収益が増えました。これにより、長期契約の年金顧客を獲得しやすくなり、安定した収益の土台ができました。  \n- **2006年4月1日の法人向け事業承継信託・不動産信託の強化**では、事業承継や不動産管理という継続的に手数料が発生しやすい領域を拡大し、受託残高を増やしました。法人顧客に対して長期の管理・運用・相続対応を一体で提供できるようになったため、ストック型の収益がさらに厚くなりました。  \n\nこの2つの施策に共通しているのは、**一度の取引で終わるのではなく、長く続く受託・管理業務を増やしたこと**です。その結果、景気変動の影響を受けにくい安定収益が積み上がり、受託残高の増加と継続",
+          "gpt_covered": 9,
+          "gpt_total": 14,
+          "gpt_rate": 0.6428571428571429,
+          "judge_covered": 10,
+          "judge_total": 14,
+          "judge_rate": 0.7142857142857143
+        },
+        {
+          "qid": "ja_finance_factual_0101",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0080",
+            "ja_finance_0101",
+            "ja_finance_0032"
+          ],
+          "answer": "東京都千代田区大手町二丁目三番一号です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0165",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0165",
+            "ja_finance_0151",
+            "ja_finance_0136"
+          ],
+          "answer": "2005年4月1日のオンライン取引開始は、**個人投資家の利便性向上と口座数拡大**を目的とした施策でした。これにより、従来の対面中心の営業に加えて広い顧客層を取り込めるようになり、**取引量の増加を通じて取引手数料収益が増えた**一方、システム整備や顧客獲得のための販管費も先行して増加しました。それでも、最終的には**営業利益の黒字化に寄与する要因**となったとされています。\n\n2012年10月1日の地域金融機関との業務提携拡大は、**投資信託および債券の販売チャネル強化**と、**地域顧客への接点拡大**を目的としたものでした。地域金融機関の信頼基盤を活用することで、証券会社単独では獲得しにくい顧客層にアクセスでき、**販売手数料や信託報酬などのストック型収益の積み上げ**につながりました。その結果、**収益の安定度が高まり、利益率も改善**したと考えられます。\n\nしたがって、この2つの施策は、  \n- オンライン取引で**取引量と顧客基盤を拡大**し、  \n- 地域金融機関連携で**継続収益を積み上げる仕組みを強化**した  \nことで、売買市況に左右されにくい収益構造を作り出し、**営業利益率約",
+          "gpt_covered": 17,
+          "gpt_total": 20,
+          "gpt_rate": 0.85,
+          "judge_covered": 17,
+          "judge_total": 20,
+          "judge_rate": 0.85
+        },
+        {
+          "qid": "ja_finance_multihop_0040",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0040",
+            "ja_finance_0057",
+            "ja_finance_0096"
+          ],
+          "answer": "2003年の地域金融機関三社の経営統合では、営業基盤と顧客基盤を大きく拡大し、あおば銀行としてブランドや地域ネットワークを再編しました。統合初年度はのれん償却や統合費用で利益率が一時的に下がったものの、翌年以降は貸出金残高の増加と預金コストの改善が進み、規模の経済を生かして収益性が回復しました。\n\n2012年の証券子会社事業の統合では、法人向けストラクチャードファイナンスや資本市場業務を強化するために、商品開発と販売体制を再構築しました。これにより、顧客ニーズに応じた提案力が高まり、手数料収益が増加しました。さらに、案件審査や管理機能を一体化したことで与信コストも抑えられ、利益率が段階的に上昇しました。\n\nつまり、2003年の統合で「規模と基盤」を強化し、2012年の統合で「高付加価値な法人金融機能と収益力」を強化した、という流れです。",
+          "gpt_covered": 12,
+          "gpt_total": 13,
+          "gpt_rate": 0.9230769230769231,
+          "judge_covered": 12,
+          "judge_total": 13,
+          "judge_rate": 0.9230769230769231
+        },
+        {
+          "qid": "ja_finance_factual_0112",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0241",
+            "ja_finance_0112",
+            "ja_finance_0123"
+          ],
+          "answer": "2020年7月1日に**デジタル審査・電子契約**を全面導入したとされています。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0056",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0056",
+            "ja_finance_0202",
+            "ja_finance_0163"
+          ],
+          "answer": "提供されたコンテキストの中では、**1998年4月1日の中堅事業者向けオートリース商品拡充**と、**2018年7月1日の電子契約・与信ワークフロー本格導入**について、次のように説明されています。\n\n- **1998年4月1日**の施策では、**提携ディーラー網を強化して営業チャネルを拡張**し、地域ごとの需要をきめ細かく取り込むことで**拡販**を進めました。初期には販促費や提携コストがかかったものの、営業収益の増加がそれを吸収し、**黒字維持**につながったとされています。\n- **2018年7月1日**の施策では、**電子契約と与信ワークフローを導入**して、申込から審査、契約、請求までを自動化・効率化しました。これにより、**人件費や事務費などの固定費を削減**し、加えて処理速度向上や入力ミス低減によって、**利益率改善**につながったとされています。\n\nつまり、  \n- 事業面では、**販売チャネル拡大と顧客接点の増加で案件数を伸ばし**、  \n- 業務効率面では、**契約・審査・請求の自動化でコストを下げて収益性を高めた**、  \n\nという形で「拡販」と「利益率改善」を両立させた、というのがコンテキストから言える内容です。",
+          "gpt_covered": 14,
+          "gpt_total": 17,
+          "gpt_rate": 0.8235294117647058,
+          "judge_covered": 14,
+          "judge_total": 17,
+          "judge_rate": 0.8235294117647058
+        },
+        {
+          "qid": "ja_finance_multihop_0134",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0134",
+            "ja_finance_0108",
+            "ja_finance_0028"
+          ],
+          "answer": "二〇一四年七月十五日の再生可能エネルギー向け商品の提供開始は、太陽光や風力などの環境関連分野へ事業領域を広げる転機となり、リース資産の積み上げによる収益増加と、利回り改善を通じた利益率の段階的な向上につながりました。長期安定運用を前提とする案件を取り込めたことで、同社の成長領域が拡大したと考えられます。\n\n二〇二〇年十月一日のクラウド型与信・回収管理システム導入は、与信審査とモニタリングの効率化を進め、延滞率の低下、回収コストの削減、リスク把握精度の向上をもたらしました。その結果、損失引当の抑制を通じて最終利益の改善に寄与し、デジタル化を収益力向上に結び付けました。\n\nこの二つは、再生可能エネルギー案件の知見とデジタル与信管理という同社の強みをそれぞれ強化し、収益性の改善と安定成長の両方を支える施策だったといえます。",
+          "gpt_covered": 13,
+          "gpt_total": 13,
+          "gpt_rate": 1.0,
+          "judge_covered": 12,
+          "judge_total": 13,
+          "judge_rate": 0.9230769230769231
+        },
+        {
+          "qid": "ja_finance_factual_0142",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0142",
+            "ja_finance_0073",
+            "ja_finance_0239"
+          ],
+          "answer": "2020年9月30日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0003",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0003",
+            "ja_finance_0056",
+            "ja_finance_0163"
+          ],
+          "answer": "新型感染症の拡大による取引先の資金繰り悪化に対応し、**延滞抑制と条件変更（リスケジュール）を強化する目的**で早期警戒モデルを導入しました。",
+          "gpt_covered": 4,
+          "gpt_total": 4,
+          "gpt_rate": 1.0,
+          "judge_covered": 3,
+          "judge_total": 4,
+          "judge_rate": 0.75
+        },
+        {
+          "qid": "ja_finance_factual_0081",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0105",
+            "ja_finance_0081",
+            "ja_finance_0137"
+          ],
+          "answer": "北都総合リース株式会社は、**２０２０年７月**に再生可能エネルギー向けのグリーンリース商品を開始しました。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0174",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0124",
+            "ja_finance_0174",
+            "ja_finance_0230"
+          ],
+          "answer": "公共・医療・物流用途の**環境配慮設備への投資**を促進する内容です】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0079",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0186",
+            "ja_finance_0079",
+            "ja_finance_0182"
+          ],
+          "answer": "東京みなとリース株式会社は、**2012年10月1日**に資金調達の多様化を目的としてシンジケートローン契約を導入しました。",
+          "gpt_covered": 2,
+          "gpt_total": 2,
+          "gpt_rate": 1.0,
+          "judge_covered": 2,
+          "judge_total": 2,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0110",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0110",
+            "ja_finance_0084",
+            "ja_finance_0226"
+          ],
+          "answer": "記載されている四つの構造要因は、**少子高齢化、相続案件の増加、不動産の有効活用需要、資産運用の高度化**です。",
+          "gpt_covered": 4,
+          "gpt_total": 5,
+          "gpt_rate": 0.8,
+          "judge_covered": 4,
+          "judge_total": 5,
+          "judge_rate": 0.8
+        },
+        {
+          "qid": "ja_finance_factual_0172",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0172",
+            "ja_finance_0219",
+            "ja_finance_0146"
+          ],
+          "answer": "二〇一二年九月に開始したのは、**環境・社会・企業統治（ESG）の要素を組み込んだ運用一任サービス**です。",
+          "gpt_covered": 1,
+          "gpt_total": 2,
+          "gpt_rate": 0.5,
+          "judge_covered": 1,
+          "judge_total": 2,
+          "judge_rate": 0.5
+        },
+        {
+          "qid": "ja_finance_multihop_0019",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0019",
+            "ja_finance_0093",
+            "ja_finance_0229"
+          ],
+          "answer": "2005年の提携販売開始は、**販売チャネルを自社営業中心から代理店・提携先を活用する形に広げ、案件獲得力と取扱高を増やして収益基盤を強化した施策**です。特に自動車リース分野で、地域や顧客層を広げながら営業機会を増やし、売上の土台を厚くしました。\n\n一方、2020年のオンライン与信審査・電子契約導入は、**案件処理の迅速化、事務コスト削減、与信判断の標準化を通じて、販管費を圧縮し利益率を改善した施策**です。これにより、単に売上を増やすだけでなく、効率的に収益を積み上げる体制が整いました。\n\nつまり、**2005年の施策が「売上拡大・顧客基盤拡大」の役割、2020年の施策が「業務効率化・コスト削減による利益率向上」の役割**を担い、前者が収益の量を、後者が収益の質を高めたことで、直近期の売上高245億円・利益率4.6％につながったといえます。",
+          "gpt_covered": 15,
+          "gpt_total": 15,
+          "gpt_rate": 1.0,
+          "judge_covered": 13,
+          "judge_total": 15,
+          "judge_rate": 0.8666666666666667
+        },
+        {
+          "qid": "ja_finance_factual_0049",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0049",
+            "ja_finance_0199",
+            "ja_finance_0038"
+          ],
+          "answer": "2012年10月15日に、**オンライン取引基盤**を刷新しました】【。",
+          "gpt_covered": 1,
+          "gpt_total": 2,
+          "gpt_rate": 0.5,
+          "judge_covered": 1,
+          "judge_total": 2,
+          "judge_rate": 0.5
+        },
+        {
+          "qid": "ja_finance_multihop_0008",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0008",
+            "ja_finance_0088",
+            "ja_finance_0125"
+          ],
+          "answer": "二〇〇三年六月一日の遺言・相続設計サービス拡充は、信託報酬の増加を通じて約二億円規模の収益押し上げ効果をもたらし、二〇二〇年十月十五日のESG連動型信託商品の開始は取扱高の増加と利益率の約〇・八ポイント改善につながりました。  \nこのため、当期の年間収益約百二十億円、利益率約十二・五パーセントは、相続・資産承継ニーズに応える継続収益と、ESG対応など新商品の拡大による収益増が重なって支えられているといえます。",
+          "gpt_covered": 9,
+          "gpt_total": 10,
+          "gpt_rate": 0.9,
+          "judge_covered": 6,
+          "judge_total": 10,
+          "judge_rate": 0.6
+        },
+        {
+          "qid": "ja_finance_multihop_0001",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0001",
+            "ja_finance_0136",
+            "ja_finance_0221"
+          ],
+          "answer": "二〇〇九年の経営統合で、重複コストの削減と販売チャネルの統合が進み、年間約十八億円のコスト削減と営業利益率〇・六パーセントの改善につながりました。  \nその後、二〇一四年四月一日に法人ソリューションと中小企業向けファイナンスを重点領域とし、与信モデルの高度化を進めたことで、利ざや収益の拡大と採算性の高い取引の積み上げが実現しました。\n\nこの組み合わせにより、同社は**統合による効率化でコスト競争力を高めつつ、成長分野への選択的投資で収益源を強化し、地域密着型の金融機関としての競争力と収益性を同時に向上させた**といえます。",
+          "gpt_covered": 8,
+          "gpt_total": 11,
+          "gpt_rate": 0.7272727272727273,
+          "judge_covered": 9,
+          "judge_total": 11,
+          "judge_rate": 0.8181818181818182
+        },
+        {
+          "qid": "ja_finance_multihop_0142",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0142",
+            "ja_finance_0126",
+            "ja_finance_0091"
+          ],
+          "answer": "1998年10月1日に始めた施策は、中部エリアの中小企業向けオートリース・設備導入プログラムで、**資金繰りの制約で設備更新が遅れがちだったこと**や、**車両・生産設備の老朽化**という課題に対応するものでした。初期投資の負担を抑えて必要な資産を導入できるようにした結果、**新規契約が増え、売上高が拡大**しました。初年度は収益性はほぼ横ばいでしたが、その後は案件の蓄積と顧客基盤の拡大で**採算が徐々に改善**しました。\n\n2020年9月30日に拡充した商品は、省エネ設備・再エネ機器向けのファイナンス商品で、**脱炭素の流れ**や**企業の環境対応投資**に対応するものでした。導入負担を平準化することで、顧客の投資を後押しし、**案件の付加価値が高まり、金利収入や手数料収入が増加**して利益率改善につながりました。あわせて、同社の事業構造は従来の車両・設備リース中心から、**成長性と社会的意義を兼ね備えた環境対応型分野へ収益源を広げる形**に変化しました。",
+          "gpt_covered": 14,
+          "gpt_total": 16,
+          "gpt_rate": 0.875,
+          "judge_covered": 14,
+          "judge_total": 16,
+          "judge_rate": 0.875
+        },
+        {
+          "qid": "ja_finance_factual_0135",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0135",
+            "ja_finance_0186",
+            "ja_finance_0073"
+          ],
+          "answer": "みなと第一リース株式会社が『総合ファイナンス商品』を導入したのは、**2006年4月1日**です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0022",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0059",
+            "ja_finance_0156",
+            "ja_finance_0222"
+          ],
+          "answer": "Context 1によると、みなと信託株式会社は**1958年に設立**されました。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_multihop_0062",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0062",
+            "ja_finance_0151",
+            "ja_finance_0247"
+          ],
+          "answer": "記事内容によれば、みなとアライアンス証券株式会社が収益性を高められた理由は、**法人向けと個人向けの収益源を同時に強化し、収益の分散と効率化を進めたため**です。\n\n- **法人向け投資銀行業務の強化**では、二〇〇一年十月十五日にデット部門とエクイティ部門を新設し、大型案件の共同主幹事を開始しました。これにより、従来の仲介収益に加えて、**引受手数料やアレンジメントフィー**を得る機会が増え、前年比で営業収益が約8％改善したとされています。つまり、法人案件の獲得力と資本市場対応力が高まり、収益の柱が厚くなりました。\n\n- **個人向けオンライン取引基盤の刷新**では、二〇一四年四月一日にオンライン取引の仕組みを刷新し、投資信託や債券などの商品ラインナップを拡充しました。これにより、対面営業中心から**利便性の高いハイブリッド型**へ移行し、顧客獲得コストが下がって販管費率が改善、純利益率が約1.5ポイント上昇したとされています。つまり、個人部門では集客効率と運営効率が上がり、利益が出やすくなりました。\n\nこの2つの施策が結び付いた結果、同社は**案件型収益（法人）**と**継続的な預かり資産関連収益（個人）**を両方",
+          "gpt_covered": 10,
+          "gpt_total": 13,
+          "gpt_rate": 0.7692307692307693,
+          "judge_covered": 10,
+          "judge_total": 13,
+          "judge_rate": 0.7692307692307693
+        },
+        {
+          "qid": "ja_finance_multihop_0106",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0106",
+            "ja_finance_0238",
+            "ja_finance_0023"
+          ],
+          "answer": "最も直接つながったのは、**2008年10月1日の信用リスク管理の大幅な高度化**です。\n\n理由は、本文中でこの施策が**短期的には貸倒関連費用と引当増によって利益率を下げた**一方で、**長期的には不良債権の早期把握と損失抑制につながり、景気変動局面でも収益の振れ幅を抑える**と明記されているためです。つまり、「目先の利益率は悪化するが、将来の損失を減らして収益を安定させる」という効果が最もはっきり示されています。\n\n同社は当期、**年間収益約520億円、純利益率約4.2％**を確保しています。リース業はもともと利益率が高くなりにくい業態ですが、その中で4％台の純利益率を維持しているのは、**与信管理の厳格化によって貸倒損失を抑え、収益を平準化していること**の成果と読めます。したがって、1998年の事業再編や2019年のESG連動型リースも重要ではありますが、**「短期的な利益率低下を伴いながら、長期の安定収益に最も直接効いた」のは2008年の信用リスク管理改革**です。",
+          "gpt_covered": 8,
+          "gpt_total": 13,
+          "gpt_rate": 0.6153846153846154,
+          "judge_covered": 11,
+          "judge_total": 13,
+          "judge_rate": 0.8461538461538461
+        },
+        {
+          "qid": "ja_finance_factual_0063",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0063",
+            "ja_finance_0116",
+            "ja_finance_0208"
+          ],
+          "answer": "希望リバース・ファイナンス株式会社は、**2020年7月1日開始の「グリーンリース」**によって、**脱炭素や省エネ設備**への投資を本格化させたと述べられています。具体的には、**省エネ空調、太陽光関連設備、高効率生産機器**などです。",
+          "gpt_covered": 6,
+          "gpt_total": 6,
+          "gpt_rate": 1.0,
+          "judge_covered": 6,
+          "judge_total": 6,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0018",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0018",
+            "ja_finance_0028",
+            "ja_finance_0154"
+          ],
+          "answer": "2003年のオートローン型リース商品の拡充では、オンライン審査の導入などもあって新規契約件数が増え、初年度のリース収益が約8％増加し、与信コスト抑制により営業利益率も0.6ポイント改善しました。  \n一方、2012年10月の再生可能エネルギー関連リースへの本格参入では、発電設備や蓄電池などの長期・大型案件が増え、事業ポートフォリオが残高積み上げ型の収益に厚みのある構成へ変化しました。その結果、リース資産残高が拡大し、5年平均で収益性が安定、調達コスト低減で純利益率も1.0ポイント改善しました。  \n合わせると、前者は契約件数増加と短期的な収益・利益率改善、後者は長期契約による資産残高拡大と収益の安定化をもたらし、同社の収益基盤を強化したといえます。",
+          "gpt_covered": 16,
+          "gpt_total": 21,
+          "gpt_rate": 0.7619047619047619,
+          "judge_covered": 18,
+          "judge_total": 21,
+          "judge_rate": 0.8571428571428571
+        },
+        {
+          "qid": "ja_finance_factual_0040",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0040",
+            "ja_finance_0096",
+            "ja_finance_0057"
+          ],
+          "answer": "2012年4月1日です】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0114",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0114",
+            "ja_finance_0022",
+            "ja_finance_0059"
+          ],
+          "answer": "2011年のオルタナティブ運用拡充により、みなと信託・投資株式会社は不動産やインフラなどの代替資産を取り込み、株式・債券中心の運用よりも分散性の高い提案が可能になりました。これによって、機関投資家や資産規模の大きい顧客を囲い込みやすくなり、運用受託残高の増加を通じて受入手数料が伸長しました。つまり、収益は従来の預かり資産依存型から、より付加価値の高い運用提案型へシフトしました。\n\n一方、2017年の遺言信託・家族信託の本格展開では、個人顧客に対して資産承継や相続対策を含む長期的な支援を提供できるようになり、高齢化や事業承継ニーズを背景に、家族全体の資産設計を担う伴走型の関係が強まりました。これにより、継続的な管理報酬や関連サービス収入が積み上がり、資産規模の大きい個人顧客の長期囲い込みが進みました。\n\nこの2つの施策の結果、同社は機関投資家向けの運用収益と、個人向けの資産承継関連収益という、性質の異なる継続収益を拡大できました。収益源が多様化し、安定的な手数料収入の比率が高まったことで、売上",
+          "gpt_covered": 11,
+          "gpt_total": 15,
+          "gpt_rate": 0.7333333333333333,
+          "judge_covered": 11,
+          "judge_total": 15,
+          "judge_rate": 0.7333333333333333
+        },
+        {
+          "qid": "ja_finance_factual_0150",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0150",
+            "ja_finance_0129",
+            "ja_finance_0103"
+          ],
+          "answer": "さくらみなとリース株式会社が信用リスク管理の高度化を行ったのは、**2010年10月1日**です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0154",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0154",
+            "ja_finance_0178",
+            "ja_finance_0212"
+          ],
+          "answer": "Context 1によると、青海リバーシティ・リース株式会社（仮）は、2008年10月1日の信用リスク管理再設計で、信用スコアリングと保証スキームを見直して貸倒れリスクへの統制を強化しました。これにより貸倒関連費用が抑えられ、営業利益率の改善につながりました。\n\nさらに2019年9月30日の環境配慮型方針の導入では、省エネ設備や再生可能エネルギー関連設備を中心に案件組成比率を高め、収益構成をより環境関連・手数料収益寄りに最適化しました。その結果、案件単価を大きく損なわずに手数料収益を増やし、利益率の向上に結びつけました。\n\nつまり、  \n- 2008年は「与信管理の精緻化」で信用コストを抑制し、  \n- 2019年は「環境案件の拡大」で収益の質を改善した、  \n\nという二段階の改革によって、安定性と収益性の両方を高め、当年度の売上高約320億円、営業利益率約3.8％という堅実な水準を実現したと説明できます。",
+          "gpt_covered": 9,
+          "gpt_total": 12,
+          "gpt_rate": 0.75,
+          "judge_covered": 7,
+          "judge_total": 12,
+          "judge_rate": 0.5833333333333334
+        },
+        {
+          "qid": "ja_finance_multihop_0149",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0149",
+            "ja_finance_0167",
+            "ja_finance_0227"
+          ],
+          "answer": "2016年の再生可能エネルギー関連のプロジェクトファイナンス連携リースでは、太陽光発電や蓄電池などの環境関連資産を対象に、金融機関と連携して案件を組成し、事業領域を産業設備中心からエネルギーインフラ分野へ広げました。これにより案件数は増え、長期契約が多いことからキャッシュフローが安定し、収益基盤の安定化に寄与しました。一方で、初期審査やモニタリングが複雑になり、与信コストは上昇しました。\n\nこれに対して2021年のESG評価連動型リースは、省エネ設備や脱炭素対応設備を対象に、顧客の環境対応を後押しする商品として導入されました。こちらは環境対応を進める企業に対する差別化商品として機能し、受注件数や賃貸収入、管理手数料の増加につながったうえ、環境意識の高い顧客は比較的安定した経営傾向があるため、信用損失の抑制にもつながりました。\n\nつまり、2016年施策は「エネルギーインフラ分野への事業拡張」と「長期契約による安定収益の確保」が主眼で、2021年施策は「ESG対応を軸にした商品差別化」と「収益性・信用面の改善」が主眼でした。両者を通じて、同社は事業領域を広げながら、安定性と独自性を高",
+          "gpt_covered": 16,
+          "gpt_total": 19,
+          "gpt_rate": 0.8421052631578947,
+          "judge_covered": 16,
+          "judge_total": 19,
+          "judge_rate": 0.8421052631578947
+        }
+      ]
+    },
+    "hf/Snowflake/snowflake-arctic-embed-l-v2.0/ja_finance": {
+      "provider": "hf",
+      "model": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "lang": "ja",
+      "domain": "finance",
+      "n_queries": 50,
+      "top_k": 3,
+      "gpt_mean_keypoint_coverage": 0.6716919850015826,
+      "claude_mean_keypoint_coverage": 0.6623095896191871,
+      "per_query": [
+        {
+          "qid": "ja_finance_multihop_0160",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0160",
+            "ja_finance_0198",
+            "ja_finance_0169"
+          ],
+          "answer": "2010年に導入した施策は、**オートローン・モビリティ関連リースの提携スキーム**で、これにより**在庫リスクを抑えつつ回転効率が向上**し、**粗利の増加**と**貸倒関連費用の抑制**が実現され、**営業利益率が約1.2ポイント改善**したとされています。\n\n2019年に開始した新商品は、**サステナビリティ連動型リースや省エネ設備向け商品**で、**環境配慮型案件の採用増加**により**契約件数とリース料収入が拡大**し、**低炭素投資需要の取り込みによる収益安定化**につながり、**利益率が約0.8ポイント上昇**したとされています。\n\nこれらの施策は、収益拡大とリスク抑制を両立させることで、東京みらいリース株式会社の**直近年度の見込み売上高約1,120億円**、**売上高利益率約5.3％**という安定した収益水準の背景になっていると考えられます。",
+          "gpt_covered": 15,
+          "gpt_total": 17,
+          "gpt_rate": 0.8823529411764706,
+          "judge_covered": 16,
+          "judge_total": 17,
+          "judge_rate": 0.9411764705882353
+        },
+        {
+          "qid": "ja_finance_factual_0057",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0092",
+            "ja_finance_0148",
+            "ja_finance_0096"
+          ],
+          "answer": "提示されたコンテキストには、**あおぞらフィナンシャル・グループが2006年10月1日に何を導入したか**の記載がありません。  \nそのため、**この情報だけでは答えられません**】【。",
+          "gpt_covered": 0,
+          "gpt_total": 2,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 2,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0012",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0069",
+            "ja_finance_0019",
+            "ja_finance_0001"
+          ],
+          "answer": "提示された文脈の中には、みなと未来リース株式会社が「投資商品ライン統合」を行った時期は記載されていません。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0140",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0140",
+            "ja_finance_0069",
+            "ja_finance_0073"
+          ],
+          "answer": "直近事業年度の売上高は、**約620億円**です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0125",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0125",
+            "ja_finance_0019",
+            "ja_finance_0153"
+          ],
+          "answer": "2013年10月1日に、**再生可能エネルギー関連案件の組成を開始し、グリーンリース商品を導入**しました。",
+          "gpt_covered": 2,
+          "gpt_total": 2,
+          "gpt_rate": 1.0,
+          "judge_covered": 2,
+          "judge_total": 2,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0114",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0059",
+            "ja_finance_0156",
+            "ja_finance_0222"
+          ],
+          "answer": "与えられた本文の中には、「みなと信託・投資株式会社」が2011年9月1日に何を拡充したかは書かれていません。したがって、答えは不明です。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0071",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0071",
+            "ja_finance_0097",
+            "ja_finance_0059"
+          ],
+          "answer": "信州フロンティア銀行株式会社は、**1987年**に設立されました】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0052",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0019",
+            "ja_finance_0052",
+            "ja_finance_0069"
+          ],
+          "answer": "2016年6月1日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0111",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0111",
+            "ja_finance_0154",
+            "ja_finance_0191"
+          ],
+          "answer": "青海フィナンシャルリース株式会社が収益の安定化と成長を同時に進められた理由は、次の3点に整理できます。\n\n1. **1995年の「設備導入パッケージ型リース」**\n   - 単なる機器の貸与ではなく、**導入支援・調達・設置・更新計画まで一体で提供**したため、中堅・中小企業が使いやすくなりました。\n   - 顧客の初期負担を抑えられたことで契約が増え、**継続的な取引関係**が築かれました。\n   - その結果、収益が平準化し、**安定した契約高の積み上げ**につながりました。\n\n2. **2006年の信用格付連動型の審査・モニタリング**\n   - 延滞率や回収率などを踏まえて、**顧客の信用度に応じた審査と管理**を行う仕組みに改めました。\n   - これにより、案件採択の精度が上がり、**貸倒関連費用を抑制**できました。\n   - 結果として、利益率が改善し、**収益の振れ幅を小さくしながら健全性を高める**ことができました。\n\n3. **2018年の環境投資向けリース商品の拡充**\n   - 省エネ設備や再生可能エネルギー関連への対応を強化し、**成長分野の需要を取り込める商品構成**にしました。\n   - 環境投資は更新需要や政策支",
+          "gpt_covered": 9,
+          "gpt_total": 9,
+          "gpt_rate": 1.0,
+          "judge_covered": 8,
+          "judge_total": 9,
+          "judge_rate": 0.8888888888888888
+        },
+        {
+          "qid": "ja_finance_factual_0044",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0044",
+            "ja_finance_0148",
+            "ja_finance_0222"
+          ],
+          "answer": "２０１６年１月１５日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0135",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0135",
+            "ja_finance_0000",
+            "ja_finance_0073"
+          ],
+          "answer": "みなと第一リース株式会社は、1995年の中古車両・設備向けスキーム拡充によって、初期コストの低い中古資産を活用した提案を強化し、価格感度の高い顧客を取り込みました。これにより案件獲得チャネルが広がり、初年度から利息収益が増加し、与信費用も抑えられたため、収益性と営業キャッシュ・フローが改善しました。\n\nさらに2016年10月20日のESG連動型プログラム開始では、再生可能エネルギー設備や省エネ機器などの環境配慮型設備を重点的に取り込むことで、営業面での差別化を進めました。企業の環境対応ニーズを捉えたことで新規案件の成約率が向上し、信用コストの抑制にもつながったため、営業利益の増加と安定した利益率の維持に寄与しました。\n\nその結果、同社は現在、年間売上高約420億円、営業利益率約6.2％という、リース業界の中でも堅実で安定した収益構造を維持しているとされています。",
+          "gpt_covered": 17,
+          "gpt_total": 17,
+          "gpt_rate": 1.0,
+          "judge_covered": 16,
+          "judge_total": 17,
+          "judge_rate": 0.9411764705882353
+        },
+        {
+          "qid": "ja_finance_multihop_0042",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0042",
+            "ja_finance_0214",
+            "ja_finance_0099"
+          ],
+          "answer": "瀬戸内バンク＆トラスト株式会社は、2001年10月1日の資産運用業務拡充で投資一任契約と年金関連信託を開始し、従来の信託受託業務に加えて、より高付加価値で継続性の高い運用サービスを収益源に加えました。これにより、運用報酬や信託報酬が積み上がりやすくなり、長期契約を基盤とする安定収益の土台が強化されました。導入初期はシステム投資や管理体制整備でコスト増があったものの、将来の収益拡大につながる先行投資として機能しました。\n\nさらに、2016年11月15日のESG・スチュワードシップ方針導入によって、運用商品の競争力と社会的評価が高まり、機関投資家や持続可能性を重視する顧客からの資金流入が進みました。これにより預かり資産が増え、手数料収入が伸長しました。また、運用品質向上が信用コストの抑制にもつながり、利益率の改善に寄与しました。\n\nこの2つの施策によって、同社は「高付加価値の運用サービス」と「ESG対応による商品競争力」の両面から収益基盤を強化し、結果として当期の年換算売上高2,450億円、営業利益率14.2％という堅調な業績につながったと説明できます。",
+          "gpt_covered": 14,
+          "gpt_total": 15,
+          "gpt_rate": 0.9333333333333333,
+          "judge_covered": 12,
+          "judge_total": 15,
+          "judge_rate": 0.8
+        },
+        {
+          "qid": "ja_finance_factual_0016",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0151",
+            "ja_finance_0016",
+            "ja_finance_0213"
+          ],
+          "answer": "瀬戸内アライアンス証券株式会社のオンライン取引サービス開始日は、**2001年4月1日**と記載されています。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0015",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0015",
+            "ja_finance_0159",
+            "ja_finance_0153"
+          ],
+          "answer": "1998年4月1日から始まりました】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0047",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0047",
+            "ja_finance_0218",
+            "ja_finance_0244"
+          ],
+          "answer": "２００６年４月１日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0111",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0019",
+            "ja_finance_0111",
+            "ja_finance_0191"
+          ],
+          "answer": "2018年7月1日に、**環境投資向けリース商品の拡充**を実施しました。  \n具体的には、省エネ設備や再生可能エネルギー関連のファイナンス枠を増額しました。",
+          "gpt_covered": 3,
+          "gpt_total": 3,
+          "gpt_rate": 1.0,
+          "judge_covered": 3,
+          "judge_total": 3,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0119",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0022",
+            "ja_finance_0119",
+            "ja_finance_0156"
+          ],
+          "answer": "記事では、一般銀行のように預金・融資ではなく、**受託資産の管理や信託報酬**を通じて収益を上げると説明されています。",
+          "gpt_covered": 2,
+          "gpt_total": 3,
+          "gpt_rate": 0.6666666666666666,
+          "judge_covered": 3,
+          "judge_total": 3,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0088",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0088",
+            "ja_finance_0125",
+            "ja_finance_0240"
+          ],
+          "answer": "株式会社瀬戸内リース＆信託ホールディングスは、3つの転機を通じて、収益源の拡大と事業の多角化を進め、単なるリース会社から総合金融機関へ発展してきました。\n\nまず、**1987年4月1日の設備リース事業拡大とリース料債権の証券化開始**は、資金調達の多様化につながりました。従来のバランスシート依存型の成長から、証券化を活用した資本効率重視の成長へ移行し、調達コストを抑えながら事業拡大を進められるようになりました。その結果、営業利益率は**0.8ポイント改善**し、収益性の向上に結びつきました。\n\n次に、**2002年10月1日の信託業務新設**によって、事業構造が質的に変化しました。不動産信託や事業承継関連信託を導入することで、リース需要の取り込みにとどまらず、企業オーナーや不動産保有企業との長期的な関係を築けるようになりました。これにより、運用受託残高の積み上がりから安定した手数料収入が確保され、**利益率は1.2ポイント改善**しました。リースと信託を組み合わせることで、設備導入・資産管理・事業承継を一体で支援する総合金融機関としての性格が強まりました。\n\nさらに、**2016年6月30日のESG・",
+          "gpt_covered": 13,
+          "gpt_total": 21,
+          "gpt_rate": 0.6190476190476191,
+          "judge_covered": 14,
+          "judge_total": 21,
+          "judge_rate": 0.6666666666666666
+        },
+        {
+          "qid": "ja_finance_multihop_0141",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0125",
+            "ja_finance_0069",
+            "ja_finance_0240"
+          ],
+          "answer": "ご提示の3つのContextの中には、**「瀬戸内信用リース株式会社（仮）」**という会社や、**2012年・2016年・2021年の施策**についての記載がありません。  \nそのため、**どのような取り組みを通じて収益性の改善と新たな需要の取り込みを両立させたのかは、このContextだけでは特定できません。**",
+          "gpt_covered": 0,
+          "gpt_total": 16,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 16,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0013",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0181",
+            "ja_finance_0132",
+            "ja_finance_0064"
+          ],
+          "answer": "提示されたコンテキストには、「1998年4月1日に導入された中堅企業向け『設備リース一括審査システム』」や、その導入による「審査・事務コスト」の年間削減額は記載されていません。したがって、答えは分かりません。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_multihop_0119",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0059",
+            "ja_finance_0119",
+            "ja_finance_0222"
+          ],
+          "answer": "みなとライフ信託株式会社が利益率を高めながら安定した収益基盤を築けた要因は、**年金分野と法人向け承継・不動産分野で、継続課金型の信託収益を積み上げる事業モデルを強化したこと**にあります。\n\nまず、**1995年6月1日の年金資産運用・管理サービスの拡充**によって、企業年金分野での提案力が高まり、受託残高の増加につながりました。信託報酬体系の見直しと新商品の投入により、顧客ごとの運用方針に合わせた柔軟なサービス提供が可能となり、**信託関連収益が増加**しました。さらに、この年金顧客は長期継続契約へ発展しやすいため、**安定的なストック収益の基盤**になりました。\n\n次に、**2006年4月1日の法人向け事業承継信託・不動産信託の強化**では、後継者問題や資産の分散管理に対応する提案を強め、法人顧客からの受託残高を拡大しました。事業承継の設計と不動産の信託化を組み合わせることで、単発ではなく**長期にわたる管理・運用・相続対応を一体で提供**できるようになり、継続的な手数料収入が増えました。特に不動産信託は、管理が複雑な分、**継続報�",
+          "gpt_covered": 11,
+          "gpt_total": 14,
+          "gpt_rate": 0.7857142857142857,
+          "judge_covered": 11,
+          "judge_total": 14,
+          "judge_rate": 0.7857142857142857
+        },
+        {
+          "qid": "ja_finance_factual_0101",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0080",
+            "ja_finance_0101",
+            "ja_finance_0235"
+          ],
+          "answer": "東京都千代田区大手町二丁目三番一号です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0165",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0165",
+            "ja_finance_0235",
+            "ja_finance_0151"
+          ],
+          "answer": "2005年4月1日のオンライン取引開始は、個人投資家の利便性向上と口座数拡大を狙った施策で、取引件数と顧客数の増加によって取引手数料収益の押し上げにつながりました。導入当初はシステム整備や顧客獲得のための販管費が先行しましたが、結果的には事業モデルを対面中心からより広い顧客層を取り込める形へ変え、黒字化と収益拡大に寄与したとされています。\n\n2012年10月1日の地域金融機関との業務提携拡大は、投資信託や債券の販売チャネルを強化し、地域顧客との接点を広げることが目的でした。地域金融機関の信頼基盤を活用することで、自社単独では取り込みにくい顧客層へのアクセスが可能となり、販売手数料や信託報酬などのストック型収益の積み上げにつながりました。\n\nこの2つの施策により、同社は売買回転に左右されやすい収益だけでなく、継続的に積み上がる収益源を強化できたため、年間収益の変動を抑えつつ営業利益を安定化させたと考えられます。つまり、オンライン取引による顧客基盤拡大と、地域金融機関連携によるストック型収益の増加が、営業利益率約8.5％という堅実な収益性につながっている、という整理です。",
+          "gpt_covered": 18,
+          "gpt_total": 20,
+          "gpt_rate": 0.9,
+          "judge_covered": 17,
+          "judge_total": 20,
+          "judge_rate": 0.85
+        },
+        {
+          "qid": "ja_finance_multihop_0040",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0040",
+            "ja_finance_0001",
+            "ja_finance_0057"
+          ],
+          "answer": "2003年の地域金融機関三社の経営統合では、あおば銀行としてブランドと営業基盤が再編され、顧客基盤が大きく拡大しました。統合初年度はのれん償却や統合費用で利益率が一時的に低下しましたが、その後は貸出金残高の増加や預金コストの改善が進み、規模の経済と地域ネットワークの再編によって収益性が回復・向上しました。さらに、与信分散や営業効率の改善も進み、経営の土台が強化されました。\n\n一方、2012年の証券子会社事業の統合では、法人向けストラクチャードファイナンスや資本市場業務を強化するため、商品開発と販売体制を再構築しました。これにより、顧客ニーズに応じた提案力が高まり、手数料収益が増加しました。また、案件審査や管理機能を一体化したことで与信コストが抑えられ、利益率が段階的に上昇しました。\n\nつまり、2003年の統合は「規模拡大と営業基盤の強化」、2012年の統合は「高付加価値な法人金融機能の強化と収益源の多様化」をもたらし、両者が合わさることで、あおばフィナンシャルグループの収益性と事業機能が大きく高まりました。",
+          "gpt_covered": 13,
+          "gpt_total": 13,
+          "gpt_rate": 1.0,
+          "judge_covered": 12,
+          "judge_total": 13,
+          "judge_rate": 0.9230769230769231
+        },
+        {
+          "qid": "ja_finance_factual_0112",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0019",
+            "ja_finance_0197",
+            "ja_finance_0153"
+          ],
+          "answer": "提示されたコンテキストの中には、「瀬戸内みらいリース株式会社」および「2020年7月1日に何を全面導入したか」に関する記載がありません。したがって、答えは分かりません。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_multihop_0056",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0056",
+            "ja_finance_0181",
+            "ja_finance_0163"
+          ],
+          "answer": "コンテキスト1によると、さくらフロンティアリース株式会社は、\n\n- **1998年4月1日の中堅事業者向けオートリース商品拡充**では、提携ディーラー網を強化して営業チャネルを広げ、地域ごとの需要をきめ細かく取り込むことで**販売量を増やし（拡販）**ました。  \n- その結果、販促費や提携コストは発生したものの、**営業収益の増加がそれを吸収**し、通期の黒字維持につながりました。これは、単に売上を伸ばすだけでなく、採算管理を重視して拡販と利益確保を両立させたことを示しています。\n\nまた、**2018年7月1日の電子契約・与信ワークフローの本格導入**では、申込から審査、契約、請求までの事務処理を自動化・効率化し、**人件費や事務費などの固定費を削減**しました。加えて、契約関連業務の標準化によって、\n\n- 処理速度の向上\n- 入力ミスや確認漏れの減少\n- 顧客満足度の向上\n\nが進み、**業務効率の改善が利益率の改善につながった**とされています。\n\nまとめると、  \n- **事業面**では、提携ディーラー網の拡充で顧客接点を増やし、地域需要を取り込んで売上を伸ばした。  \n- **業務効率面**では、電子契約と審査の自動化で",
+          "gpt_covered": 14,
+          "gpt_total": 17,
+          "gpt_rate": 0.8235294117647058,
+          "judge_covered": 14,
+          "judge_total": 17,
+          "judge_rate": 0.8235294117647058
+        },
+        {
+          "qid": "ja_finance_multihop_0134",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0134",
+            "ja_finance_0063",
+            "ja_finance_0032"
+          ],
+          "answer": "二〇一四年七月十五日の再生可能エネルギー向け商品の提供開始は、太陽光や風力などの環境関連分野へ事業領域を広げる効果をもたらしました。長期安定運用を前提とする案件を取り込むことで、リース資産の積み上げが進み、利回り改善を通じて利益率の段階的な向上につながったとされています。さらに、厳格な審査と案件組成力により、単なる追随ではなく収益性を意識した選別ができた点が強みでした。\n\n二〇二〇年十月一日のクラウド型与信・回収管理システム導入は、与信審査とモニタリングの効率化を進め、延滞率の低下、回収コストの削減、リスク把握精度の向上をもたらしました。その結果、損失引当の抑制を通じて最終利益の改善に寄与したとされています。つまり、営業網による案件獲得力に加え、デジタル化された信用管理能力が同社の強みとなり、収益の質と利益率の改善を支えたと考えられます。",
+          "gpt_covered": 13,
+          "gpt_total": 13,
+          "gpt_rate": 1.0,
+          "judge_covered": 12,
+          "judge_total": 13,
+          "judge_rate": 0.9230769230769231
+        },
+        {
+          "qid": "ja_finance_factual_0142",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0037",
+            "ja_finance_0182",
+            "ja_finance_0129"
+          ],
+          "answer": "提示されたコンテキストには、**東海みなとリース株式会社**についての記載がなく、  \nご質問の「脱炭素の流れを捉えて省エネ設備・再エネ機器向けのファイナンス商品を拡充し、サステナブル・リースを本格展開した時期」は**特定できません**。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0003",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0003",
+            "ja_finance_0056",
+            "ja_finance_0169"
+          ],
+          "answer": "延滞抑制と条件変更（リスケジュール）を強化する目的です】【。",
+          "gpt_covered": 2,
+          "gpt_total": 4,
+          "gpt_rate": 0.5,
+          "judge_covered": 2,
+          "judge_total": 4,
+          "judge_rate": 0.5
+        },
+        {
+          "qid": "ja_finance_factual_0081",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0134",
+            "ja_finance_0019",
+            "ja_finance_0105"
+          ],
+          "answer": "提供されたContextには「北都総合リース株式会社」という社名の記載がなく、また再生可能エネルギー向けのグリーンリース商品開始時期も明確には確認できません。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0174",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0166",
+            "ja_finance_0125",
+            "ja_finance_0023"
+          ],
+          "answer": "提示された文脈には、**「瀬戸内総合リース株式会社」**や**2017年7月15日に新設した「サステナブル・ファイナンス」商品**についての記述がありません。  \nそのため、どのような投資を促進する内容かは**この文脈だけでは分かりません**。",
+          "gpt_covered": 0,
+          "gpt_total": 1,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 1,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0079",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0079",
+            "ja_finance_0037",
+            "ja_finance_0069"
+          ],
+          "answer": "東京みなとリース株式会社は、**二〇一二年十月一日**に、資金調達の多様化を目的としてシンジケートローン契約を導入しました。",
+          "gpt_covered": 2,
+          "gpt_total": 2,
+          "gpt_rate": 1.0,
+          "judge_covered": 2,
+          "judge_total": 2,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0110",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0166",
+            "ja_finance_0110",
+            "ja_finance_0059"
+          ],
+          "answer": "昭和フロント信託株式会社は、**少子高齢化、相続案件の増加、不動産の有効活用需要、資産運用の高度化**の四つの構造要因に支えられていると記載されています。",
+          "gpt_covered": 4,
+          "gpt_total": 5,
+          "gpt_rate": 0.8,
+          "judge_covered": 5,
+          "judge_total": 5,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0172",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0172",
+            "ja_finance_0232",
+            "ja_finance_0019"
+          ],
+          "answer": "二〇一二年九月に、環境・社会・企業統治の要素を組み込んだ**運用一任サービス**を開始しました】【。",
+          "gpt_covered": 2,
+          "gpt_total": 2,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 2,
+          "judge_rate": 0.5
+        },
+        {
+          "qid": "ja_finance_multihop_0019",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0019",
+            "ja_finance_0165",
+            "ja_finance_0151"
+          ],
+          "answer": "2005年の提携販売開始は、自動車リース分野で代理店・提携先を活用できるようにして販売チャネルを拡充し、案件獲得力を高めた施策でした。これにより、営業機会が増え、リース取扱高の拡大を通じて収益基盤が強化されました。\n\n一方、2020年のオンライン与信審査と電子契約の導入は、営業から審査・契約までの業務を効率化し、処理期間短縮と事務コスト削減を実現した施策でした。その結果、販管費が圧縮され、利益率の改善につながりました。\n\nつまり、2005年施策が「売上の土台を広げる役割」、2020年施策が「その土台の上でコストを抑え、収益性を高める役割」を果たし、収益基盤の強化と利益率改善の両面から直近期の財務実績に結びついたといえます。",
+          "gpt_covered": 10,
+          "gpt_total": 15,
+          "gpt_rate": 0.6666666666666666,
+          "judge_covered": 11,
+          "judge_total": 15,
+          "judge_rate": 0.7333333333333333
+        },
+        {
+          "qid": "ja_finance_factual_0049",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0049",
+            "ja_finance_0199",
+            "ja_finance_0038"
+          ],
+          "answer": "2012年10月15日に**オンライン取引基盤**を刷新しました。",
+          "gpt_covered": 1,
+          "gpt_total": 2,
+          "gpt_rate": 0.5,
+          "judge_covered": 1,
+          "judge_total": 2,
+          "judge_rate": 0.5
+        },
+        {
+          "qid": "ja_finance_multihop_0008",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0169",
+            "ja_finance_0097",
+            "ja_finance_0166"
+          ],
+          "answer": "提示されたコンテキストの中には、「瀬戸内リージョン信託株式会社」についての記述がありません。  \nそのため、二〇〇三年六月一日と二〇二〇年十月十五日の施策が業績に与えた影響や、当期の年間収益・利益率を支える背景については、ここからは特定できません。",
+          "gpt_covered": 0,
+          "gpt_total": 10,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 10,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_multihop_0001",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0001",
+            "ja_finance_0040",
+            "ja_finance_0057"
+          ],
+          "answer": "二〇〇九年の経営統合で、重複コストの削減と販売チャネルの統合が進み、年間約十八億円のコスト削減と営業利益率〇・六パーセント改善という効果を得ました。  \nそのうえで二〇一四年四月一日には、法人ソリューションと中小企業向けファイナンスを重点領域とし、与信モデルの高度化を導入しました。\n\nこの組み合わせにより、同社は**コスト効率を高めながら、採算性の高い法人・中小企業向け取引を積み上げることで収益性を向上**させ、同時に**地域企業の事業承継や成長資金需要に踏み込んで応える提案力・与信管理力を強化することで、地域金融機関としての競争力を高めた**といえます。",
+          "gpt_covered": 10,
+          "gpt_total": 11,
+          "gpt_rate": 0.9090909090909091,
+          "judge_covered": 8,
+          "judge_total": 11,
+          "judge_rate": 0.7272727272727273
+        },
+        {
+          "qid": "ja_finance_multihop_0142",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0045",
+            "ja_finance_0113",
+            "ja_finance_0239"
+          ],
+          "answer": "提示された3つのコンテキストの中には、**「東海みなとリース株式会社」**の\n\n- **1998年10月1日に始めた施策**\n- **2020年9月30日に拡充した商品**\n\nについての記述がありません。\n\nそのため、**それぞれがどんな課題に対応し、収益や事業構造にどんな変化をもたらしたのかは、このコンテキストだけでは答えられません。**",
+          "gpt_covered": 0,
+          "gpt_total": 16,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 16,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_factual_0135",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0026",
+            "ja_finance_0153",
+            "ja_finance_0135"
+          ],
+          "answer": "みなと第一リース株式会社が「総合ファイナンス商品」を導入したのは、**2006年4月1日**です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_factual_0022",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0059",
+            "ja_finance_0222",
+            "ja_finance_0022"
+          ],
+          "answer": "1938年に設立されました。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0062",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0151",
+            "ja_finance_0247",
+            "ja_finance_0235"
+          ],
+          "answer": "記事内容からは、みなとアライアンス証券株式会社そのものの記述は見当たりません。  \nただし、近い内容としては以下の会社・施策が示されています。\n\n- **みなとアドバンテージ証券株式会社**  \n  - 法人向け引受・ストラクチャード商品の拡大  \n  - 2018? ではなく **二〇〇八年十月一日のオンライン統合基盤導入と手数料体系見直し**\n- **みなとリバー証券株式会社**  \n  - **2006年10月1日の投資銀行部門強化**\n  - **1998年4月1日のオンライン取引サービス本格導入**\n\nご質問の「法人向け投資銀行業務の強化」と「個人向けオンライン取引基盤の刷新」を組み合わせて収益性を高めた理由について、**その両方を同時に明確に説明している単一の企業は、提示された文脈の中にはありません**。\n\nただし、文脈全体から言える一般的な説明としては次の通りです。\n\n- **法人向け投資銀行業務の強化**により、引受・助言・資金調達支援などの**高単価案件収益**を増やせる\n- **個人向けオンライン取引基盤の刷新**により、低コストで顧客数と取引件数を増やし、**継続的な手数料収益**を積み上げられる\n- この2つを組み合わせることで、景気や市場変動に左右されやすい収益を、**安定",
+          "gpt_covered": 0,
+          "gpt_total": 13,
+          "gpt_rate": 0.0,
+          "judge_covered": 0,
+          "judge_total": 13,
+          "judge_rate": 0.0
+        },
+        {
+          "qid": "ja_finance_multihop_0106",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0106",
+            "ja_finance_0023",
+            "ja_finance_0093"
+          ],
+          "answer": "最も直接つながったのは、**2008年10月1日の信用リスク管理の大幅な高度化**です。\n\n理由は、コンテキスト上でこの施策は**短期的には貸倒関連費用と引当増により利益率を下げた**一方、**長期的には不良債権の早期把握と損失抑制につながり、景気変動局面でも収益の振れ幅を抑える**効果があったと明記されているからです。つまり、利益率を一時的に押し下げる代わりに、将来の信用コストを抑えて収益を安定化させる、という因果が最もはっきり示されています。\n\n同社は年間収益が**約520億円**、純利益率が**約4.2％**で、もともとリース業としては大きく高い利益率ではない中で、こうした信用管理の強化によって**突発的損失を抑え、安定的な収益基盤を維持**している点が重要です。  \n1998年の事業再編は事業拡大の起点、2019年のESG連動型リースは収益源多様化とブランド向上に寄与していますが、**「短期的な悪化を受け入れてでも長期安定化に直結した」**という意味では、2008年の信用リスク管理高度化が最も該当します。",
+          "gpt_covered": 9,
+          "gpt_total": 13,
+          "gpt_rate": 0.6923076923076923,
+          "judge_covered": 11,
+          "judge_total": 13,
+          "judge_rate": 0.8461538461538461
+        },
+        {
+          "qid": "ja_finance_factual_0063",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0063",
+            "ja_finance_0134",
+            "ja_finance_0019"
+          ],
+          "answer": "記事では、**2020年7月1日に開始した「グリーンリース」**によって、**脱炭素や省エネ設備**への投資を本格化させたと述べられています。具体的には、**省エネ空調、太陽光関連設備、高効率生産機器**などです。",
+          "gpt_covered": 6,
+          "gpt_total": 6,
+          "gpt_rate": 1.0,
+          "judge_covered": 6,
+          "judge_total": 6,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0018",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0018",
+            "ja_finance_0154",
+            "ja_finance_0111"
+          ],
+          "answer": "2003年のオートローン型リース商品の拡充では、オンライン審査の導入などで審査の迅速化・標準化が進み、新規契約件数が増加しました。その結果、初年度のリース収益は約8％増え、与信コストの抑制により営業利益率も0.6ポイント改善しました。\n\n一方、2012年10月の再生可能エネルギー関連リースへの本格参入では、発電設備や蓄電池など長期・高額案件が増え、収益源が残高積み上げ型へ広がりました。これによりリース資産残高が拡大し、5年平均で収益性が安定、調達コスト低減もあって純利益率が1.0ポイント改善しました。\n\n合わせて見ると、前者は短期的に契約件数と利益率を押し上げる効果、後者は中長期的に事業ポートフォリオを多様化し、安定収益を厚くする効果があったと言えます。",
+          "gpt_covered": 13,
+          "gpt_total": 21,
+          "gpt_rate": 0.6190476190476191,
+          "judge_covered": 16,
+          "judge_total": 21,
+          "judge_rate": 0.7619047619047619
+        },
+        {
+          "qid": "ja_finance_factual_0040",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0040",
+            "ja_finance_0148",
+            "ja_finance_0001"
+          ],
+          "answer": "2012年4月1日に実施されました】【。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0114",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0114",
+            "ja_finance_0059",
+            "ja_finance_0022"
+          ],
+          "answer": "2011年のオルタナティブ運用拡充によって、不動産やインフラなどの代替資産を取り込んだ分散投資が可能になり、従来の株式・債券中心の運用よりも安定した運用提案ができるようになりました。これにより、機関投資家や資産規模の大きい顧客の囲い込みが進み、運用受託残高の増加を通じて受入手数料が伸びました。その結果、収益源が預かり資産依存型から、付加価値の高い提案型モデルへ移行しました。\n\n一方、2017年の遺言信託・家族信託の本格展開では、資産承継ニーズの高い個人顧客を長期的に取り込む体制が強化されました。契約設計や法務・税務連携が必要なため初期コストは増えましたが、その後は継続管理報酬や関連サービス収入が積み上がり、顧客との関係も長期化しました。これにより、富裕層個人や事業承継を意識する顧客基盤が厚くなりました。\n\nこの2つの施策の組み合わせで、収益構造は「単発・資産残高依存」から「継続収益が中心の高付加価値型」に変化し、運用報酬や承継関連手数料が安定的に増加しました。結果として、売上成長が利益成長に結びつきやすくな",
+          "gpt_covered": 12,
+          "gpt_total": 15,
+          "gpt_rate": 0.8,
+          "judge_covered": 9,
+          "judge_total": 15,
+          "judge_rate": 0.6
+        },
+        {
+          "qid": "ja_finance_factual_0150",
+          "qtype": "factual",
+          "top_docs": [
+            "ja_finance_0150",
+            "ja_finance_0153",
+            "ja_finance_0181"
+          ],
+          "answer": "二〇一〇年十月一日です。",
+          "gpt_covered": 1,
+          "gpt_total": 1,
+          "gpt_rate": 1.0,
+          "judge_covered": 1,
+          "judge_total": 1,
+          "judge_rate": 1.0
+        },
+        {
+          "qid": "ja_finance_multihop_0154",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0154",
+            "ja_finance_0178",
+            "ja_finance_0013"
+          ],
+          "answer": "青海リバーシティ・リース株式会社（仮）は、**2008年10月1日の信用リスク管理再設計**によって、貸倒れリスクを抑えるために**信用スコアリングと保証スキームを見直し**、中堅企業向けファイナンスの審査精度を高めました。これにより**貸倒関連費用が抑制**され、結果として**営業利益率が改善**しました。つまり、拡大だけでなく採算と健全性を重視する体制に転換できたことが、収益の安定化につながりました。\n\nさらに、**2019年9月30日の環境配慮型方針の導入**では、省エネ設備や再生可能エネルギー関連設備を中心に案件構成を見直し、**環境対応案件の比率を引き上げ**ました。これにより、案件単価を大きく損なわずに**手数料収益を増やし**、利益率の向上につなげました。加えて、環境対応需要は継続性が高く、社会的要請や更新需要とも結びつくため、**安定した案件供給と顧客基盤の拡大**にも寄与しました。\n\nこの2つの施策により、同社は  \n- **信用コストを抑えて健全性を強化**し、  \n- **収益源を多様化して収益の質を改善**し、  \n- **安定的に資産残高と案件を積み上げる体制**を整えたため、  \n当年度の**売上高約320億円、",
+          "gpt_covered": 9,
+          "gpt_total": 12,
+          "gpt_rate": 0.75,
+          "judge_covered": 8,
+          "judge_total": 12,
+          "judge_rate": 0.6666666666666666
+        },
+        {
+          "qid": "ja_finance_multihop_0149",
+          "qtype": "multi_hop",
+          "top_docs": [
+            "ja_finance_0072",
+            "ja_finance_0149",
+            "ja_finance_0026"
+          ],
+          "answer": "さくら海山フィナンシャルリース株式会社は、2016年の再生可能エネルギー関連のプロジェクトファイナンス連携リースと、2021年のESG評価連動型リースを通じて、環境分野を軸に事業領域を広げながら、収益の安定化と差別化を進めました。\n\n2016年の施策では、太陽光発電や蓄電池などの環境関連資産を対象に、金融機関との連携を深めて案件を組成し、産業設備中心だった事業をエネルギーインフラ分野へ拡大しました。これは、長期契約が多くキャッシュフローが安定しやすい点から、収益基盤の平準化に寄与した一方で、初期審査や運営モニタリングが複雑になり、与信コストは上昇しました。つまり、成長分野を取り込みつつ、長期的な安定収益を狙った施策です。\n\n一方、2021年の施策は、省エネ設備や脱炭素対応設備を対象に、顧客のESG対応を後押しする商品として設計されました。こちらは、環境対応を進める企業を優先的に取り込み、受注件数の増加や賃貸収入・管理手数料の伸長につなげたほか、環境意識の高い顧客の信用安定性によって信用損失を抑え、利益率改善にも寄与しました。つまり、単なる分野拡大にとどまらず、ESG",
+          "gpt_covered": 14,
+          "gpt_total": 19,
+          "gpt_rate": 0.7368421052631579,
+          "judge_covered": 14,
+          "judge_total": 19,
+          "judge_rate": 0.7368421052631579
+        }
+      ]
+    }
+  }
+}

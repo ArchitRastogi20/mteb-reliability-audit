@@ -1,0 +1,62 @@
+{
+  "pricing": {
+    "openai/text-embedding-3-small": {
+      "usd_per_1M_tokens": 0.02,
+      "dim": 1536,
+      "tier": "API"
+    },
+    "openai/text-embedding-3-large": {
+      "usd_per_1M_tokens": 0.13,
+      "dim": 3072,
+      "tier": "API"
+    },
+    "cohere/embed-multilingual-v3.0": {
+      "usd_per_1M_tokens": 0.1,
+      "dim": 1024,
+      "tier": "API",
+      "notes": "Free tier: 1000 calls/month; production: $0.10/1M tokens"
+    },
+    "gemini/gemini-embedding-2": {
+      "usd_per_1M_tokens": 0.15,
+      "dim": 3072,
+      "tier": "API",
+      "notes": "Same model used in \u00a74.5/Table 4 evaluation"
+    }
+  },
+  "latency": {
+    "openai/text-embedding-3-small": {
+      "n": 50,
+      "mean_ms": 363.9,
+      "p50_ms": 254.0,
+      "p99_ms": 2255.6,
+      "min_ms": 222.1,
+      "max_ms": 2255.6
+    },
+    "openai/text-embedding-3-large": {
+      "n": 50,
+      "mean_ms": 666.3,
+      "p50_ms": 649.5,
+      "p99_ms": 1572.2,
+      "min_ms": 487.3,
+      "max_ms": 1572.2
+    },
+    "cohere/embed-multilingual-v3.0": {
+      "n": 50,
+      "mean_ms": 320.4,
+      "p50_ms": 319.9,
+      "p99_ms": 362.5,
+      "min_ms": 292.1,
+      "max_ms": 362.5
+    },
+    "gemini/gemini-embedding-2": {
+      "n": 50,
+      "mean_ms": 482.1,
+      "p50_ms": 478.4,
+      "p99_ms": 587.4,
+      "min_ms": 414.2,
+      "max_ms": 587.4
+    }
+  },
+  "sample_size": 50,
+  "measured_from": "WSL2 client (single region, 1-by-1 sequential calls)"
+}

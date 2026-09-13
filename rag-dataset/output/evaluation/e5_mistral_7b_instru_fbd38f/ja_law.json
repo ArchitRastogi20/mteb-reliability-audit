@@ -1,0 +1,34 @@
+{
+  "model_id": "intfloat/e5-mistral-7b-instruct",
+  "lang": "ja",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.07411633452436171,
+    "recall_at_10": 0.1463963963963964,
+    "mrr": 0.05209405834405835
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.0930204884781288,
+      "recall_at_10": 0.16666666666666666,
+      "mrr": 0.0702312534209086
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.06083050318878521,
+      "recall_at_10": 0.12716763005780346,
+      "mrr": 0.040838609046701536
+    },
+    "summarization": {
+      "ndcg_at_10": 0.06390113898930253,
+      "recall_at_10": 0.14432989690721648,
+      "mrr": 0.03963344788087056
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 269.69,
+  "peak_vram_mb": 17094
+}

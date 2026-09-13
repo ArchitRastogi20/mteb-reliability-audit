@@ -1,0 +1,12 @@
+# Benjamini-Hochberg FDR correction (q=0.05)
+
+Test                                        p (raw)     p (BH-FDR)    sig at q=0.05
+Kendall_tau_italian                          0.0264         0.0396              yes
+Kendall_tau_japanese                         0.0155         0.0279              yes
+Kendall_tau_hindi                            0.0013         0.0039              yes
+meanRatio_bootstrap_italian                  0.0001         0.0005              yes
+meanRatio_bootstrap_japanese                 0.0090         0.0202              yes
+meanRatio_bootstrap_hindi                    0.0001         0.0005              yes
+anchorPair_bootstrap_italian                 0.0580         0.0746               NO
+anchorPair_bootstrap_japanese                0.1220         0.1372               NO
+anchorPair_bootstrap_hindi                   0.2620         0.2620               NO

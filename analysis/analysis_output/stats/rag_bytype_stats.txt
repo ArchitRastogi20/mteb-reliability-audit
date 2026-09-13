@@ -1,0 +1,17 @@
+# RAG By-Type: Spearman rho (log10(params) vs NDCG) per query type
+
+## ja_finance
+  Spearman(log_params, factual_NDCG): rho=0.453, p=0.068 (n=17)
+  Spearman(log_params, multi_hop_NDCG): rho=0.428, p=0.086 (n=17)
+
+## ja_law
+  Spearman(log_params, factual_NDCG): rho=0.125, p=0.632 (n=17)
+  Spearman(log_params, multi_hop_NDCG): rho=0.510, p=0.037 (n=17)
+
+## hi_finance
+  Spearman(log_params, factual_NDCG): rho=0.518, p=0.033 (n=17)
+  Spearman(log_params, multi_hop_NDCG): rho=0.597, p=0.011 (n=17)
+
+## hi_law
+  Spearman(log_params, factual_NDCG): rho=-0.108, p=0.680 (n=17)
+  Spearman(log_params, multi_hop_NDCG): rho=0.370, p=0.144 (n=17)

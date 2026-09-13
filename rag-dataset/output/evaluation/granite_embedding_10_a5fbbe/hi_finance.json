@@ -1,0 +1,34 @@
+{
+  "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+  "lang": "hi",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.7073757829929944,
+    "recall_at_10": 0.7630769230769231,
+    "mrr": 0.6890244200244201
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.6275893863823981,
+      "recall_at_10": 0.6820809248554913,
+      "mrr": 0.6091522157996146
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7209832633569071,
+      "recall_at_10": 0.7864077669902912,
+      "mrr": 0.7000500847588227
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9604671327103448,
+      "recall_at_10": 1.0,
+      "mrr": 0.9478458049886621
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 2.27,
+  "peak_vram_mb": 416
+}

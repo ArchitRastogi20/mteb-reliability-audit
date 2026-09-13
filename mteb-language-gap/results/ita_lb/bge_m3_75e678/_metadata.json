@@ -1,0 +1,9 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "lang_code": "ita",
+  "peak_vram_mb": 5280,
+  "query_encode_sec": 2.8,
+  "total_wall_sec": 53.42,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 13988
+}

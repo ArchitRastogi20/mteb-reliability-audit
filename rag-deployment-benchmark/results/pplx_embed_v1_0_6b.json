@@ -1,0 +1,22 @@
+{
+  "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+  "params": "596M",
+  "dim": 1024,
+  "embedding_dim": 1024,
+  "batch_size": 16,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 13705.0,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 3705.3,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 290.164,
+  "corpus_encode_sec_std": 0.088,
+  "query_throughput_qps_mean": 189.367,
+  "query_throughput_qps_std": 0.759,
+  "latency_p50_ms_mean": 30.899,
+  "latency_p50_ms_std": 1.273,
+  "latency_p99_ms_mean": 34.417,
+  "latency_p99_ms_std": 1.605
+}

@@ -1,0 +1,81 @@
+{
+  "IT-HI full vs Wikipedia": {
+    "contrast": "IT-HI full vs Wikipedia",
+    "n_models": 12,
+    "rho_full": 0.5944055944055945,
+    "rho_single": 0.9370629370629372,
+    "delta": -0.3426573426573427,
+    "ci95_lo": -1.0247438479172206,
+    "ci95_hi": 0.05197399527186591,
+    "p_two_sided": 0.1182,
+    "B": 10000,
+    "models": [
+      "BAAI/bge-m3",
+      "Qwen/Qwen3-Embedding-0.6B",
+      "Qwen/Qwen3-Embedding-4B",
+      "Qwen/Qwen3-Embedding-8B",
+      "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "ibm-granite/granite-embedding-107m-multilingual",
+      "intfloat/multilingual-e5-base",
+      "intfloat/multilingual-e5-large",
+      "intfloat/multilingual-e5-large-instruct",
+      "intfloat/multilingual-e5-small",
+      "jinaai/jina-embeddings-v5-text-nano",
+      "microsoft/harrier-oss-v1-0.6b"
+    ]
+  },
+  "IT-JA full vs Belebele": {
+    "contrast": "IT-JA full vs Belebele",
+    "n_models": 14,
+    "rho_full": 0.5120879120879122,
+    "rho_single": 0.9384615384615385,
+    "delta": -0.4263736263736263,
+    "ci95_lo": -0.973143233377058,
+    "ci95_hi": -0.07110716925351068,
+    "p_two_sided": 0.004,
+    "B": 10000,
+    "models": [
+      "BAAI/bge-m3",
+      "Qwen/Qwen3-Embedding-0.6B",
+      "Qwen/Qwen3-Embedding-4B",
+      "Qwen/Qwen3-Embedding-8B",
+      "Salesforce/SFR-Embedding-Mistral",
+      "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "ibm-granite/granite-embedding-107m-multilingual",
+      "intfloat/e5-mistral-7b-instruct",
+      "intfloat/multilingual-e5-base",
+      "intfloat/multilingual-e5-large",
+      "intfloat/multilingual-e5-large-instruct",
+      "intfloat/multilingual-e5-small",
+      "jinaai/jina-embeddings-v5-text-nano",
+      "microsoft/harrier-oss-v1-0.6b"
+    ]
+  },
+  "JA-HI full vs MIRACL": {
+    "contrast": "JA-HI full vs MIRACL",
+    "n_models": 14,
+    "rho_full": 0.8285714285714285,
+    "rho_single": 0.8373626373626375,
+    "delta": -0.008791208791208982,
+    "ci95_lo": -0.35795346558175434,
+    "ci95_hi": 0.2954584820491287,
+    "p_two_sided": 0.963,
+    "B": 10000,
+    "models": [
+      "BAAI/bge-m3",
+      "Qwen/Qwen3-Embedding-0.6B",
+      "Qwen/Qwen3-Embedding-4B",
+      "Qwen/Qwen3-Embedding-8B",
+      "Salesforce/SFR-Embedding-Mistral",
+      "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "ibm-granite/granite-embedding-107m-multilingual",
+      "intfloat/e5-mistral-7b-instruct",
+      "intfloat/multilingual-e5-base",
+      "intfloat/multilingual-e5-large",
+      "intfloat/multilingual-e5-large-instruct",
+      "intfloat/multilingual-e5-small",
+      "jinaai/jina-embeddings-v5-text-nano",
+      "microsoft/harrier-oss-v1-0.6b"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model_id": "jinaai/jina-embeddings-v5-text-nano",
+  "lang_code": "ita",
+  "peak_vram_mb": 4890,
+  "query_encode_sec": 4.89,
+  "total_wall_sec": 62.84,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 13988
+}

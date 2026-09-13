@@ -1,0 +1,34 @@
+{
+  "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "lang": "it",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.3712911688223209,
+    "recall_at_10": 0.5625,
+    "mrr": 0.3124236874236874
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.32457961652495815,
+      "recall_at_10": 0.48255813953488375,
+      "mrr": 0.276109726836471
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.4284326175856844,
+      "recall_at_10": 0.6646706586826348,
+      "mrr": 0.35570050375439594
+    },
+    "summarization": {
+      "ndcg_at_10": 0.3517037019608231,
+      "recall_at_10": 0.5194805194805194,
+      "mrr": 0.29968047825190686
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 14.63,
+  "peak_vram_mb": 5402
+}

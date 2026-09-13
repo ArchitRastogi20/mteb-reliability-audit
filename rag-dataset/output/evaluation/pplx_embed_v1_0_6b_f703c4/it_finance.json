@@ -1,0 +1,34 @@
+{
+  "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+  "lang": "it",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.021535311556787496,
+    "recall_at_10": 0.04702970297029703,
+    "mrr": 0.014004793336476506
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.025963196217647692,
+      "recall_at_10": 0.05714285714285714,
+      "mrr": 0.016736961451247163
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.029067877838138485,
+      "recall_at_10": 0.06293706293706294,
+      "mrr": 0.019083694083694085
+    },
+    "summarization": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 31.53,
+  "peak_vram_mb": 9198
+}

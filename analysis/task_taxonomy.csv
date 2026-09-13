@@ -1,0 +1,19 @@
+task_name,class,rationale
+AILAStatutes,english_derived,Corpus: Indian legal statutes in English.
+ArguAna,english_derived,Corpus: English-only counter-argument pairs.
+BelebeleRetrieval,multilingual,"Corpus: Belebele reading comprehension, 122 languages."
+CovidRetrieval,multilingual,Corpus: Chinese COVID-19 biomedical literature.
+HagridRetrieval,english_derived,Corpus: English Wikipedia + web passages.
+LEMBPasskeyRetrieval,english_derived,Corpus: English synthetic long-context passages.
+LegalBenchCorporateLobbying,english_derived,Corpus: English corporate lobbying legal texts.
+MIRACLRetrievalHardNegatives,multilingual,Corpus: Wikipedia in 18 languages with hard negatives.
+MLQARetrieval,multilingual,Corpus: 7-language aligned QA passages.
+SCIDOCS,english_derived,Corpus: English scientific abstracts (S2ORC).
+SpartQA,english_derived,Corpus: English spatial reasoning passages.
+StackOverflowQA,english_derived,Corpus: English developer Q&A.
+StatcanDialogueDatasetRetrieval,multilingual,Corpus: Statistics Canada bilingual (EN/FR) dialogue.
+TRECCOVID,english_derived,Corpus: English CORD-19 COVID literature.
+TempReasonL1,english_derived,Corpus: English temporal reasoning passages.
+TwitterHjerneRetrieval,multilingual,Corpus: Danish Twitter posts.
+WikipediaRetrievalMultilingual,multilingual,Corpus: Wikipedia passages in multiple languages.
+WinoGrande,english_derived,Corpus: English commonsense reasoning.

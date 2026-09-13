@@ -1,0 +1,152 @@
+{
+  "small_model": "jina-v5-nano",
+  "large_model": "Qwen3-8B",
+  "per_config_query_type": [
+    {
+      "dataset": "hi_finance",
+      "query_type": "factual",
+      "Qwen3-8B": 70.59169925717836,
+      "jina-v5-nano": 66.53956043724196,
+      "ratio_pct": 94.25975169520467
+    },
+    {
+      "dataset": "hi_finance",
+      "query_type": "multi_hop",
+      "Qwen3-8B": 81.93952307009694,
+      "jina-v5-nano": 72.97344632025177,
+      "ratio_pct": 89.05768984989703
+    },
+    {
+      "dataset": "hi_finance",
+      "query_type": "summarization",
+      "Qwen3-8B": 98.9795918367347,
+      "jina-v5-nano": 98.9795918367347,
+      "ratio_pct": 100.0
+    },
+    {
+      "dataset": "hi_law",
+      "query_type": "factual",
+      "Qwen3-8B": 68.43185442846999,
+      "jina-v5-nano": 71.71231626262248,
+      "ratio_pct": 104.79376433906444
+    },
+    {
+      "dataset": "hi_law",
+      "query_type": "multi_hop",
+      "Qwen3-8B": 59.76971741381544,
+      "jina-v5-nano": 51.71793318156346,
+      "ratio_pct": 86.52865601403889
+    },
+    {
+      "dataset": "hi_law",
+      "query_type": "summarization",
+      "Qwen3-8B": 57.62977974250856,
+      "jina-v5-nano": 46.88439829306813,
+      "ratio_pct": 81.3544637903336
+    },
+    {
+      "dataset": "it_finance",
+      "query_type": "factual",
+      "Qwen3-8B": 67.27312506767011,
+      "jina-v5-nano": 72.0986153107828,
+      "ratio_pct": 107.1729836220017
+    },
+    {
+      "dataset": "it_finance",
+      "query_type": "multi_hop",
+      "Qwen3-8B": 77.7042072809532,
+      "jina-v5-nano": 82.95072935837256,
+      "ratio_pct": 106.7519150648428
+    },
+    {
+      "dataset": "it_finance",
+      "query_type": "summarization",
+      "Qwen3-8B": 83.38872396653139,
+      "jina-v5-nano": 83.23803346310568,
+      "ratio_pct": 99.81929151058098
+    },
+    {
+      "dataset": "it_law",
+      "query_type": "factual",
+      "Qwen3-8B": 44.98739939503,
+      "jina-v5-nano": 44.51718773484985,
+      "ratio_pct": 98.95479252745581
+    },
+    {
+      "dataset": "it_law",
+      "query_type": "multi_hop",
+      "Qwen3-8B": 66.90930953414383,
+      "jina-v5-nano": 60.48917868393179,
+      "ratio_pct": 90.40472709266886
+    },
+    {
+      "dataset": "it_law",
+      "query_type": "summarization",
+      "Qwen3-8B": 56.01610332832375,
+      "jina-v5-nano": 53.20289190030466,
+      "ratio_pct": 94.97785233019478
+    },
+    {
+      "dataset": "ja_finance",
+      "query_type": "factual",
+      "Qwen3-8B": 96.76172374285736,
+      "jina-v5-nano": 96.02828715262504,
+      "ratio_pct": 99.24201785389705
+    },
+    {
+      "dataset": "ja_finance",
+      "query_type": "multi_hop",
+      "Qwen3-8B": 97.32283304340856,
+      "jina-v5-nano": 97.7436964980754,
+      "ratio_pct": 100.43244061183371
+    },
+    {
+      "dataset": "ja_finance",
+      "query_type": "summarization",
+      "Qwen3-8B": 96.51031767187511,
+      "jina-v5-nano": 94.04254705038518,
+      "ratio_pct": 97.44299813634424
+    },
+    {
+      "dataset": "ja_law",
+      "query_type": "factual",
+      "Qwen3-8B": 27.91123042158037,
+      "jina-v5-nano": 24.38660699520545,
+      "ratio_pct": 87.3720241883362
+    },
+    {
+      "dataset": "ja_law",
+      "query_type": "multi_hop",
+      "Qwen3-8B": 27.278167484161376,
+      "jina-v5-nano": 26.670699111803188,
+      "ratio_pct": 97.77306018554617
+    },
+    {
+      "dataset": "ja_law",
+      "query_type": "summarization",
+      "Qwen3-8B": 26.55750802464168,
+      "jina-v5-nano": 21.33317754214877,
+      "ratio_pct": 80.3282353237154
+    }
+  ],
+  "by_query_type_summary": {
+    "factual": {
+      "min": 87.3720241883362,
+      "median": 99.09840519067643,
+      "max": 107.1729836220017,
+      "count": 6
+    },
+    "multi_hop": {
+      "min": 86.52865601403889,
+      "median": 94.08889363910751,
+      "max": 106.7519150648428,
+      "count": 6
+    },
+    "summarization": {
+      "min": 80.3282353237154,
+      "median": 96.21042523326952,
+      "max": 100.0,
+      "count": 6
+    }
+  }
+}

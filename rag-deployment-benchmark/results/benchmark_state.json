@@ -1,0 +1,23 @@
+{
+  "completed": [
+    "ibm-granite/granite-embedding-107m-multilingual",
+    "intfloat/multilingual-e5-small",
+    "microsoft/harrier-oss-v1-0.6b",
+    "jinaai/jina-embeddings-v5-text-nano",
+    "intfloat/multilingual-e5-large",
+    "Snowflake/snowflake-arctic-embed-l-v2.0",
+    "Qwen/Qwen3-Embedding-0.6B",
+    "BAAI/bge-m3",
+    "intfloat/e5-small-v2",
+    "intfloat/multilingual-e5-base",
+    "intfloat/multilingual-e5-large-instruct",
+    "intfloat/e5-large-v2",
+    "perplexity-ai/pplx-embed-v1-0.6b",
+    "jinaai/jina-embeddings-v3",
+    "Qwen/Qwen3-Embedding-4B",
+    "Salesforce/SFR-Embedding-Mistral",
+    "intfloat/e5-mistral-7b-instruct"
+  ],
+  "failed": [],
+  "in_progress": null
+}

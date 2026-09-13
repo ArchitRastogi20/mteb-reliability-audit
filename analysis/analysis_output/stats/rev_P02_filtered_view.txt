@@ -1,0 +1,23 @@
+# P0.2 — Rank-inversion analysis: MTEB-overall vs MMTEB-language-filtered-view
+
+Question: how many of the 20-28% inversions reported in Table 3 SURVIVE
+if the practitioner uses the MMTEB language-filtered view instead of the headline aggregate?
+
+## italian: insufficient filtered-view coverage (0 models)
+## Japanese (n=15)
+  MTEB-overall  vs lang-specific:    tau=0.467 [0.000,0.794]  inversions=28/105 (26.7%)  p=0.0155
+  MMTEB-filtered vs lang-specific:   tau=0.390 [0.031,0.663]  inversions=32/105 (30.5%)  p=0.0463
+  Residual inversion AFTER filtering: 30.5% (was 26.7%; filtering eliminates -3.8 pp)
+
+## Hindi (n=15)
+  MTEB-overall  vs lang-specific:    tau=0.600 [0.155,0.918]  inversions=21/105 (20.0%)  p=0.0013
+  MMTEB-filtered vs lang-specific:   tau=0.638 [0.313,0.895]  inversions=19/105 (18.1%)  p=0.0005
+  Residual inversion AFTER filtering: 18.1% (was 20.0%; filtering eliminates 1.9 pp)
+
+## SUMMARY for the paper
+Average inversion rate (overall MTEB):  23.3%
+Average inversion rate (lang-filtered): 24.3%
+Filtering eliminates ~-1.0 percentage points; residual inversions remain.
+
+INTERPRETATION:
+  * Even after language-filtering, substantial inversions remain (>15%),

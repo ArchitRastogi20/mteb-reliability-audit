@@ -1,0 +1,36 @@
+{
+  "model_id": "cohere/embed-multilingual-v3.0",
+  "lang": "it",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.43716165709388366,
+    "recall_at_10": 0.65625,
+    "mrr": 0.3694263202075702
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.34796402615663236,
+      "recall_at_10": 0.5348837209302325,
+      "mrr": 0.28971714654854186
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.4404955222489658,
+      "recall_at_10": 0.6766467065868264,
+      "mrr": 0.3675411082596712
+    },
+    "summarization": {
+      "ndcg_at_10": 0.629177722552436,
+      "recall_at_10": 0.8831168831168831,
+      "mrr": 0.551566687280973
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 129.9914345741272,
+  "tokens_used": 614446,
+  "cost_usd": 0.06144460000000001,
+  "embed_dim": 1024
+}

@@ -1,0 +1,108 @@
+{
+  "text-embedding-3-small": {
+    "italian": {
+      "lang_code": "ita_Latn",
+      "ndcg_at_10": 0.9247553848589481,
+      "recall_at_10": 0.9655555555555555,
+      "mrr": 0.9115114638447972,
+      "tokens_used": 98883,
+      "cost_usd": 0.00197766
+    },
+    "japanese": {
+      "lang_code": "jpn_Jpan",
+      "ndcg_at_10": 0.8904573971325612,
+      "recall_at_10": 0.9688888888888889,
+      "mrr": 0.8652601410934744,
+      "tokens_used": 143714,
+      "cost_usd": 0.00287428
+    },
+    "hindi": {
+      "lang_code": "hin_Deva",
+      "ndcg_at_10": 0.5865855364046428,
+      "recall_at_10": 0.7066666666666667,
+      "mrr": 0.5488787477954145,
+      "tokens_used": 290005,
+      "cost_usd": 0.0058001
+    }
+  },
+  "total_tokens": 1454666,
+  "total_cost_usd": 0.09936339999999999,
+  "text-embedding-3-large": {
+    "italian": {
+      "lang_code": "ita_Latn",
+      "ndcg_at_10": 0.9454878990632957,
+      "recall_at_10": 0.9833333333333333,
+      "mrr": 0.9329250440917107,
+      "tokens_used": 98883,
+      "cost_usd": 0.01285479
+    },
+    "japanese": {
+      "lang_code": "jpn_Jpan",
+      "ndcg_at_10": 0.929318194524811,
+      "recall_at_10": 0.9811111111111112,
+      "mrr": 0.9121300705467371,
+      "tokens_used": 143714,
+      "cost_usd": 0.018682820000000003
+    },
+    "hindi": {
+      "lang_code": "hin_Deva",
+      "ndcg_at_10": 0.767117332774444,
+      "recall_at_10": 0.87,
+      "mrr": 0.7340987654320987,
+      "tokens_used": 290005,
+      "cost_usd": 0.03770065
+    }
+  },
+  "embed-multilingual-v3.0": {
+    "italian": {
+      "lang_code": "ita_Latn",
+      "ndcg_at_10": 0.9481041185569898,
+      "recall_at_10": 0.9866666666666667,
+      "mrr": 0.9356626984126983,
+      "tokens_used": 87221,
+      "cost_usd": 0.0087221
+    },
+    "japanese": {
+      "lang_code": "jpn_Jpan",
+      "ndcg_at_10": 0.9359834285760456,
+      "recall_at_10": 0.9822222222222222,
+      "mrr": 0.9205970017636683,
+      "tokens_used": 33397,
+      "cost_usd": 0.0033397
+    },
+    "hindi": {
+      "lang_code": "hin_Deva",
+      "ndcg_at_10": 0.905113030275859,
+      "recall_at_10": 0.9588888888888889,
+      "mrr": 0.8876388888888889,
+      "tokens_used": 74113,
+      "cost_usd": 0.0074113
+    }
+  },
+  "gemini-embedding-2": {
+    "italian": {
+      "lang_code": "ita_Latn",
+      "ndcg_at_10": 0.9623625221364753,
+      "recall_at_10": 0.9888888888888889,
+      "mrr": 0.9537605820105821,
+      "tokens_used": 87221,
+      "cost_usd": 0.0
+    },
+    "japanese": {
+      "lang_code": "jpn_Jpan",
+      "ndcg_at_10": 0.9540927537607108,
+      "recall_at_10": 0.9855555555555555,
+      "mrr": 0.9437094356261022,
+      "tokens_used": 33397,
+      "cost_usd": 0.0
+    },
+    "hindi": {
+      "lang_code": "hin_Deva",
+      "ndcg_at_10": 0.9436283706100071,
+      "recall_at_10": 0.9766666666666667,
+      "mrr": 0.9325427689594357,
+      "tokens_used": 74113,
+      "cost_usd": 0.0
+    }
+  }
+}

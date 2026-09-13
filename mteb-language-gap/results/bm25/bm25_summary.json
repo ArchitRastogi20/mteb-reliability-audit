@@ -1,0 +1,19 @@
+{
+  "jpn": {
+    "BelebeleRetrieval": 75.35,
+    "MIRACLRetrievalHardNegatives": 20.44,
+    "AvgJPN": 47.9
+  },
+  "hin": {
+    "BelebeleRetrieval": 66.46,
+    "MIRACLRetrievalHardNegatives": 30.87,
+    "MLQARetrieval": 50.28,
+    "WikipediaRetrievalMultilingual": 77.21,
+    "AvgHIN": 56.2
+  },
+  "ita": {
+    "BelebeleRetrieval": 63.2,
+    "WikipediaRetrievalMultilingual": 68.06,
+    "AvgITA": 65.63
+  }
+}

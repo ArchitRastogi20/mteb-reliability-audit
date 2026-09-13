@@ -1,0 +1,11 @@
+{
+  "lang": "hi",
+  "domain": "finance",
+  "num_docs": 250,
+  "num_answerable_queries": 325,
+  "metrics": {
+    "recall_10": 0.9661538461538461,
+    "ndcg_cut_10": 0.9231152220791887
+  },
+  "ndcg10_interpretation": "too_easy"
+}

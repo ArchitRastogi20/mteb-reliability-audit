@@ -1,0 +1,16 @@
+# Embedding Dimension vs Gap Regression
+
+## Italian  (n=14)
+  log10(params): slope=-3.590, R2=0.0650, p=0.3791
+  log2(dim):     slope=-1.115, R2=0.0166, p=0.6606
+  multivariate:  R2=0.2464  (log_params coeff=-24.712, log_dim coeff=13.496)
+
+## Japanese  (n=15)
+  log10(params): slope=-3.772, R2=0.0281, p=0.5501
+  log2(dim):     slope=-1.303, R2=0.0090, p=0.7370
+  multivariate:  R2=0.0993  (log_params coeff=-26.695, log_dim coeff=14.494)
+
+## Hindi  (n=15)
+  log10(params): slope=-1.086, R2=0.0053, p=0.7958
+  log2(dim):     slope=-0.027, R2=0.0000, p=0.9915
+  multivariate:  R2=0.0768  (log_params coeff=-16.267, log_dim coeff=9.599)

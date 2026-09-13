@@ -1,0 +1,55 @@
+tier,iso3,lang_name,n_models,global_rank,local_rank,mteb_agg,lang_avg,is_hidden_failure,reason_if_not
+restricted,ara,Arabic,,,,,,False,missing from tier
+restricted,ben,Bengali,,,,,,False,missing from tier
+restricted,deu,German,,,,,,False,missing from tier
+restricted,fas,Persian,,,,,,False,missing from tier
+restricted,fra,French,,,,,,False,missing from tier
+restricted,hin,Hindi,,,,,,False,missing from tier
+restricted,ind,Indonesian,,,,,,False,missing from tier
+restricted,ita,Italian,,,,,,False,missing from tier
+restricted,jpn,Japanese,,,,,,False,missing from tier
+restricted,kor,Korean,,,,,,False,missing from tier
+restricted,rus,Russian,,,,,,False,missing from tier
+restricted,spa,Spanish,,,,,,False,missing from tier
+restricted,swa,Swahili,,,,,,False,missing from tier
+restricted,tam,Tamil,,,,,,False,missing from tier
+restricted,tel,Telugu,,,,,,False,missing from tier
+restricted,tha,Thai,,,,,,False,missing from tier
+restricted,vie,Vietnamese,,,,,,False,missing from tier
+restricted,zho,Chinese,,,,,,False,missing from tier
+curated,ara,Arabic,,,,,,False,missing from tier
+curated,ben,Bengali,,,,,,False,missing from tier
+curated,deu,German,,,,,,False,missing from tier
+curated,fas,Persian,,,,,,False,missing from tier
+curated,fra,French,,,,,,False,missing from tier
+curated,hin,Hindi,,,,,,False,missing from tier
+curated,ind,Indonesian,,,,,,False,missing from tier
+curated,ita,Italian,,,,,,False,missing from tier
+curated,jpn,Japanese,,,,,,False,missing from tier
+curated,kor,Korean,,,,,,False,missing from tier
+curated,rus,Russian,,,,,,False,missing from tier
+curated,spa,Spanish,,,,,,False,missing from tier
+curated,swa,Swahili,,,,,,False,missing from tier
+curated,tam,Tamil,,,,,,False,missing from tier
+curated,tel,Telugu,,,,,,False,missing from tier
+curated,tha,Thai,,,,,,False,missing from tier
+curated,vie,Vietnamese,,,,,,False,missing from tier
+curated,zho,Chinese,,,,,,False,missing from tier
+extended,ara,Arabic,54.0,36.0,40.0,0.54761,0.41708,False,"global rank not top-50% (openly bad, not hidden)"
+extended,ben,Bengali,53.0,36.0,36.0,0.54761,0.59514,False,"global rank not top-50% (openly bad, not hidden)"
+extended,deu,German,53.0,36.0,31.0,0.54761,0.75097,False,"global rank not top-50% (openly bad, not hidden)"
+extended,fas,Persian,53.0,36.0,36.0,0.54761,0.70037,False,"global rank not top-50% (openly bad, not hidden)"
+extended,fra,French,54.0,36.0,26.0,0.54761,0.73775,False,"global rank not top-50% (openly bad, not hidden)"
+extended,hin,Hindi,53.0,36.0,37.0,0.54761,0.5682,False,"global rank not top-50% (openly bad, not hidden)"
+extended,ind,Indonesian,54.0,36.0,40.0,0.54761,0.62013,False,"global rank not top-50% (openly bad, not hidden)"
+extended,ita,Italian,53.0,36.0,25.0,0.54761,0.91266,False,"global rank not top-50% (openly bad, not hidden)"
+extended,jpn,Japanese,54.0,36.0,39.0,0.54761,0.68166,False,"global rank not top-50% (openly bad, not hidden)"
+extended,kor,Korean,54.0,36.0,36.0,0.54761,0.65746,False,"global rank not top-50% (openly bad, not hidden)"
+extended,rus,Russian,57.0,36.0,37.0,0.54761,0.71691,False,"global rank not top-50% (openly bad, not hidden)"
+extended,spa,Spanish,28.0,36.0,,0.54761,,False,missing from language evaluation
+extended,swa,Swahili,54.0,36.0,40.0,0.54761,0.41822,False,"global rank not top-50% (openly bad, not hidden)"
+extended,tam,Tamil,54.0,36.0,28.0,0.54761,0.64531,False,"global rank not top-50% (openly bad, not hidden)"
+extended,tel,Telugu,54.0,36.0,27.0,0.54761,0.75648,False,"global rank not top-50% (openly bad, not hidden)"
+extended,tha,Thai,54.0,36.0,35.0,0.54761,0.74083,False,"global rank not top-50% (openly bad, not hidden)"
+extended,vie,Vietnamese,54.0,36.0,41.0,0.54761,0.49983,False,"global rank not top-50% (openly bad, not hidden)"
+extended,zho,Chinese,54.0,36.0,40.0,0.54761,0.6283,False,"global rank not top-50% (openly bad, not hidden)"

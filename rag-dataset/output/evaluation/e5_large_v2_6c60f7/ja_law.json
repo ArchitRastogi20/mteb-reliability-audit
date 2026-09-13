@@ -1,0 +1,34 @@
+{
+  "model_id": "intfloat/e5-large-v2",
+  "lang": "ja",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.09404575714371619,
+    "recall_at_10": 0.15765765765765766,
+    "mrr": 0.07491688116688117
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.1540609331801331,
+      "recall_at_10": 0.2471264367816092,
+      "mrr": 0.1260513592410144
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.07139406519252213,
+      "recall_at_10": 0.12138728323699421,
+      "mrr": 0.05636526286815304
+    },
+    "summarization": {
+      "ndcg_at_10": 0.026789077527427832,
+      "recall_at_10": 0.061855670103092786,
+      "mrr": 0.01627802323678612
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 3.77,
+  "peak_vram_mb": 2410
+}

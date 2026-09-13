@@ -1,0 +1,10 @@
+theta_global,theta_local,cluster_size_3plus,cluster_models,n_hidden_failure_cells
+0.4,0.2,2,Seed1.6-embed;harrier-0.6b,16
+0.4,0.25,3,Seed1.6-embed;harrier-0.6b;inf-retriever-v1,19
+0.4,0.3,3,Seed1.6-embed;harrier-0.6b;inf-retriever-v1,23
+0.5,0.2,3,Seed1.6-embed;granite-311m;harrier-0.6b,32
+0.5,0.25,4,Seed1.6-embed;granite-311m;harrier-0.6b;inf-retriever-v1,35
+0.5,0.3,4,Seed1.6-embed;granite-311m;harrier-0.6b;inf-retriever-v1,40
+0.6,0.2,4,Qwen3-0.6B;Seed1.6-embed;granite-311m;harrier-0.6b,47
+0.6,0.25,5,Qwen3-0.6B;Seed1.6-embed;granite-311m;harrier-0.6b;inf-retriever-v1,53
+0.6,0.3,6,F2LLM-v2-4B;Qwen3-0.6B;Seed1.6-embed;granite-311m;harrier-0.6b;inf-retriever-v1,61

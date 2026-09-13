@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "lang_code": "ita",
+  "peak_vram_mb": 686,
+  "query_encode_sec": 1.34,
+  "total_wall_sec": 104.68,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 13988
+}

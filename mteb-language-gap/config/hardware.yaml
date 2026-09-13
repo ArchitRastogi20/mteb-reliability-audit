@@ -1,0 +1,12 @@
+batch_sizes:
+  large: 64
+  medium: 512
+  qwen_sub1b: 128
+  small: 1024
+  xlarge: 32
+cpu_cores: 128
+ram_budget_bytes: 256556462284
+ram_gb: 270.1
+torch_num_threads: 126
+vram_budget_bytes: 24030245683
+vram_gb: 25.3

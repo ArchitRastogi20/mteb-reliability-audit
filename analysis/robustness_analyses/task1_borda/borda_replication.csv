@@ -1,0 +1,7 @@
+language,n_models,predictor,tau,tau_ci_lo,tau_ci_hi,inversion_count,inversion_total,inversion_pct
+IT,14,MMTEB_Mean_Task,0.4505,0.0112,0.8293,25,91,27.47
+IT,14,MMTEB_Borda,0.3846,-0.0123,0.7284,28,91,30.77
+JA,15,MMTEB_Mean_Task,0.4667,-0.0103,0.7917,28,105,26.67
+JA,15,MMTEB_Borda,0.181,-0.25,0.5556,43,105,40.95
+HI,15,MMTEB_Mean_Task,0.6,0.1134,0.9175,21,105,20.0
+HI,15,MMTEB_Borda,0.3143,-0.1042,0.6566,36,105,34.29

@@ -1,0 +1,90 @@
+{
+  "task": "BelebeleRetrieval",
+  "lang": "swa",
+  "n_models": 15,
+  "kendall_tau_vs_mteb_agg": 0.14285714285714285,
+  "inversions": 45,
+  "total_pairs": 105,
+  "inversion_rate_pct": 42.857142857142854,
+  "models": [
+    {
+      "model_id": "Qwen/Qwen3-Embedding-8B",
+      "mteb_agg": 90.4,
+      "swa_belebele_ndcg10": 86.3053
+    },
+    {
+      "model_id": "nvidia/llama-embed-nemotron-8b",
+      "mteb_agg": 87.0,
+      "swa_belebele_ndcg10": 23.768700000000003
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "mteb_agg": 86.2,
+      "swa_belebele_ndcg10": 78.93440000000001
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-large",
+      "mteb_agg": 84.2,
+      "swa_belebele_ndcg10": 88.91210000000001
+    },
+    {
+      "model_id": "BAAI/bge-m3",
+      "mteb_agg": 84.0,
+      "swa_belebele_ndcg10": 89.9482
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-large-instruct",
+      "mteb_agg": 83.8,
+      "swa_belebele_ndcg10": 89.2788
+    },
+    {
+      "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "mteb_agg": 82.3,
+      "swa_belebele_ndcg10": 26.9054
+    },
+    {
+      "model_id": "Salesforce/SFR-Embedding-Mistral",
+      "mteb_agg": 80.3,
+      "swa_belebele_ndcg10": 75.0904
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-base",
+      "mteb_agg": 79.7,
+      "swa_belebele_ndcg10": 87.18430000000001
+    },
+    {
+      "model_id": "intfloat/e5-mistral-7b-instruct",
+      "mteb_agg": 79.6,
+      "swa_belebele_ndcg10": 54.683099999999996
+    },
+    {
+      "model_id": "microsoft/harrier-oss-v1-0.6b",
+      "mteb_agg": 78.0,
+      "swa_belebele_ndcg10": 80.52289999999999
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "mteb_agg": 77.9,
+      "swa_belebele_ndcg10": 64.3798
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-small",
+      "mteb_agg": 77.0,
+      "swa_belebele_ndcg10": 82.88879999999999
+    },
+    {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano",
+      "mteb_agg": 72.0,
+      "swa_belebele_ndcg10": 71.4324
+    },
+    {
+      "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+      "mteb_agg": 65.0,
+      "swa_belebele_ndcg10": 65.74950000000001
+    }
+  ],
+  "compare_to_paper_3.5": {
+    "leaderboard_filtered_tau": 0.56,
+    "leaderboard_filtered_inv_pct": 22.0
+  }
+}

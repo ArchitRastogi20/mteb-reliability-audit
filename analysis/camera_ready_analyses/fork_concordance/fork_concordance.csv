@@ -1,0 +1,7 @@
+fork,language,registry_name,n_tasks,n_tasks_retrieval,n_models_total,n_curated_covered,hidden_failure_models_covered,hidden_failure_models_covered_retrieval,tau_fork_vs_global,tau_fork_vs_langavg,n_overlap,tau_retrieval_vs_global,tau_retrieval_vs_langavg,n_overlap_retrieval,status
+MTEB-French,fra,"MTEB(fra, v1)",25,5,40.0,8.0,,inf-retriever-v1,0.3571428571428571,0.14285714285714285,8.0,,,5.0,ok
+FaMTEB,fas,"MTEB(fas, v2)",52,17,26.0,6.0,,,,,5.0,,,5.0,underpowered
+ruMTEB,rus,"MTEB(rus, v1.1)",23,3,41.0,10.0,,,0.7777777777777777,0.5555555555555555,10.0,0.6888888888888888,0.8222222222222221,10.0,ok
+C-MTEB,zho,"MTEB(cmn, v1)",32,8,52.0,7.0,,inf-retriever-v1,0.9047619047619049,1.0,7.0,0.9285714285714285,0.8571428571428571,8.0,ok
+ArabicMTEB,ara,NOT_IN_LOCAL_REGISTRY,0,0,,,,,,,,,,,not_in_local_registry
+VN-MTEB,vie,"VN-MTEB (vie, v1)",50,24,18.0,5.0,,,,,5.0,,,5.0,underpowered

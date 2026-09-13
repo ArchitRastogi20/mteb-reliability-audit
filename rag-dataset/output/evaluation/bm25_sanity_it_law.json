@@ -1,0 +1,11 @@
+{
+  "lang": "it",
+  "domain": "law",
+  "num_docs": 250,
+  "num_answerable_queries": 416,
+  "metrics": {
+    "ndcg_cut_10": 0.6367295605745867,
+    "recall_10": 0.7980769230769231
+  },
+  "ndcg10_interpretation": "healthy"
+}

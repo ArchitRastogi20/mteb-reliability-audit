@@ -1,0 +1,27 @@
+model_id,is_cluster_member,instruction_tuned,backbone_family,training_languages,param_count_M,embedding_dim,notes
+KaLM-Gemma3-12B,No,Yes,Gemma3 decoder (Tencent),Not disclosed,12000,3072,Model card lists instruction prefix for retrieval queries
+Qwen3-8B,No,No,Qwen3 decoder (Alibaba),Not disclosed,8000,4096,Dedicated embedding model; instruction prefix optional per model card; not required
+Qwen3-4B,No,No,Qwen3 decoder (Alibaba),Not disclosed,4000,2560,Dedicated embedding model; instruction prefix optional per model card; not required
+Qwen3-0.6B,No,No,Qwen3 decoder (Alibaba),Not disclosed,600,1024,Dedicated embedding model; instruction prefix optional per model card; not required
+harrier-0.6b,Yes,No,Small encoder-style transformer (Microsoft),Not disclosed,600,1024,Contrastive training only; no instruction prefix in model card
+pplx-embed-4b,No,No,Proprietary decoder (Perplexity AI),Not disclosed,4000,Not disclosed,Dedicated embedding model; no instruction prefix documented
+pplx-embed-0.6b,No,No,Proprietary decoder (Perplexity AI),Not disclosed,600,Not disclosed,Dedicated embedding model; no instruction prefix documented
+nemotron-8b,No,Yes,LLaMA-based decoder (NVIDIA Nemotron),Not disclosed,8000,4096,Model card uses instruction prefix for retrieval tasks
+inf-retriever-v1,Yes,Yes,Decoder LLM (Infly; likely Qwen-based),Not disclosed,~7000,Not disclosed,Model card recommends instruction prefix for retrieval queries
+F2LLM-v2-14B,No,Unknown,Decoder LLM (CodeFuse/Alibaba),Not disclosed,14000,Not disclosed,LLM-based retrieval model; instruction prefix use not clearly documented
+F2LLM-v2-8B,No,Unknown,Decoder LLM (CodeFuse/Alibaba),Not disclosed,8000,Not disclosed,LLM-based retrieval model; instruction prefix use not clearly documented
+F2LLM-v2-4B,No,Unknown,Decoder LLM (CodeFuse/Alibaba),Not disclosed,4000,Not disclosed,LLM-based retrieval model; instruction prefix use not clearly documented
+Seed1.6-embed,Yes,No,Seed1.6 decoder (Bytedance),Not disclosed,~1500,Not disclosed,Dedicated embedding head on proprietary LLM; no instruction prefix required
+bge-m3,No,No,BERT/RetroMAE encoder (BAAI),Not disclosed,568,1024,Multi-functionality embedding; no instruction prefix
+ml-e5-small,No,No,XLM-RoBERTa encoder (Microsoft/intfloat),100+ languages,118,384,Contrastive training on multilingual pairs; no instruction prefix
+granite-311m,Yes,No,BERT-style encoder (IBM Granite),12,311,768,IBM Granite Embedding Multilingual R2; encoder-only; no instruction prefix
+jina-v5-small,No,No,Jina BERT encoder (Jina AI),Not disclosed,150,1024,Encoder-based; no instruction prefix documented
+jina-v5-nano,No,No,Jina BERT encoder (Jina AI),Not disclosed,38,512,Encoder-based; no instruction prefix documented
+voyage-3.5,No,Unknown,Proprietary encoder (Voyage AI),Not disclosed,Not disclosed,Not disclosed,Proprietary model; training details and instruction prefix use not publicly disclosed
+zembed-1,No,Unknown,Proprietary (ZeroEntropy),Not disclosed,Not disclosed,Not disclosed,Architecture and training details not publicly disclosed
+embeddinggemma-300m,No,No,Gemma encoder (Google),Not disclosed,300,1152,Encoder-style Gemma variant; no instruction prefix in model card
+BOOM-4B,No,Yes,Decoder LLM (ICT-TIME & Querit),Not disclosed,4000,Not disclosed,LLM-based; model card lists instruction prefix for retrieval
+BidirLM-2.5B,No,No,Novel bidirectional LM (BidirLM),Not disclosed,2500,Not disclosed,Bidirectional architecture trained for embedding; no instruction prefix
+BidirLM-1B,No,No,Novel bidirectional LM (BidirLM),Not disclosed,1000,Not disclosed,Bidirectional architecture trained for embedding; no instruction prefix
+GritLM-7B,No,Yes,Mistral-7B decoder (GritLM),Not disclosed,7000,4096,GRIT: Generative Representational Instruction Tuning; instruction prefix required
+granite-97m-r2,Yes,No,BERT-style encoder (IBM Granite),12,97,384,IBM Granite Embedding Multilingual R2; encoder-only; no instruction prefix

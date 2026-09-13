@@ -1,0 +1,9 @@
+{
+  "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+  "lang_code": "swa",
+  "peak_vram_mb": 353,
+  "query_encode_sec": 0.74,
+  "total_wall_sec": 8.75,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

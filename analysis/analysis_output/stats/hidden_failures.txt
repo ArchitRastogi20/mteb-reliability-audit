@@ -1,0 +1,17 @@
+# Hidden Failure Analysis
+# Definition: lang_specific_avg < 50 AND mteb_agg_score > 75
+
+## Italian
+  nemotron-8b: MTEB=87.0, lang_avg=37.6, ratio=2.32x (MTEB score is 2.3x misleading)
+
+## Japanese
+  snowflake-l-v2: MTEB=82.3, lang_avg=27.3, ratio=3.02x (MTEB score is 3.0x misleading)
+
+## Hindi
+  snowflake-l-v2: MTEB=82.3, lang_avg=40.1, ratio=2.05x (MTEB score is 2.1x misleading)
+
+## Model Notes (training corpus)
+  Snowflake/snowflake-arctic-embed-l-v2.0:
+    TODO: verify from model card — known to be trained on English/Nordic corpora
+  nvidia/llama-embed-nemotron-8b:
+    TODO: verify from model card — English-centric instruction-tuned LLM backbone

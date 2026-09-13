@@ -1,0 +1,36 @@
+{
+  "model_id": "gemini/gemini-embedding-2",
+  "lang": "hi",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.6845636672573787,
+    "recall_at_10": 0.8061538461538461,
+    "mrr": 0.6451172161172162
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.6295096902812881,
+      "recall_at_10": 0.7341040462427746,
+      "mrr": 0.596192311221213
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.6724909467961828,
+      "recall_at_10": 0.8349514563106796,
+      "mrr": 0.6193750963168438
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9043152636730283,
+      "recall_at_10": 1.0,
+      "mrr": 0.8719630709426628
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 55.07962083816528,
+  "tokens_used": 469384,
+  "cost_usd": 0.0,
+  "embed_dim": 3072
+}

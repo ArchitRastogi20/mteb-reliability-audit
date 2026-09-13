@@ -1,0 +1,10 @@
+tier,n_tasks_bin,n_languages,mean_inversion_rate,median_inversion_rate,mean_tau
+restricted,2,10,0.2924,0.2857,0.4152
+restricted,3,5,0.2933,0.2381,0.4133
+restricted,4+,2,0.3333,0.3333,0.3333
+curated,2,10,0.3352,0.345,0.3296
+curated,3,5,0.2942,0.2899,0.4116
+curated,4+,2,0.2808,0.2808,0.4384
+extended,2,10,0.1591,0.159,0.6818
+extended,3,4,0.1451,0.1462,0.7098
+extended,4+,3,0.1008,0.1306,0.7984

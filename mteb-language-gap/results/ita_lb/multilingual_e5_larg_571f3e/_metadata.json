@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/multilingual-e5-large-instruct",
+  "lang_code": "ita",
+  "peak_vram_mb": 1564,
+  "query_encode_sec": 3.53,
+  "total_wall_sec": 46.44,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 13988
+}

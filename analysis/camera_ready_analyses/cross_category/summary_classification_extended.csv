@@ -1,0 +1,12 @@
+language,lang_name,n_models,n_tasks,tau,p,p_fdr,fdr_reject,inversion_rate,n_tasks_candidates,n_tasks_meta,consensus_tasks
+kor,Korean,53,2,0.7213352685050799,2.446431679666659e-14,2.446431679666659e-14,True,0.13933236574746008,2,2,KorSarcasmClassification;MassiveIntentClassification
+jpn,Japanese,52,2,0.755656108597285,2.6396543063072295e-15,2.9036197369379525e-15,True,0.12217194570135746,2,2,AmazonCounterfactualClassification;MassiveIntentClassification
+swa,Swahili,53,4,0.7808417997097243,1.5359512821478108e-16,1.8772737892917686e-16,True,0.10957910014513789,4,4,AfriSentiClassification;MasakhaNEWSClassification;MassiveIntentClassification;SwahiliNewsClassification
+hin,Hindi,53,3,0.7808417997097243,1.5359512821478108e-16,1.8772737892917686e-16,True,0.10957910014513789,3,3,MassiveIntentClassification;MultiHateClassification;SentimentAnalysisHindi
+ara,Arabic,53,2,0.7866473149492017,9.171990741069785e-17,1.4413128307395375e-16,True,0.10667634252539913,2,2,MassiveIntentClassification;MultiHateClassification
+zho,Chinese,53,2,0.7968069666182874,3.6874950286825244e-17,6.760407552584628e-17,True,0.10159651669085631,2,2,MassiveIntentClassification;MultiHateClassification
+ind,Indonesian,53,3,0.8142235123367199,7.530640344975388e-18,1.6567408758945854e-17,True,0.09288824383164006,3,3,IndonesianIdClickbaitClassification;MassiveIntentClassification;NusaX-senti
+deu,German,53,4,0.8287373004354137,1.9534982419497605e-18,5.3721201653618414e-18,True,0.08563134978229318,4,4,AmazonCounterfactualClassification;MassiveIntentClassification;MultiHateClassification;SwissJudgementClassification
+ita,Italian,53,4,0.8635703918722787,6.968858245043794e-20,2.5552480231827247e-19,True,0.06821480406386067,4,4,ItaCaseholdClassification;MassiveIntentClassification;MultiHateClassification;SwissJudgementClassification
+spa,Spanish,53,3,0.8766328011611031,1.92879656277628e-20,1.0608381095269539e-19,True,0.061683599419448475,3,3,CataloniaTweetClassification;MassiveIntentClassification;MultiHateClassification
+fra,French,53,4,0.8838896952104499,9.371678879196285e-21,1.0308846767115913e-19,True,0.05805515239477504,4,4,MasakhaNEWSClassification;MassiveIntentClassification;MultiHateClassification;SwissJudgementClassification

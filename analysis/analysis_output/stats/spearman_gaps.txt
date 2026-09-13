@@ -1,0 +1,25 @@
+# Cross-Language Gap Correlations (Spearman rho)
+# n = 14 multilingual models
+
+          italian  japanese  hindi
+italian     1.000     0.512  0.459
+japanese    0.512     1.000  0.829
+hindi       0.459     0.829  1.000
+
+# Models included:
+#   BAAI/bge-m3
+#   Qwen/Qwen3-Embedding-0.6B
+#   Qwen/Qwen3-Embedding-4B
+#   Qwen/Qwen3-Embedding-8B
+#   Salesforce/SFR-Embedding-Mistral
+#   Snowflake/snowflake-arctic-embed-l-v2.0
+#   ibm-granite/granite-embedding-107m-multilingual
+#   intfloat/e5-mistral-7b-instruct
+#   intfloat/multilingual-e5-base
+#   intfloat/multilingual-e5-large
+#   intfloat/multilingual-e5-large-instruct
+#   intfloat/multilingual-e5-small
+#   jinaai/jina-embeddings-v5-text-nano
+#   microsoft/harrier-oss-v1-0.6b
+
+# Include in final analysis only if correlations > 0.6

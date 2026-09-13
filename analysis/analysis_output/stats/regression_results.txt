@@ -1,0 +1,21 @@
+# Gap vs Parameters Regression Results
+
+# gap = slope * log10(params) + intercept
+
+## Italian  (n=14)
+  slope     = -3.5896  (NDCG pts per decade of params)
+  intercept = 41.9814
+  R2        = 0.0650
+  p-value   = 0.379090
+
+## Japanese  (n=15)
+  slope     = -3.7725  (NDCG pts per decade of params)
+  intercept = 27.2364
+  R2        = 0.0281
+  p-value   = 0.550081
+
+## Hindi  (n=15)
+  slope     = -1.0862  (NDCG pts per decade of params)
+  intercept = 1.1074
+  R2        = 0.0053
+  p-value   = 0.795769

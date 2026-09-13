@@ -1,0 +1,34 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "lang": "it",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.47667654786359515,
+    "recall_at_10": 0.6730769230769231,
+    "mrr": 0.4146939865689866
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.3756964216006389,
+      "recall_at_10": 0.5581395348837209,
+      "mrr": 0.3182862679955703
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.511325545352866,
+      "recall_at_10": 0.7365269461077845,
+      "mrr": 0.44082311567341503
+    },
+    "summarization": {
+      "ndcg_at_10": 0.6270947184677542,
+      "recall_at_10": 0.7922077922077922,
+      "mrr": 0.5733766233766233
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 14.23,
+  "peak_vram_mb": 5402
+}

@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/multilingual-e5-large-instruct",
+  "lang_code": "jpn",
+  "peak_vram_mb": 1622,
+  "query_encode_sec": 2.59,
+  "total_wall_sec": 647.43,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 185807
+}

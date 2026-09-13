@@ -1,0 +1,9 @@
+{
+  "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+  "lang_code": "swa",
+  "peak_vram_mb": 1622,
+  "query_encode_sec": 2.21,
+  "total_wall_sec": 9.41,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

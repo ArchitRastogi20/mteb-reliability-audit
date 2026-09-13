@@ -1,0 +1,36 @@
+{
+  "model_id": "cohere/embed-multilingual-v3.0",
+  "lang": "it",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.6967917941465454,
+    "recall_at_10": 0.8242574257425742,
+    "mrr": 0.6562224972497249
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.6543149448379553,
+      "recall_at_10": 0.7771428571428571,
+      "mrr": 0.615154195011338
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.6603433905646728,
+      "recall_at_10": 0.8111888111888111,
+      "mrr": 0.6131368631368631
+    },
+    "summarization": {
+      "ndcg_at_10": 0.843833309742022,
+      "recall_at_10": 0.9418604651162791,
+      "mrr": 0.8114341085271317
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 71.13940048217773,
+  "tokens_used": 567165,
+  "cost_usd": 0.0567165,
+  "embed_dim": 1024
+}

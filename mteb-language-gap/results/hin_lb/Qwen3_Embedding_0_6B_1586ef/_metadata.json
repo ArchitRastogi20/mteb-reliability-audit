@@ -1,0 +1,9 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "lang_code": "hin",
+  "peak_vram_mb": 8522,
+  "query_encode_sec": 537.62,
+  "total_wall_sec": 5488.89,
+  "corpus_cache_hits": 20158,
+  "corpus_cache_misses": 60507
+}

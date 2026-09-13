@@ -1,0 +1,36 @@
+{
+  "model_id": "openai/text-embedding-3-large",
+  "lang": "ja",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.8541395172292682,
+    "recall_at_10": 0.9715639810426541,
+    "mrr": 0.8161805085383285
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.8028449521578676,
+      "recall_at_10": 0.9542857142857143,
+      "mrr": 0.7547165532879819
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.8875747308333739,
+      "recall_at_10": 0.9760479041916168,
+      "mrr": 0.8584497671324018
+    },
+    "summarization": {
+      "ndcg_at_10": 0.8965503699243861,
+      "recall_at_10": 1.0,
+      "mrr": 0.8623958333333333
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 5.455883502960205,
+  "tokens_used": 786296,
+  "cost_usd": 0.10221848000000001,
+  "embed_dim": 3072
+}

@@ -1,0 +1,34 @@
+{
+  "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "lang": "it",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.644822879972155,
+    "recall_at_10": 0.8143564356435643,
+    "mrr": 0.5914348577714914
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.617567752560407,
+      "recall_at_10": 0.7885714285714286,
+      "mrr": 0.5637641723356009
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.6327043650707682,
+      "recall_at_10": 0.8111888111888111,
+      "mrr": 0.5774225774225775
+    },
+    "summarization": {
+      "ndcg_at_10": 0.7204344489018555,
+      "recall_at_10": 0.872093023255814,
+      "mrr": 0.6710409745293466
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 11.43,
+  "peak_vram_mb": 4976
+}

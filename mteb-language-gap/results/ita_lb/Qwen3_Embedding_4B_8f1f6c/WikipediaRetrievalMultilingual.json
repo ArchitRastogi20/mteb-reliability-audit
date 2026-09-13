@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "N/A",
+  "evaluation_time": 408.09,
+  "scores": {
+    "test": [
+      {
+        "ndcg_at_10": 0.932176,
+        "main_score": 0.932176
+      }
+    ]
+  }
+}

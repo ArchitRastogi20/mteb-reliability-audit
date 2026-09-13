@@ -1,0 +1,72 @@
+{
+  "ITA-JAP_full_avg": {
+    "rho": 0.5120879120879122,
+    "p": 0.0611984861564584,
+    "n": 14
+  },
+  "ITA-JAP_belebele_only": {
+    "rho": 0.9384615384615385,
+    "p": 6.861201481766676e-07,
+    "n": 14
+  },
+  "JAP-HIN_full_avg": {
+    "rho": 0.8285714285714285,
+    "p": 0.0002505342708655758,
+    "n": 14
+  },
+  "JAP-HIN_belebele_only": {
+    "rho": 0.7890109890109891,
+    "p": 0.0007946144116544936,
+    "n": 14
+  },
+  "ITA-HIN_full_avg": {
+    "rho": 0.4593406593406593,
+    "p": 0.09846837616829024,
+    "n": 14
+  },
+  "ITA-HIN_belebele_only": {
+    "rho": 0.6615384615384616,
+    "p": 0.009975179240423713,
+    "n": 14
+  },
+  "ITA-HIN_wiki_only_monolingual": {
+    "rho": 0.9370629370629372,
+    "p": 6.9931649532105415e-06,
+    "n": 12,
+    "models": [
+      "Qwen3-0.6B",
+      "Qwen3-4B",
+      "Qwen3-8B",
+      "bge-m3",
+      "granite-107m",
+      "harrier-0.6b",
+      "jina-v5-nano",
+      "ml-e5-base",
+      "ml-e5-large",
+      "ml-e5-large-i",
+      "ml-e5-small",
+      "snowflake-l-v2"
+    ]
+  },
+  "JAP-HIN_miracl_only_monolingual": {
+    "rho": 0.8373626373626375,
+    "p": 0.00018639737783200406,
+    "n": 14,
+    "models": [
+      "Qwen3-0.6B",
+      "Qwen3-4B",
+      "Qwen3-8B",
+      "SFR-Mistral",
+      "bge-m3",
+      "e5-mistral-7b",
+      "granite-107m",
+      "harrier-0.6b",
+      "jina-v5-nano",
+      "ml-e5-base",
+      "ml-e5-large",
+      "ml-e5-large-i",
+      "ml-e5-small",
+      "snowflake-l-v2"
+    ]
+  }
+}

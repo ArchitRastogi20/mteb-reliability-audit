@@ -1,0 +1,29 @@
+{
+  "model": "nvidia/llama-embed-nemotron-8b",
+  "task": "WikipediaRetrievalMultilingual (Italian)",
+  "paper_baseline_ndcg10": 46.3,
+  "variants": [
+    {
+      "max_seq_length": 128,
+      "ndcg_at_10": 49.6516
+    },
+    {
+      "max_seq_length": 256,
+      "ndcg_at_10": 46.2985
+    },
+    {
+      "max_seq_length": 512,
+      "ndcg_at_10": 46.295500000000004
+    },
+    {
+      "max_seq_length": 1024,
+      "ndcg_at_10": 46.295500000000004
+    }
+  ],
+  "verdict": "MODEL_FAILURE_CONFIRMED",
+  "decision_rules": {
+    "MODEL_FAILURE_CONFIRMED": "all 4 variants <50 NDCG@10 \u2192 keep \u00a73.4 Mechanism B as hypothesis-only, robust to preprocessing",
+    "PREPROCESSING_ARTIFACT": "any variant >60 NDCG@10 \u2192 relabel \u00a73.4: not a hidden failure, drop from headline",
+    "PREPROCESSING_SENSITIVE": "intermediate \u2192 report as weaker hypothesis with this sensitivity result"
+  }
+}

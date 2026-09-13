@@ -1,0 +1,34 @@
+{
+  "model_id": "jinaai/jina-embeddings-v5-text-nano",
+  "lang": "hi",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.5876711927067905,
+    "recall_at_10": 0.7311320754716981,
+    "mrr": 0.5423901242887091
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.7171231626262248,
+      "recall_at_10": 0.847953216374269,
+      "mrr": 0.6756544138123086
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.5171793318156346,
+      "recall_at_10": 0.6463414634146342,
+      "mrr": 0.4763090398761131
+    },
+    "summarization": {
+      "ndcg_at_10": 0.46884398293068125,
+      "recall_at_10": 0.6629213483146067,
+      "mrr": 0.40811039771713936
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 12.11,
+  "peak_vram_mb": 8178
+}

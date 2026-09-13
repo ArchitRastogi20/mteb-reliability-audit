@@ -1,0 +1,22 @@
+{
+  "model_id": "Salesforce/SFR-Embedding-Mistral",
+  "params": "7B",
+  "dim": 4096,
+  "embedding_dim": 4096,
+  "batch_size": 4,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 16380.0,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 14522.5,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 1011.314,
+  "corpus_encode_sec_std": 7.56,
+  "query_throughput_qps_mean": 19.267,
+  "query_throughput_qps_std": 0.125,
+  "latency_p50_ms_mean": 44.596,
+  "latency_p50_ms_std": 0.981,
+  "latency_p99_ms_mean": 45.085,
+  "latency_p99_ms_std": 1.095
+}

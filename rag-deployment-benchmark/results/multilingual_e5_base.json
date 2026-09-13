@@ -1,0 +1,22 @@
+{
+  "model_id": "intfloat/multilingual-e5-base",
+  "params": "278M",
+  "dim": 768,
+  "embedding_dim": 768,
+  "batch_size": 32,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 1739.2,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 1441.8,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 4.416,
+  "corpus_encode_sec_std": 0.036,
+  "query_throughput_qps_mean": 2041.367,
+  "query_throughput_qps_std": 7.081,
+  "latency_p50_ms_mean": 7.854,
+  "latency_p50_ms_std": 0.02,
+  "latency_p99_ms_mean": 8.739,
+  "latency_p99_ms_std": 0.015
+}

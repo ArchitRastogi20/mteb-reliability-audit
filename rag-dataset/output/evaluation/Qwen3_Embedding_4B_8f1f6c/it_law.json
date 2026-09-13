@@ -1,0 +1,34 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-4B",
+  "lang": "it",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.5895152526014218,
+    "recall_at_10": 0.7788461538461539,
+    "mrr": 0.5293860653235654
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.47009885569183213,
+      "recall_at_10": 0.6569767441860465,
+      "mrr": 0.41058508674787747
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7060979775560382,
+      "recall_at_10": 0.8922155688622755,
+      "mrr": 0.6465735196274118
+    },
+    "summarization": {
+      "ndcg_at_10": 0.6034153201472462,
+      "recall_at_10": 0.8051948051948052,
+      "mrr": 0.5405998763141621
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 156.71,
+  "peak_vram_mb": 18124
+}

@@ -1,0 +1,34 @@
+{
+  "model_id": "intfloat/e5-mistral-7b-instruct",
+  "lang": "ja",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.7500922175872454,
+    "recall_at_10": 0.909952606635071,
+    "mrr": 0.6992430226434965
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.7027129230135997,
+      "recall_at_10": 0.9085714285714286,
+      "mrr": 0.6369251700680272
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7789157403414647,
+      "recall_at_10": 0.9161676646706587,
+      "mrr": 0.734851725121186
+    },
+    "summarization": {
+      "ndcg_at_10": 0.793565320717663,
+      "recall_at_10": 0.9,
+      "mrr": 0.7612301587301588
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 241.12,
+  "peak_vram_mb": 17094
+}

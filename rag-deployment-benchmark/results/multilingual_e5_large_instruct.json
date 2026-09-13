@@ -1,0 +1,22 @@
+{
+  "model_id": "intfloat/multilingual-e5-large-instruct",
+  "params": "560M",
+  "dim": 1024,
+  "embedding_dim": 1024,
+  "batch_size": 32,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 1700.3,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 1326.1,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 8.829,
+  "corpus_encode_sec_std": 0.005,
+  "query_throughput_qps_mean": 626.967,
+  "query_throughput_qps_std": 2.108,
+  "latency_p50_ms_mean": 13.642,
+  "latency_p50_ms_std": 0.002,
+  "latency_p99_ms_mean": 15.25,
+  "latency_p99_ms_std": 0.012
+}

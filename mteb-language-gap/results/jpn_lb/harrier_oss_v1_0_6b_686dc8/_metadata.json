@@ -1,0 +1,9 @@
+{
+  "model_id": "microsoft/harrier-oss-v1-0.6b",
+  "lang_code": "jpn",
+  "peak_vram_mb": 17768,
+  "query_encode_sec": 5.16,
+  "total_wall_sec": 1289.84,
+  "corpus_cache_hits": 117224,
+  "corpus_cache_misses": 68095
+}

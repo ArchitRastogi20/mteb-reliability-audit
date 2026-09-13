@@ -1,0 +1,4 @@
+comparison,n_models,rho,ci_lo,ci_hi,p_value,note
+full_avg_paper_s43,N/A,0.829,N/A,N/A,N/A,paper_baseline_section_4.3
+belebele_only_ownrun,10,0.9636,0.7777,1.0,0.0,own_run_computed
+miracl_only_ownrun,10,0.8909,0.5,1.0,0.0005,own_run_computed_new

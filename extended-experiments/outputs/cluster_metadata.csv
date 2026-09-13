@@ -1,0 +1,6 @@
+model_id,instruction_tuned,backbone_family,training_languages,param_count_M,embedding_dim,notes
+granite-311m,No,BERT-style encoder (IBM Granite),12 (stated in model card),311,768,IBM Granite Embedding Multilingual R2; encoder-only; no instruction prefix
+harrier-0.6b,No,Small transformer (Microsoft),Not disclosed,600,1024,Microsoft Harrier OSS v1; contrastive training only; no instruction prefix
+Seed1.6-embed,No,Seed1.6 LLM (Bytedance),Not disclosed,~1500,Not disclosed,Bytedance proprietary LLM backbone; dedicated embedding head
+inf-retriever-v1,Yes,Decoder LLM (Infly; likely Qwen-based),Not disclosed,~7000,Not disclosed,Built on gte-Qwen2-7B-instruct; requires Instruct prefix at inference per model card
+granite-97m-r2,No,BERT-style encoder (IBM Granite),12 (stated in model card),97,384,IBM Granite Embedding Multilingual R2; encoder-only; no instruction prefix

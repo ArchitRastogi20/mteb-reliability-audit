@@ -1,0 +1,9 @@
+{
+  "model_id": "microsoft/harrier-oss-v1-0.6b",
+  "lang_code": "swa",
+  "peak_vram_mb": 1988,
+  "query_encode_sec": 2.29,
+  "total_wall_sec": 10.2,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

@@ -1,0 +1,7 @@
+config,query_type,nemotron_mean,ml_e5_small_mean,ml_e5_large_mean,qwen3_4b_mean,gap_vs_small,gap_ci_lo,gap_ci_hi
+it_finance,factual,46.36,67.7,64.12,72.04,-21.34,N/A,N/A
+it_finance,multi_hop,26.31,56.85,61.66,79.36,-30.54,N/A,N/A
+it_finance,summarization,68.75,77.97,79.84,83.31,-9.22,N/A,N/A
+it_law,factual,18.31,37.58,37.92,47.01,-19.27,N/A,N/A
+it_law,multi_hop,43.08,45.65,44.7,70.61,-2.57,N/A,N/A
+it_law,summarization,32.71,47.95,60.95,60.34,-15.24,N/A,N/A

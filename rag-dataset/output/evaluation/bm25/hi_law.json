@@ -1,0 +1,35 @@
+{
+  "model_id": "BM25",
+  "lang": "hi",
+  "domain": "law",
+  "num_docs": 250,
+  "num_queries": 434,
+  "overall": {
+    "ndcg_at_10": 0.7898434032818543,
+    "recall_at_10": 0.8938679245283019,
+    "mrr": 0.7567965708295897
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.9140414466656781,
+      "recall_at_10": 0.9532163742690059,
+      "mrr": 0.9016731643924628
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7376965399053528,
+      "recall_at_10": 0.8597560975609756,
+      "mrr": 0.6987369337979094
+    },
+    "summarization": {
+      "ndcg_at_10": 0.6473065513168241,
+      "recall_at_10": 0.8426966292134831,
+      "mrr": 0.5854244694132335
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 2.11
+}

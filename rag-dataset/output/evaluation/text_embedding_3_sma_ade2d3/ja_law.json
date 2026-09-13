@@ -1,0 +1,36 @@
+{
+  "model_id": "openai/text-embedding-3-small",
+  "lang": "ja",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.21984188122665937,
+    "recall_at_10": 0.36261261261261263,
+    "mrr": 0.17602781352781352
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.22728512341544446,
+      "recall_at_10": 0.3735632183908046,
+      "mrr": 0.18239372377303412
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.23012475882154457,
+      "recall_at_10": 0.4046242774566474,
+      "mrr": 0.17652078172309385
+    },
+    "summarization": {
+      "ndcg_at_10": 0.18815052076517738,
+      "recall_at_10": 0.26804123711340205,
+      "mrr": 0.16372934053346425
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 5.945345640182495,
+  "tokens_used": 765259,
+  "cost_usd": 0.01530518,
+  "embed_dim": 1536
+}

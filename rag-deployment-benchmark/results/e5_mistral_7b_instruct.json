@@ -1,0 +1,22 @@
+{
+  "model_id": "intfloat/e5-mistral-7b-instruct",
+  "params": "7B",
+  "dim": 4096,
+  "embedding_dim": 4096,
+  "batch_size": 4,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 18814.0,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 14523.9,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 1673.853,
+  "corpus_encode_sec_std": 0.769,
+  "query_throughput_qps_mean": 19.1,
+  "query_throughput_qps_std": 0.0,
+  "latency_p50_ms_mean": 44.107,
+  "latency_p50_ms_std": 0.168,
+  "latency_p99_ms_mean": 44.406,
+  "latency_p99_ms_std": 0.172
+}

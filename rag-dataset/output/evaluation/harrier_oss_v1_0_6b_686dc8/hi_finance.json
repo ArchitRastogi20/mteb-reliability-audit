@@ -1,0 +1,34 @@
+{
+  "model_id": "microsoft/harrier-oss-v1-0.6b",
+  "lang": "hi",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.7548717197343495,
+    "recall_at_10": 0.8092307692307692,
+    "mrr": 0.737008547008547
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.6976225401840176,
+      "recall_at_10": 0.7514450867052023,
+      "mrr": 0.6804110468850353
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7595537634981372,
+      "recall_at_10": 0.8155339805825242,
+      "mrr": 0.7406148867313915
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9471545269698035,
+      "recall_at_10": 1.0,
+      "mrr": 0.9292517006802721
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 153.59,
+  "peak_vram_mb": 19846
+}

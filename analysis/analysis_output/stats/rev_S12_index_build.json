@@ -1,0 +1,177 @@
+{
+  "lang": "ja",
+  "domain": "finance",
+  "corpus_size": 250,
+  "batch_size": 32,
+  "results": [
+    {
+      "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+      "params": "107M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 0.48,
+      "peak_vram_mb_during_encode": 417,
+      "peak_vram_mb_after_load": 204,
+      "throughput_docs_per_sec": 517.8,
+      "load_time_sec": 4.21,
+      "batch_size": 32
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-small",
+      "params": "118M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 0.39,
+      "peak_vram_mb_during_encode": 705,
+      "peak_vram_mb_after_load": 456,
+      "throughput_docs_per_sec": 645.8,
+      "load_time_sec": 4.48,
+      "batch_size": 32
+    },
+    {
+      "model_id": "intfloat/e5-small-v2",
+      "params": "33M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 0.47,
+      "peak_vram_mb_during_encode": 832,
+      "peak_vram_mb_after_load": 584,
+      "throughput_docs_per_sec": 527.7,
+      "load_time_sec": 2.37,
+      "batch_size": 32
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-base",
+      "params": "278M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 0.63,
+      "peak_vram_mb_during_encode": 1645,
+      "peak_vram_mb_after_load": 1068,
+      "throughput_docs_per_sec": 393.8,
+      "load_time_sec": 4.5,
+      "batch_size": 32
+    },
+    {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano",
+      "params": "212M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 6.04,
+      "peak_vram_mb_during_encode": 5609,
+      "peak_vram_mb_after_load": 1980,
+      "throughput_docs_per_sec": 41.4,
+      "load_time_sec": 6.77,
+      "batch_size": 32
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-large-instruct",
+      "params": "560M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 1.69,
+      "peak_vram_mb_during_encode": 1621,
+      "peak_vram_mb_after_load": 1980,
+      "throughput_docs_per_sec": 147.6,
+      "load_time_sec": 5.0,
+      "batch_size": 32
+    },
+    {
+      "model_id": "intfloat/multilingual-e5-large",
+      "params": "560M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 1.7,
+      "peak_vram_mb_during_encode": 3267,
+      "peak_vram_mb_after_load": 2143,
+      "throughput_docs_per_sec": 147.2,
+      "load_time_sec": 4.39,
+      "batch_size": 32
+    },
+    {
+      "model_id": "BAAI/bge-m3",
+      "params": "568M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 6.41,
+      "peak_vram_mb_during_encode": 4697,
+      "peak_vram_mb_after_load": 2174,
+      "throughput_docs_per_sec": 39.0,
+      "load_time_sec": 4.75,
+      "batch_size": 32
+    },
+    {
+      "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "params": "568M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 6.51,
+      "peak_vram_mb_during_encode": 4698,
+      "peak_vram_mb_after_load": 2174,
+      "throughput_docs_per_sec": 38.4,
+      "load_time_sec": 5.16,
+      "batch_size": 32
+    },
+    {
+      "model_id": "microsoft/harrier-oss-v1-0.6b",
+      "params": "596M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 18.46,
+      "peak_vram_mb_during_encode": 3628,
+      "peak_vram_mb_after_load": 2174,
+      "throughput_docs_per_sec": 13.5,
+      "load_time_sec": 3.75,
+      "batch_size": 32
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "params": "600M",
+      "corpus_size": 250,
+      "encode_wall_time_sec": 18.81,
+      "peak_vram_mb_during_encode": 11617,
+      "peak_vram_mb_after_load": 1145,
+      "throughput_docs_per_sec": 13.3,
+      "load_time_sec": 3.69,
+      "batch_size": 32
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "params": "4B",
+      "corpus_size": 250,
+      "encode_wall_time_sec": null,
+      "peak_vram_mb_during_encode": null,
+      "peak_vram_mb_after_load": 7726,
+      "throughput_docs_per_sec": null,
+      "load_time_sec": 4.51,
+      "batch_size": 32,
+      "error": "encode failed: CUDA out of memory. Tried to allocate 1.37 GiB. GPU 0 has a total capacity of 23.56 GiB of which 1.19 GiB is free. Including non-PyTorch memory, this process has 22.36 GiB memory in use. Of the alloca"
+    },
+    {
+      "model_id": "Salesforce/SFR-Embedding-Mistral",
+      "params": "7B",
+      "corpus_size": 250,
+      "encode_wall_time_sec": null,
+      "peak_vram_mb_during_encode": null,
+      "peak_vram_mb_after_load": 21288,
+      "throughput_docs_per_sec": null,
+      "load_time_sec": 4.51,
+      "batch_size": 32,
+      "error": "encode failed: CUDA out of memory. Tried to allocate 1.84 GiB. GPU 0 has a total capacity of 23.56 GiB of which 977.06 MiB is free. Including non-PyTorch memory, this process has 22.60 GiB memory in use. Of the allo"
+    },
+    {
+      "model_id": "intfloat/e5-mistral-7b-instruct",
+      "params": "7B",
+      "corpus_size": 250,
+      "encode_wall_time_sec": null,
+      "peak_vram_mb_during_encode": null,
+      "peak_vram_mb_after_load": null,
+      "throughput_docs_per_sec": null,
+      "load_time_sec": null,
+      "batch_size": 32,
+      "error": "load failed: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 7.06 MiB is free. Including non-PyTorch memory, this process has 23.54 GiB memory in use. Of the alloc"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-8B",
+      "params": "8B",
+      "corpus_size": 250,
+      "encode_wall_time_sec": null,
+      "peak_vram_mb_during_encode": null,
+      "peak_vram_mb_after_load": 21288,
+      "throughput_docs_per_sec": null,
+      "load_time_sec": 4.45,
+      "batch_size": 32,
+      "error": "encode failed: CUDA out of memory. Tried to allocate 1.73 GiB. GPU 0 has a total capacity of 23.56 GiB of which 381.06 MiB is free. Including non-PyTorch memory, this process has 23.18 GiB memory in use. Of the allo"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "params": "568M",
+  "dim": 1024,
+  "embedding_dim": 1024,
+  "batch_size": 32,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 5362.633,
+  "vram_corpus_mb_std": 0.471,
+  "vram_query_mb_mean": 3069.0,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 32.618,
+  "corpus_encode_sec_std": 0.033,
+  "query_throughput_qps_mean": 731.8,
+  "query_throughput_qps_std": 0.141,
+  "latency_p50_ms_mean": 13.957,
+  "latency_p50_ms_std": 0.023,
+  "latency_p99_ms_mean": 15.438,
+  "latency_p99_ms_std": 1.055
+}

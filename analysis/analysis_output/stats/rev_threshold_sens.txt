@@ -1,0 +1,9 @@
+# Hidden-failure threshold sensitivity
+
+Identified set across (lang_threshold, mteb_threshold) sweep:
+
+  lang<40, MTEB>65: 2 cases — nemotron-8b/ita (m=87.0, l=37.6), snowflake-l-v2/jap (m=82.3, l=27.3)
+  lang<45, MTEB>70: 3 cases — nemotron-8b/ita (m=87.0, l=37.6), snowflake-l-v2/jap (m=82.3, l=27.3), snowflake-l-v2/hin (m=82.3, l=40.1)
+  lang<50, MTEB>75: 3 cases — nemotron-8b/ita (m=87.0, l=37.6), snowflake-l-v2/jap (m=82.3, l=27.3), snowflake-l-v2/hin (m=82.3, l=40.1)
+  lang<55, MTEB>80: 3 cases — nemotron-8b/ita (m=87.0, l=37.6), snowflake-l-v2/jap (m=82.3, l=27.3), snowflake-l-v2/hin (m=82.3, l=40.1)
+  lang<60, MTEB>85: 1 cases — nemotron-8b/ita (m=87.0, l=37.6)

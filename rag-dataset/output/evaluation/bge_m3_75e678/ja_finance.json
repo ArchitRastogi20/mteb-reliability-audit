@@ -1,0 +1,34 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "lang": "ja",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.9303897894612148,
+    "recall_at_10": 0.9976303317535545,
+    "mrr": 0.9079844655081623
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.9242338545657742,
+      "recall_at_10": 1.0,
+      "mrr": 0.8992539682539682
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.9502348726772959,
+      "recall_at_10": 1.0,
+      "mrr": 0.93313373253493
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9024292858314211,
+      "recall_at_10": 0.9875,
+      "mrr": 0.8745833333333334
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 5.58,
+  "peak_vram_mb": 4697
+}

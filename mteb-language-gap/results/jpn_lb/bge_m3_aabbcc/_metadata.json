@@ -1,0 +1,9 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "lang_code": "jpn",
+  "peak_vram_mb": 0,
+  "query_encode_sec": 0.02,
+  "total_wall_sec": 4.22,
+  "corpus_cache_hits": 2,
+  "corpus_cache_misses": 2
+}

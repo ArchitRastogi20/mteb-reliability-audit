@@ -1,0 +1,9 @@
+{
+  "model_id": "nvidia/llama-embed-nemotron-8b",
+  "lang_code": "ita",
+  "peak_vram_mb": 16187,
+  "query_encode_sec": 30.06,
+  "total_wall_sec": 1205.78,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 13988
+}

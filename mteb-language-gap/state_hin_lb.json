@@ -1,0 +1,52 @@
+{
+  "completed": [
+    "intfloat/multilingual-e5-small",
+    "ibm-granite/granite-embedding-107m-multilingual",
+    "intfloat/e5-small-v2",
+    "intfloat/multilingual-e5-base",
+    "intfloat/multilingual-e5-large",
+    "intfloat/multilingual-e5-large-instruct",
+    "BAAI/bge-m3",
+    "Snowflake/snowflake-arctic-embed-l-v2.0",
+    "intfloat/e5-large-v2",
+    "jinaai/jina-embeddings-v5-text-nano",
+    "microsoft/harrier-oss-v1-0.6b",
+    "Qwen/Qwen3-Embedding-0.6B"
+  ],
+  "failed": [
+    {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano"
+    },
+    {
+      "model_id": "jinaai/jina-embeddings-v3"
+    },
+    {
+      "model_id": "perplexity-ai/pplx-embed-v1-0.6b"
+    },
+    {
+      "model_id": "microsoft/harrier-oss-v1-0.6b"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-4B"
+    },
+    {
+      "model_id": "Salesforce/SFR-Embedding-Mistral"
+    },
+    {
+      "model_id": "intfloat/e5-mistral-7b-instruct"
+    },
+    {
+      "model_id": "Alibaba-NLP/gte-Qwen2-7B-instruct"
+    },
+    {
+      "model_id": "nvidia/llama-embed-nemotron-8b"
+    },
+    {
+      "model_id": "Qwen/Qwen3-Embedding-8B"
+    }
+  ],
+  "in_progress": null
+}

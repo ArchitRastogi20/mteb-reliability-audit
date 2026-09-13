@@ -1,0 +1,7 @@
+config,rho,n_models,propagates,signal
+it_finance,0.448,12,yes,dense_ndcg_at_10
+it_law,0.441,12,yes,dense_ndcg_at_10
+ja_finance,0.727,11,no,dense_ndcg_at_10
+ja_law,0.655,11,no,dense_ndcg_at_10
+hi_finance,0.8,11,no,dense_ndcg_at_10
+hi_law,0.6,11,no,dense_ndcg_at_10

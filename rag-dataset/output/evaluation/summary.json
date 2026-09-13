@@ -1,0 +1,2486 @@
+{
+  "Qwen/Qwen3-Embedding-0.6B": {
+    "ja_finance": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.947158692395147,
+        "recall_at_10": 0.9976303317535545,
+        "mrr": 0.9303411569999248
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9421742504276253,
+          "recall_at_10": 1.0,
+          "mrr": 0.9228571428571428
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9496472454366903,
+          "recall_at_10": 0.9940119760479041,
+          "mrr": 0.9346877673224979
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9528673047248795,
+          "recall_at_10": 1.0,
+          "mrr": 0.937638888888889
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 15.45,
+      "peak_vram_mb": 21971
+    },
+    "ja_law": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.26458699164920846,
+        "recall_at_10": 0.4144144144144144,
+        "mrr": 0.21911107536107535
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.2625395519422122,
+          "recall_at_10": 0.39080459770114945,
+          "mrr": 0.22328726509760993
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.26734857831824976,
+          "recall_at_10": 0.43352601156069365,
+          "mrr": 0.21762547022662632
+        },
+        "summarization": {
+          "ndcg_at_10": 0.26333441448707673,
+          "recall_at_10": 0.422680412371134,
+          "mrr": 0.2142693503518246
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 18.66,
+      "peak_vram_mb": 10533
+    },
+    "hi_finance": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7734040442720806,
+        "recall_at_10": 0.8061538461538461,
+        "mrr": 0.7629951159951159
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6901845018269767,
+          "recall_at_10": 0.7398843930635838,
+          "mrr": 0.6747018075052758
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8125488938370514,
+          "recall_at_10": 0.8252427184466019,
+          "mrr": 0.808252427184466
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9849359083090391,
+          "recall_at_10": 1.0,
+          "mrr": 0.9795918367346939
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 162.71,
+      "peak_vram_mb": 10257
+    },
+    "hi_law": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.5956633127801731,
+        "recall_at_10": 0.7617924528301887,
+        "mrr": 0.5436844863731657
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.680452277435599,
+          "recall_at_10": 0.8304093567251462,
+          "mrr": 0.6332103406664811
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.548630685710967,
+          "recall_at_10": 0.725609756097561,
+          "mrr": 0.4934572202864886
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5194210418057009,
+          "recall_at_10": 0.6966292134831461,
+          "mrr": 0.46422775102550384
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 155.89,
+      "peak_vram_mb": 10257
+    }
+  },
+  "Qwen/Qwen3-Embedding-4B": {
+    "ja_finance": {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.9589067178633887,
+        "recall_at_10": 1.0,
+        "mrr": 0.9451873166328142
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9549708588296104,
+          "recall_at_10": 1.0,
+          "mrr": 0.9395238095238096
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9707719272740244,
+          "recall_at_10": 1.0,
+          "mrr": 0.9609352723125179
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9427477848550765,
+          "recall_at_10": 1.0,
+          "mrr": 0.924702380952381
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 120.65,
+      "peak_vram_mb": 22526
+    },
+    "ja_law": {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.2862341948261507,
+        "recall_at_10": 0.43018018018018017,
+        "mrr": 0.24187222937222935
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.30003065117839045,
+          "recall_at_10": 0.4540229885057471,
+          "mrr": 0.25227832512315274
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.2792938262023672,
+          "recall_at_10": 0.4161849710982659,
+          "mrr": 0.2372809432057987
+        },
+        "summarization": {
+          "ndcg_at_10": 0.2738640955130048,
+          "recall_at_10": 0.41237113402061853,
+          "mrr": 0.23139420716740305
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 110.43,
+      "peak_vram_mb": 22526
+    },
+    "hi_finance": {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.8125893973633034,
+        "recall_at_10": 0.8492307692307692,
+        "mrr": 0.8004957264957264
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7402183219552807,
+          "recall_at_10": 0.7861271676300579,
+          "mrr": 0.725208734746307
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8557378173213175,
+          "recall_at_10": 0.883495145631068,
+          "mrr": 0.8466019417475729
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9774038624635586,
+          "recall_at_10": 1.0,
+          "mrr": 0.9693877551020408
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 562.0,
+      "peak_vram_mb": 20250
+    },
+    "hi_law": {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.6172714250759638,
+        "recall_at_10": 0.785377358490566,
+        "mrr": 0.5642941374663073
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6716177929774556,
+          "recall_at_10": 0.7953216374269005,
+          "mrr": 0.6328042328042328
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5742662306248109,
+          "recall_at_10": 0.7865853658536586,
+          "mrr": 0.5075566202090593
+        },
+        "summarization": {
+          "ndcg_at_10": 0.592098649557244,
+          "recall_at_10": 0.7640449438202247,
+          "mrr": 0.5372124130551097
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 516.19,
+      "peak_vram_mb": 20250
+    }
+  },
+  "Qwen/Qwen3-Embedding-8B": {
+    "ja_finance": {
+      "model_id": "Qwen/Qwen3-Embedding-8B",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.9693611418720208,
+        "recall_at_10": 0.9976303317535545,
+        "mrr": 0.9598407056345446
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9676172374285736,
+          "recall_at_10": 1.0,
+          "mrr": 0.956190476190476
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9732283304340855,
+          "recall_at_10": 1.0,
+          "mrr": 0.9646373918829008
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9651031767187513,
+          "recall_at_10": 0.9875,
+          "mrr": 0.9578125
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 188.12,
+      "peak_vram_mb": 22181
+    },
+    "ja_law": {
+      "model_id": "Qwen/Qwen3-Embedding-8B",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.2736881834798456,
+        "recall_at_10": 0.4189189189189189,
+        "mrr": 0.22893250393250394
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.2791123042158037,
+          "recall_at_10": 0.42528735632183906,
+          "mrr": 0.23474274767378212
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.27278167484161375,
+          "recall_at_10": 0.4046242774566474,
+          "mrr": 0.2318309019176071
+        },
+        "summarization": {
+          "ndcg_at_10": 0.26557508024641674,
+          "recall_at_10": 0.4329896907216495,
+          "mrr": 0.21334069710358372
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 178.32,
+      "peak_vram_mb": 22181
+    },
+    "hi_finance": {
+      "model_id": "Qwen/Qwen3-Embedding-8B",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7846810722372874,
+        "recall_at_10": 0.8276923076923077,
+        "mrr": 0.7706703296703297
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7059169925717836,
+          "recall_at_10": 0.7630057803468208,
+          "mrr": 0.6874827965868429
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8193952307009694,
+          "recall_at_10": 0.8543689320388349,
+          "mrr": 0.8077669902912622
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9897959183673469,
+          "recall_at_10": 1.0,
+          "mrr": 0.9863945578231291
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 782.32,
+      "peak_vram_mb": 20924
+    },
+    "hi_law": {
+      "model_id": "Qwen/Qwen3-Embedding-8B",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.6281398858541831,
+        "recall_at_10": 0.7806603773584906,
+        "mrr": 0.5807492887091944
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6843185442846998,
+          "recall_at_10": 0.8070175438596491,
+          "mrr": 0.6459830130882762
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5976971741381544,
+          "recall_at_10": 0.7560975609756098,
+          "mrr": 0.5483497870692993
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5762977974250856,
+          "recall_at_10": 0.7752808988764045,
+          "mrr": 0.5151150347779561
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 737.1,
+      "peak_vram_mb": 20924
+    }
+  },
+  "Salesforce/SFR-Embedding-Mistral": {
+    "ja_finance": {
+      "model_id": "Salesforce/SFR-Embedding-Mistral",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.925243590401757,
+        "recall_at_10": 0.9928909952606635,
+        "mrr": 0.9026555329872866
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9218603751936361,
+          "recall_at_10": 0.9942857142857143,
+          "mrr": 0.8976825396825397
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9276745891577065,
+          "recall_at_10": 0.9940119760479041,
+          "mrr": 0.9055460507556317
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9275696637664762,
+          "recall_at_10": 0.9875,
+          "mrr": 0.9075
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 242.26,
+      "peak_vram_mb": 17095
+    },
+    "ja_law": {
+      "model_id": "Salesforce/SFR-Embedding-Mistral",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.2342472052926438,
+        "recall_at_10": 0.38063063063063063,
+        "mrr": 0.1890309952809953
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.19043217826449862,
+          "recall_at_10": 0.3218390804597701,
+          "mrr": 0.15086434957124614
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.26339641650312784,
+          "recall_at_10": 0.4277456647398844,
+          "mrr": 0.21218919166896047
+        },
+        "summarization": {
+          "ndcg_at_10": 0.2608554647099997,
+          "recall_at_10": 0.4020618556701031,
+          "mrr": 0.21619211258386517
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 267.52,
+      "peak_vram_mb": 17095
+    },
+    "hi_finance": {
+      "model_id": "Salesforce/SFR-Embedding-Mistral",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7303323149291252,
+        "recall_at_10": 0.7907692307692308,
+        "mrr": 0.7112258852258853
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6487477644948286,
+          "recall_at_10": 0.7225433526011561,
+          "mrr": 0.6255940912010276
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.7560742004518248,
+          "recall_at_10": 0.8058252427184466,
+          "mrr": 0.7403297888734782
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9642652336290284,
+          "recall_at_10": 1.0,
+          "mrr": 0.9523809523809524
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 357.0,
+      "peak_vram_mb": 17413
+    },
+    "hi_law": {
+      "model_id": "Salesforce/SFR-Embedding-Mistral",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.447543994932605,
+        "recall_at_10": 0.5849056603773585,
+        "mrr": 0.40435478436657685
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.49337974417249786,
+          "recall_at_10": 0.631578947368421,
+          "mrr": 0.449607815835886
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.4071762819551443,
+          "recall_at_10": 0.5426829268292683,
+          "mrr": 0.36500677506775064
+        },
+        "summarization": {
+          "ndcg_at_10": 0.43386300401442374,
+          "recall_at_10": 0.5730337078651685,
+          "mrr": 0.38991439272338146
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 368.88,
+      "peak_vram_mb": 17413
+    }
+  },
+  "BAAI/bge-m3": {
+    "ja_finance": {
+      "model_id": "BAAI/bge-m3",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.9303897894612148,
+        "recall_at_10": 0.9976303317535545,
+        "mrr": 0.9079844655081623
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9242338545657742,
+          "recall_at_10": 1.0,
+          "mrr": 0.8992539682539682
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9502348726772959,
+          "recall_at_10": 1.0,
+          "mrr": 0.93313373253493
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9024292858314211,
+          "recall_at_10": 0.9875,
+          "mrr": 0.8745833333333334
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 5.58,
+      "peak_vram_mb": 4697
+    },
+    "ja_law": {
+      "model_id": "BAAI/bge-m3",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.23414761275109439,
+        "recall_at_10": 0.35585585585585583,
+        "mrr": 0.19663145288145287
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.28465274383074274,
+          "recall_at_10": 0.3793103448275862,
+          "mrr": 0.2554346834519248
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.21848194897151443,
+          "recall_at_10": 0.3699421965317919,
+          "mrr": 0.17205706945591337
+        },
+        "summarization": {
+          "ndcg_at_10": 0.17149057178210994,
+          "recall_at_10": 0.28865979381443296,
+          "mrr": 0.1349779086892489
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 5.7,
+      "peak_vram_mb": 4697
+    },
+    "hi_finance": {
+      "model_id": "BAAI/bge-m3",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7813281428069714,
+        "recall_at_10": 0.8307692307692308,
+        "mrr": 0.7657643467643468
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7064845391438339,
+          "recall_at_10": 0.7687861271676301,
+          "mrr": 0.6874506835489496
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8121185905702678,
+          "recall_at_10": 0.8543689320388349,
+          "mrr": 0.7980043149946062
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9808491084009153,
+          "recall_at_10": 1.0,
+          "mrr": 0.9744897959183674
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 7.3,
+      "peak_vram_mb": 5109
+    },
+    "hi_law": {
+      "model_id": "BAAI/bge-m3",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.6105929531614771,
+        "recall_at_10": 0.7688679245283019,
+        "mrr": 0.5607826070679843
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7058816222340946,
+          "recall_at_10": 0.847953216374269,
+          "mrr": 0.6608163928339367
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5693819387006592,
+          "recall_at_10": 0.7317073170731707,
+          "mrr": 0.5191831204026326
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5034496268711006,
+          "recall_at_10": 0.6853932584269663,
+          "mrr": 0.44523809523809527
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 7.27,
+      "peak_vram_mb": 5109
+    }
+  },
+  "intfloat/e5-large-v2": {
+    "ja_finance": {
+      "model_id": "intfloat/e5-large-v2",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.6270270159436118,
+        "recall_at_10": 0.8199052132701422,
+        "mrr": 0.5657921462423832
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6312923676308072,
+          "recall_at_10": 0.8114285714285714,
+          "mrr": 0.5744739229024943
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.6387712259532312,
+          "recall_at_10": 0.8263473053892215,
+          "mrr": 0.5785001425719989
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5931805207327916,
+          "recall_at_10": 0.825,
+          "mrr": 0.5202728174603175
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.94,
+      "peak_vram_mb": 2410
+    },
+    "ja_law": {
+      "model_id": "intfloat/e5-large-v2",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.09404575714371619,
+        "recall_at_10": 0.15765765765765766,
+        "mrr": 0.07491688116688117
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.1540609331801331,
+          "recall_at_10": 0.2471264367816092,
+          "mrr": 0.1260513592410144
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.07139406519252213,
+          "recall_at_10": 0.12138728323699421,
+          "mrr": 0.05636526286815304
+        },
+        "summarization": {
+          "ndcg_at_10": 0.026789077527427832,
+          "recall_at_10": 0.061855670103092786,
+          "mrr": 0.01627802323678612
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.77,
+      "peak_vram_mb": 2410
+    },
+    "hi_finance": {
+      "model_id": "intfloat/e5-large-v2",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.19439828656912245,
+        "recall_at_10": 0.28307692307692306,
+        "mrr": 0.16705738705738707
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.2012837542385108,
+          "recall_at_10": 0.28901734104046245,
+          "mrr": 0.17441279016423525
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.1579456188444078,
+          "recall_at_10": 0.23300970873786409,
+          "mrr": 0.1347318539066112
+        },
+        "summarization": {
+          "ndcg_at_10": 0.24671336552506987,
+          "recall_at_10": 0.3673469387755102,
+          "mrr": 0.20903790087463556
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 5.62,
+      "peak_vram_mb": 2410
+    },
+    "hi_law": {
+      "model_id": "intfloat/e5-large-v2",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.1711098707400741,
+        "recall_at_10": 0.27358490566037735,
+        "mrr": 0.14025531596286311
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.24298269604407746,
+          "recall_at_10": 0.3391812865497076,
+          "mrr": 0.21298616912652
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.13104806896509502,
+          "recall_at_10": 0.25609756097560976,
+          "mrr": 0.09415166473093303
+        },
+        "summarization": {
+          "ndcg_at_10": 0.10683888606717515,
+          "recall_at_10": 0.1797752808988764,
+          "mrr": 0.08546905653647227
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 5.82,
+      "peak_vram_mb": 2410
+    }
+  },
+  "intfloat/e5-mistral-7b-instruct": {
+    "ja_finance": {
+      "model_id": "intfloat/e5-mistral-7b-instruct",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7500922175872454,
+        "recall_at_10": 0.909952606635071,
+        "mrr": 0.6992430226434965
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7027129230135997,
+          "recall_at_10": 0.9085714285714286,
+          "mrr": 0.6369251700680272
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.7789157403414647,
+          "recall_at_10": 0.9161676646706587,
+          "mrr": 0.734851725121186
+        },
+        "summarization": {
+          "ndcg_at_10": 0.793565320717663,
+          "recall_at_10": 0.9,
+          "mrr": 0.7612301587301588
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 241.12,
+      "peak_vram_mb": 17094
+    },
+    "ja_law": {
+      "model_id": "intfloat/e5-mistral-7b-instruct",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.07411633452436171,
+        "recall_at_10": 0.1463963963963964,
+        "mrr": 0.05209405834405835
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.0930204884781288,
+          "recall_at_10": 0.16666666666666666,
+          "mrr": 0.0702312534209086
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.06083050318878521,
+          "recall_at_10": 0.12716763005780346,
+          "mrr": 0.040838609046701536
+        },
+        "summarization": {
+          "ndcg_at_10": 0.06390113898930253,
+          "recall_at_10": 0.14432989690721648,
+          "mrr": 0.03963344788087056
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 269.69,
+      "peak_vram_mb": 17094
+    },
+    "hi_finance": {
+      "model_id": "intfloat/e5-mistral-7b-instruct",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.489182919078881,
+        "recall_at_10": 0.6307692307692307,
+        "mrr": 0.44384004884004885
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.40757630920017285,
+          "recall_at_10": 0.5606936416184971,
+          "mrr": 0.3583883842554363
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5237564676667044,
+          "recall_at_10": 0.6601941747572816,
+          "mrr": 0.48006626598859614
+        },
+        "summarization": {
+          "ndcg_at_10": 0.704629204884406,
+          "recall_at_10": 0.8163265306122449,
+          "mrr": 0.6693877551020407
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 771.04,
+      "peak_vram_mb": 17750
+    },
+    "hi_law": {
+      "model_id": "intfloat/e5-mistral-7b-instruct",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.13073392042277412,
+        "recall_at_10": 0.2099056603773585,
+        "mrr": 0.10629773135669363
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.1401494689944598,
+          "recall_at_10": 0.22807017543859648,
+          "mrr": 0.11298616912652
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.1258418111188277,
+          "recall_at_10": 0.1951219512195122,
+          "mrr": 0.1041739256678281
+        },
+        "summarization": {
+          "ndcg_at_10": 0.12165804536759399,
+          "recall_at_10": 0.20224719101123595,
+          "mrr": 0.09736044230426252
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 749.47,
+      "peak_vram_mb": 17750
+    }
+  },
+  "intfloat/e5-small-v2": {
+    "ja_finance": {
+      "model_id": "intfloat/e5-small-v2",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.46962902696003433,
+        "recall_at_10": 0.6824644549763034,
+        "mrr": 0.4037557361017077
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.478702545431433,
+          "recall_at_10": 0.6742857142857143,
+          "mrr": 0.41751020408163264
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.43076260537596456,
+          "recall_at_10": 0.6227544910179641,
+          "mrr": 0.37218420302252636
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5309143603605957,
+          "recall_at_10": 0.825,
+          "mrr": 0.4395734126984127
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 1.85,
+      "peak_vram_mb": 383
+    },
+    "ja_law": {
+      "model_id": "intfloat/e5-small-v2",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.08900836386682097,
+        "recall_at_10": 0.17567567567567569,
+        "mrr": 0.06311043186043186
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.13137131018625864,
+          "recall_at_10": 0.2471264367816092,
+          "mrr": 0.0961822660098522
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.07628335846568567,
+          "recall_at_10": 0.15606936416184972,
+          "mrr": 0.05274107716304249
+        },
+        "summarization": {
+          "ndcg_at_10": 0.03571221206078238,
+          "recall_at_10": 0.08247422680412371,
+          "mrr": 0.022279495990836194
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.32,
+      "peak_vram_mb": 383
+    },
+    "hi_finance": {
+      "model_id": "intfloat/e5-small-v2",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.09975726822777932,
+        "recall_at_10": 0.16923076923076924,
+        "mrr": 0.07889621489621489
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.09856741653434475,
+          "recall_at_10": 0.1676300578034682,
+          "mrr": 0.07776172125883109
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.06643850107552039,
+          "recall_at_10": 0.13592233009708737,
+          "mrr": 0.04640930805979349
+        },
+        "summarization": {
+          "ndcg_at_10": 0.1739955816899599,
+          "recall_at_10": 0.24489795918367346,
+          "mrr": 0.15119047619047618
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.22,
+      "peak_vram_mb": 383
+    },
+    "hi_law": {
+      "model_id": "intfloat/e5-small-v2",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.05006020067565285,
+        "recall_at_10": 0.09905660377358491,
+        "mrr": 0.03549809074573225
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.06490416753563485,
+          "recall_at_10": 0.13450292397660818,
+          "mrr": 0.04400120672050496
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.05290905019573298,
+          "recall_at_10": 0.09146341463414634,
+          "mrr": 0.04155294231513744
+        },
+        "summarization": {
+          "ndcg_at_10": 0.016290204559360037,
+          "recall_at_10": 0.0449438202247191,
+          "mrr": 0.008003388621366148
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.58,
+      "peak_vram_mb": 383
+    }
+  },
+  "ibm-granite/granite-embedding-107m-multilingual": {
+    "ja_finance": {
+      "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.8935042240550657,
+        "recall_at_10": 0.985781990521327,
+        "mrr": 0.863110283607914
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.8822877148642487,
+          "recall_at_10": 0.9828571428571429,
+          "mrr": 0.8492743764172336
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8895528416961526,
+          "recall_at_10": 0.9820359281437125,
+          "mrr": 0.8592386655260907
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9262888485842085,
+          "recall_at_10": 1.0,
+          "mrr": 0.9014583333333333
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 1.69,
+      "peak_vram_mb": 416
+    },
+    "ja_law": {
+      "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.17975231778993458,
+        "recall_at_10": 0.28378378378378377,
+        "mrr": 0.14791666666666667
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.24670726403760104,
+          "recall_at_10": 0.367816091954023,
+          "mrr": 0.20969257434774674
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.1425878646701038,
+          "recall_at_10": 0.24277456647398843,
+          "mrr": 0.11179924763739793
+        },
+        "summarization": {
+          "ndcg_at_10": 0.12593056255938573,
+          "recall_at_10": 0.20618556701030927,
+          "mrr": 0.10151775486827032
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 1.63,
+      "peak_vram_mb": 416
+    },
+    "hi_finance": {
+      "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7073757829929944,
+        "recall_at_10": 0.7630769230769231,
+        "mrr": 0.6890244200244201
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6275893863823981,
+          "recall_at_10": 0.6820809248554913,
+          "mrr": 0.6091522157996146
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.7209832633569071,
+          "recall_at_10": 0.7864077669902912,
+          "mrr": 0.7000500847588227
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9604671327103448,
+          "recall_at_10": 1.0,
+          "mrr": 0.9478458049886621
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.27,
+      "peak_vram_mb": 416
+    },
+    "hi_law": {
+      "model_id": "ibm-granite/granite-embedding-107m-multilingual",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.43400948143643303,
+        "recall_at_10": 0.5825471698113207,
+        "mrr": 0.38771525905959875
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.5202085944498037,
+          "recall_at_10": 0.6608187134502924,
+          "mrr": 0.4764875150840064
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.38159790399878285,
+          "recall_at_10": 0.5426829268292683,
+          "mrr": 0.3315016453735966
+        },
+        "summarization": {
+          "ndcg_at_10": 0.36496959800371653,
+          "recall_at_10": 0.5056179775280899,
+          "mrr": 0.3207374710183699
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.45,
+      "peak_vram_mb": 416
+    }
+  },
+  "microsoft/harrier-oss-v1-0.6b": {
+    "ja_finance": {
+      "model_id": "microsoft/harrier-oss-v1-0.6b",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.9060949156489542,
+        "recall_at_10": 0.981042654028436,
+        "mrr": 0.8815118859550138
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9003189192190494,
+          "recall_at_10": 0.9942857142857143,
+          "mrr": 0.8692993197278911
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.927759429176109,
+          "recall_at_10": 0.9820359281437125,
+          "mrr": 0.9100370687197035
+        },
+        "summarization": {
+          "ndcg_at_10": 0.8735052358514354,
+          "recall_at_10": 0.95,
+          "mrr": 0.8486805555555555
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 25.4,
+      "peak_vram_mb": 5257
+    },
+    "ja_law": {
+      "model_id": "microsoft/harrier-oss-v1-0.6b",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.21920422300655112,
+        "recall_at_10": 0.36711711711711714,
+        "mrr": 0.17467467467467468
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.26548586209704067,
+          "recall_at_10": 0.41954022988505746,
+          "mrr": 0.21935778142674697
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.18541253556933462,
+          "recall_at_10": 0.31213872832369943,
+          "mrr": 0.14695843655381227
+        },
+        "summarization": {
+          "ndcg_at_10": 0.19645119955184256,
+          "recall_at_10": 0.3711340206185567,
+          "mrr": 0.14395352642775322
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 23.95,
+      "peak_vram_mb": 5257
+    },
+    "hi_finance": {
+      "model_id": "microsoft/harrier-oss-v1-0.6b",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7548717197343495,
+        "recall_at_10": 0.8092307692307692,
+        "mrr": 0.737008547008547
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6976225401840176,
+          "recall_at_10": 0.7514450867052023,
+          "mrr": 0.6804110468850353
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.7595537634981372,
+          "recall_at_10": 0.8155339805825242,
+          "mrr": 0.7406148867313915
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9471545269698035,
+          "recall_at_10": 1.0,
+          "mrr": 0.9292517006802721
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 153.59,
+      "peak_vram_mb": 19846
+    },
+    "hi_law": {
+      "model_id": "microsoft/harrier-oss-v1-0.6b",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.5809236726814069,
+        "recall_at_10": 0.7311320754716981,
+        "mrr": 0.5344611036238395
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7006254512206972,
+          "recall_at_10": 0.8538011695906432,
+          "mrr": 0.6534321915900865
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5229058675758577,
+          "recall_at_10": 0.6951219512195121,
+          "mrr": 0.4695025164537359
+        },
+        "summarization": {
+          "ndcg_at_10": 0.45784407613187245,
+          "recall_at_10": 0.5617977528089888,
+          "mrr": 0.4255751738897806
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 138.68,
+      "peak_vram_mb": 19846
+    }
+  },
+  "jinaai/jina-embeddings-v5-text-nano": {
+    "ja_finance": {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.9633069035762748,
+        "recall_at_10": 1.0,
+        "mrr": 0.9509873617693523
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9602828715262506,
+          "recall_at_10": 1.0,
+          "mrr": 0.9470952380952381
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.977436964980754,
+          "recall_at_10": 1.0,
+          "mrr": 0.9698103792415168
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9404254705038518,
+          "recall_at_10": 1.0,
+          "mrr": 0.9202083333333333
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 22.38,
+      "peak_vram_mb": 4548
+    },
+    "ja_law": {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.24609501768234535,
+        "recall_at_10": 0.3918918918918919,
+        "mrr": 0.20223527098527097
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.2438660699520546,
+          "recall_at_10": 0.367816091954023,
+          "mrr": 0.20608693669038494
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.26670699111803187,
+          "recall_at_10": 0.4161849710982659,
+          "mrr": 0.22152720433067255
+        },
+        "summarization": {
+          "ndcg_at_10": 0.21333177542148776,
+          "recall_at_10": 0.3917525773195876,
+          "mrr": 0.16091883488790706
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 16.2,
+      "peak_vram_mb": 4548
+    },
+    "hi_finance": {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7346956592808859,
+        "recall_at_10": 0.7784615384615384,
+        "mrr": 0.7203675213675215
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6653956043724196,
+          "recall_at_10": 0.7167630057803468,
+          "mrr": 0.6488118175979447
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.7297344632025177,
+          "recall_at_10": 0.7766990291262136,
+          "mrr": 0.7139967637540452
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9897959183673469,
+          "recall_at_10": 1.0,
+          "mrr": 0.9863945578231291
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 12.61,
+      "peak_vram_mb": 8178
+    },
+    "hi_law": {
+      "model_id": "jinaai/jina-embeddings-v5-text-nano",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.5876711927067905,
+        "recall_at_10": 0.7311320754716981,
+        "mrr": 0.5423901242887091
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7171231626262248,
+          "recall_at_10": 0.847953216374269,
+          "mrr": 0.6756544138123086
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5171793318156346,
+          "recall_at_10": 0.6463414634146342,
+          "mrr": 0.4763090398761131
+        },
+        "summarization": {
+          "ndcg_at_10": 0.46884398293068125,
+          "recall_at_10": 0.6629213483146067,
+          "mrr": 0.40811039771713936
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 12.11,
+      "peak_vram_mb": 8178
+    }
+  },
+  "nvidia/llama-embed-nemotron-8b": {
+    "ja_finance": {
+      "model_id": "nvidia/llama-embed-nemotron-8b",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.8819272308773533,
+        "recall_at_10": 0.976303317535545,
+        "mrr": 0.8513117806364251
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.8958553827660963,
+          "recall_at_10": 0.9828571428571429,
+          "mrr": 0.8679433106575964
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9160690224841408,
+          "recall_at_10": 0.9700598802395209,
+          "mrr": 0.8982701264138391
+        },
+        "summarization": {
+          "ndcg_at_10": 0.7801884086415589,
+          "recall_at_10": 0.975,
+          "mrr": 0.7169047619047619
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 175.22,
+      "peak_vram_mb": 19775
+    },
+    "ja_law": {
+      "model_id": "nvidia/llama-embed-nemotron-8b",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.24810508372168424,
+        "recall_at_10": 0.39864864864864863,
+        "mrr": 0.2022969397969398
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.2741766863501167,
+          "recall_at_10": 0.39655172413793105,
+          "mrr": 0.236517058930852
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.27202803819488186,
+          "recall_at_10": 0.4624277456647399,
+          "mrr": 0.21407239196256533
+        },
+        "summarization": {
+          "ndcg_at_10": 0.1586707540184837,
+          "recall_at_10": 0.28865979381443296,
+          "mrr": 0.1199108165603011
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 177.08,
+      "peak_vram_mb": 19775
+    },
+    "hi_finance": {
+      "model_id": "nvidia/llama-embed-nemotron-8b",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7595369365390762,
+        "recall_at_10": 0.8,
+        "mrr": 0.7463028083028084
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6700202769439673,
+          "recall_at_10": 0.7167630057803468,
+          "mrr": 0.6548077805303238
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8075158927839855,
+          "recall_at_10": 0.8446601941747572,
+          "mrr": 0.7954692556634304
+        },
+        "summarization": {
+          "ndcg_at_10": 0.974731826676386,
+          "recall_at_10": 1.0,
+          "mrr": 0.965986394557823
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 351.72,
+      "peak_vram_mb": 19002
+    },
+    "hi_law": {
+      "model_id": "nvidia/llama-embed-nemotron-8b",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.41917583021288457,
+        "recall_at_10": 0.5801886792452831,
+        "mrr": 0.3697214734950584
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.3910405869882944,
+          "recall_at_10": 0.5321637426900585,
+          "mrr": 0.3477861319966583
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.43944701434081096,
+          "recall_at_10": 0.5853658536585366,
+          "mrr": 0.39477109949670924
+        },
+        "summarization": {
+          "ndcg_at_10": 0.435879789700806,
+          "recall_at_10": 0.6629213483146067,
+          "mrr": 0.36570804351703223
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 344.78,
+      "peak_vram_mb": 19002
+    }
+  },
+  "intfloat/multilingual-e5-base": {
+    "ja_finance": {
+      "model_id": "intfloat/multilingual-e5-base",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.8084297267951234,
+        "recall_at_10": 0.9312796208530806,
+        "mrr": 0.7693720379146919
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.8168735819487948,
+          "recall_at_10": 0.9257142857142857,
+          "mrr": 0.7819999999999999
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8131252542048025,
+          "recall_at_10": 0.9461077844311377,
+          "mrr": 0.7700242372398061
+        },
+        "summarization": {
+          "ndcg_at_10": 0.7801568801787622,
+          "recall_at_10": 0.9125,
+          "mrr": 0.7403869047619047
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 1.9,
+      "peak_vram_mb": 1646
+    },
+    "ja_law": {
+      "model_id": "intfloat/multilingual-e5-base",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.16218595871576513,
+        "recall_at_10": 0.27702702702702703,
+        "mrr": 0.1272227584727585
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.24163256818133025,
+          "recall_at_10": 0.3735632183908046,
+          "mrr": 0.20138432767743114
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.11727126386178276,
+          "recall_at_10": 0.23121387283236994,
+          "mrr": 0.08247775025231671
+        },
+        "summarization": {
+          "ndcg_at_10": 0.10023086504122354,
+          "recall_at_10": 0.18556701030927836,
+          "mrr": 0.07450908198330879
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.04,
+      "peak_vram_mb": 1646
+    },
+    "hi_finance": {
+      "model_id": "intfloat/multilingual-e5-base",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.6940123918715237,
+        "recall_at_10": 0.7538461538461538,
+        "mrr": 0.6751440781440782
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6442778474745002,
+          "recall_at_10": 0.6994219653179191,
+          "mrr": 0.6272387374988531
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.6488553421166381,
+          "recall_at_10": 0.7378640776699029,
+          "mrr": 0.6204808136846971
+        },
+        "summarization": {
+          "ndcg_at_10": 0.964527745043733,
+          "recall_at_10": 0.9795918367346939,
+          "mrr": 0.9591836734693877
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.76,
+      "peak_vram_mb": 1646
+    },
+    "hi_law": {
+      "model_id": "intfloat/multilingual-e5-base",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.5298469247770866,
+        "recall_at_10": 0.6886792452830188,
+        "mrr": 0.48028227014076075
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6816217188472244,
+          "recall_at_10": 0.8362573099415205,
+          "mrr": 0.6330780655342059
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.4375819595656547,
+          "recall_at_10": 0.5975609756097561,
+          "mrr": 0.38749274099883846
+        },
+        "summarization": {
+          "ndcg_at_10": 0.408251020380247,
+          "recall_at_10": 0.5730337078651685,
+          "mrr": 0.3576912787586945
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.13,
+      "peak_vram_mb": 1646
+    }
+  },
+  "intfloat/multilingual-e5-large-instruct": {
+    "ja_finance": {
+      "model_id": "intfloat/multilingual-e5-large-instruct",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.9194013820866337,
+        "recall_at_10": 0.985781990521327,
+        "mrr": 0.8979049123598888
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.9099996965888282,
+          "recall_at_10": 0.9885714285714285,
+          "mrr": 0.8850362811791385
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.9224885164699539,
+          "recall_at_10": 0.9820359281437125,
+          "mrr": 0.9028015397775878
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9335231760879033,
+          "recall_at_10": 0.9875,
+          "mrr": 0.9158333333333332
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.39,
+      "peak_vram_mb": 1621
+    },
+    "ja_law": {
+      "model_id": "intfloat/multilingual-e5-large-instruct",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.22179914362870437,
+        "recall_at_10": 0.3761261261261261,
+        "mrr": 0.17478013728013728
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.2115407191527553,
+          "recall_at_10": 0.3390804597701149,
+          "mrr": 0.17294061302681993
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.2105665428924272,
+          "recall_at_10": 0.37572254335260113,
+          "mrr": 0.16043673731535002
+        },
+        "summarization": {
+          "ndcg_at_10": 0.26023425482655055,
+          "recall_at_10": 0.44329896907216493,
+          "mrr": 0.20366143020782196
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.6,
+      "peak_vram_mb": 1621
+    },
+    "hi_finance": {
+      "model_id": "intfloat/multilingual-e5-large-instruct",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.75088170326779,
+        "recall_at_10": 0.7753846153846153,
+        "mrr": 0.7428791208791208
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6755151574183147,
+          "recall_at_10": 0.7052023121387283,
+          "mrr": 0.6661023947151115
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.76253885024361,
+          "recall_at_10": 0.7864077669902912,
+          "mrr": 0.7543689320388349
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9924679541545195,
+          "recall_at_10": 1.0,
+          "mrr": 0.9897959183673469
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 4.35,
+      "peak_vram_mb": 1621
+    },
+    "hi_law": {
+      "model_id": "intfloat/multilingual-e5-large-instruct",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.4681741140116832,
+        "recall_at_10": 0.6438679245283019,
+        "mrr": 0.4137456948188081
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.5374001372969918,
+          "recall_at_10": 0.695906432748538,
+          "mrr": 0.4881184442587952
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.41222005187662364,
+          "recall_at_10": 0.5914634146341463,
+          "mrr": 0.3571936701509872
+        },
+        "summarization": {
+          "ndcg_at_10": 0.43827317253260467,
+          "recall_at_10": 0.6404494382022472,
+          "mrr": 0.3750579632602104
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 4.32,
+      "peak_vram_mb": 1621
+    }
+  },
+  "intfloat/multilingual-e5-large": {
+    "ja_finance": {
+      "model_id": "intfloat/multilingual-e5-large",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.886446040095419,
+        "recall_at_10": 0.981042654028436,
+        "mrr": 0.8553411569999247
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.8908658960167899,
+          "recall_at_10": 0.9771428571428571,
+          "mrr": 0.8622380952380951
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8827961195504744,
+          "recall_at_10": 0.9820359281437125,
+          "mrr": 0.8505726641954188
+        },
+        "summarization": {
+          "ndcg_at_10": 0.884396814404993,
+          "recall_at_10": 0.9875,
+          "mrr": 0.8502083333333333
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.39,
+      "peak_vram_mb": 3267
+    },
+    "ja_law": {
+      "model_id": "intfloat/multilingual-e5-large",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.2501167739972676,
+        "recall_at_10": 0.38513513513513514,
+        "mrr": 0.20823948948948948
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.30223147219608987,
+          "recall_at_10": 0.45977011494252873,
+          "mrr": 0.2535737091771575
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.23171005861108876,
+          "recall_at_10": 0.35260115606936415,
+          "mrr": 0.19398339297183229
+        },
+        "summarization": {
+          "ndcg_at_10": 0.18946114796854469,
+          "recall_at_10": 0.30927835051546393,
+          "mrr": 0.15234413352970053
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 3.18,
+      "peak_vram_mb": 3267
+    },
+    "hi_finance": {
+      "model_id": "intfloat/multilingual-e5-large",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7169666789631904,
+        "recall_at_10": 0.7753846153846153,
+        "mrr": 0.6977338217338217
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6619173474883032,
+          "recall_at_10": 0.7052023121387283,
+          "mrr": 0.6477429121937792
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.6981289000687788,
+          "recall_at_10": 0.7864077669902912,
+          "mrr": 0.6688781014023732
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9509223028668623,
+          "recall_at_10": 1.0,
+          "mrr": 0.93488824101069
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 4.07,
+      "peak_vram_mb": 3267
+    },
+    "hi_law": {
+      "model_id": "intfloat/multilingual-e5-large",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.5667150296604362,
+        "recall_at_10": 0.7075471698113207,
+        "mrr": 0.5223523135669362
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6737449597709622,
+          "recall_at_10": 0.7953216374269005,
+          "mrr": 0.6349809709458832
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.4862920547820177,
+          "recall_at_10": 0.6341463414634146,
+          "mrr": 0.43998499806426644
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5092683985498822,
+          "recall_at_10": 0.6741573033707865,
+          "mrr": 0.45773140716960947
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 4.68,
+      "peak_vram_mb": 3267
+    }
+  },
+  "intfloat/multilingual-e5-small": {
+    "ja_finance": {
+      "model_id": "intfloat/multilingual-e5-small",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.8379398006302988,
+        "recall_at_10": 0.9620853080568721,
+        "mrr": 0.7982171067479124
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.872493334211685,
+          "recall_at_10": 0.9771428571428571,
+          "mrr": 0.838845804988662
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8352402438546074,
+          "recall_at_10": 0.9640718562874252,
+          "mrr": 0.7939787092481703
+        },
+        "summarization": {
+          "ndcg_at_10": 0.7679892706902726,
+          "recall_at_10": 0.925,
+          "mrr": 0.7181894841269841
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 4.67,
+      "peak_vram_mb": 448
+    },
+    "ja_law": {
+      "model_id": "intfloat/multilingual-e5-small",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.1916729033014168,
+        "recall_at_10": 0.31756756756756754,
+        "mrr": 0.1528269340769341
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.30297274235818095,
+          "recall_at_10": 0.47701149425287354,
+          "mrr": 0.2495256340083926
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.13051118689440167,
+          "recall_at_10": 0.23699421965317918,
+          "mrr": 0.09736214331590053
+        },
+        "summarization": {
+          "ndcg_at_10": 0.10110388209045457,
+          "recall_at_10": 0.17525773195876287,
+          "mrr": 0.07828915071183111
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 4.35,
+      "peak_vram_mb": 705
+    },
+    "hi_finance": {
+      "model_id": "intfloat/multilingual-e5-small",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7117476446775035,
+        "recall_at_10": 0.7784615384615384,
+        "mrr": 0.6904163614163614
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.6496623660790352,
+          "recall_at_10": 0.7109826589595376,
+          "mrr": 0.6299912836040004
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.7047101631934155,
+          "recall_at_10": 0.7864077669902912,
+          "mrr": 0.6790953922021883
+        },
+        "summarization": {
+          "ndcg_at_10": 0.9457397628488523,
+          "recall_at_10": 1.0,
+          "mrr": 0.9275510204081633
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.45,
+      "peak_vram_mb": 705
+    },
+    "hi_law": {
+      "model_id": "intfloat/multilingual-e5-small",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.5802007920685036,
+        "recall_at_10": 0.7169811320754716,
+        "mrr": 0.53770964360587
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7115019276271128,
+          "recall_at_10": 0.8304093567251462,
+          "mrr": 0.6744360902255638
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.5184535328866976,
+          "recall_at_10": 0.6463414634146342,
+          "mrr": 0.47863192024777396
+        },
+        "summarization": {
+          "ndcg_at_10": 0.4417070429145037,
+          "recall_at_10": 0.6292134831460674,
+          "mrr": 0.3838728375245229
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 2.81,
+      "peak_vram_mb": 705
+    }
+  },
+  "perplexity-ai/pplx-embed-v1-0.6b": {
+    "ja_finance": {
+      "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.020616743765265753,
+        "recall_at_10": 0.045023696682464455,
+        "mrr": 0.013407432483261868
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.025963196217647692,
+          "recall_at_10": 0.05714285714285714,
+          "mrr": 0.016736961451247163
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.024890458268585654,
+          "recall_at_10": 0.05389221556886228,
+          "mrr": 0.01634112726927098
+        },
+        "summarization": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 19.61,
+      "peak_vram_mb": 7364
+    },
+    "ja_law": {
+      "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.020466483504902454,
+        "recall_at_10": 0.04504504504504504,
+        "mrr": 0.013193550693550693
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.026112409989013482,
+          "recall_at_10": 0.05747126436781609,
+          "mrr": 0.01683315088487502
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.026263348775077144,
+          "recall_at_10": 0.057803468208092484,
+          "mrr": 0.01693045233507661
+        },
+        "summarization": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 17.24,
+      "peak_vram_mb": 7364
+    },
+    "hi_finance": {
+      "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.020600801451430974,
+        "recall_at_10": 0.046153846153846156,
+        "mrr": 0.012995115995115995
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.024336566501474064,
+          "recall_at_10": 0.05202312138728324,
+          "mrr": 0.016104688503532433
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.024126548222913137,
+          "recall_at_10": 0.05825242718446602,
+          "mrr": 0.013954384342733855
+        },
+        "summarization": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 89.22,
+      "peak_vram_mb": 23057
+    },
+    "hi_law": {
+      "model_id": "perplexity-ai/pplx-embed-v1-0.6b",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.017894147821171442,
+        "recall_at_10": 0.04245283018867924,
+        "mrr": 0.010671233902365978
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.01779859262039968,
+          "recall_at_10": 0.04678362573099415,
+          "mrr": 0.009331198366286085
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.02770463011029479,
+          "recall_at_10": 0.06097560975609756,
+          "mrr": 0.01785956252419667
+        },
+        "summarization": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 81.43,
+      "peak_vram_mb": 23057
+    }
+  },
+  "Snowflake/snowflake-arctic-embed-l-v2.0": {
+    "ja_finance": {
+      "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "lang": "ja",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7532897770553897,
+        "recall_at_10": 0.8862559241706162,
+        "mrr": 0.7110133152787181
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.7346234289427794,
+          "recall_at_10": 0.8971428571428571,
+          "mrr": 0.6828571428571428
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.863058009389684,
+          "recall_at_10": 0.9520958083832335,
+          "mrr": 0.834162627126699
+        },
+        "summarization": {
+          "ndcg_at_10": 0.5649812285538843,
+          "recall_at_10": 0.725,
+          "mrr": 0.5155307539682539
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 8.48,
+      "peak_vram_mb": 4698
+    },
+    "ja_law": {
+      "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "lang": "ja",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.1201926964406861,
+        "recall_at_10": 0.21846846846846846,
+        "mrr": 0.08970667095667095
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.17885518179034154,
+          "recall_at_10": 0.3103448275862069,
+          "mrr": 0.13732211275314724
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.104260264369471,
+          "recall_at_10": 0.2023121387283237,
+          "mrr": 0.0742751628589779
+        },
+        "summarization": {
+          "ndcg_at_10": 0.04337865827037864,
+          "recall_at_10": 0.08247422680412371,
+          "mrr": 0.031815578465063
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 8.86,
+      "peak_vram_mb": 4698
+    },
+    "hi_finance": {
+      "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "lang": "hi",
+      "domain": "finance",
+      "overall": {
+        "ndcg_at_10": 0.7716733170401562,
+        "recall_at_10": 0.8153846153846154,
+        "mrr": 0.7574188034188034
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.688806444116411,
+          "recall_at_10": 0.7456647398843931,
+          "mrr": 0.670199100834939
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.8191112009589199,
+          "recall_at_10": 0.8446601941747572,
+          "mrr": 0.8111650485436893
+        },
+        "summarization": {
+          "ndcg_at_10": 0.964527745043733,
+          "recall_at_10": 1.0,
+          "mrr": 0.9523809523809523
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 11.67,
+      "peak_vram_mb": 5109
+    },
+    "hi_law": {
+      "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+      "lang": "hi",
+      "domain": "law",
+      "overall": {
+        "ndcg_at_10": 0.44770186433218356,
+        "recall_at_10": 0.6320754716981132,
+        "mrr": 0.3914869721473495
+      },
+      "by_type": {
+        "factual": {
+          "ndcg_at_10": 0.5130711999778698,
+          "recall_at_10": 0.7076023391812866,
+          "mrr": 0.4528056251740462
+        },
+        "multi_hop": {
+          "ndcg_at_10": 0.440854515155169,
+          "recall_at_10": 0.6219512195121951,
+          "mrr": 0.386164343786295
+        },
+        "summarization": {
+          "ndcg_at_10": 0.33472218870991477,
+          "recall_at_10": 0.5056179775280899,
+          "mrr": 0.28348047084002137
+        },
+        "unanswerable": {
+          "ndcg_at_10": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.0
+        }
+      },
+      "evaluation_time_sec": 11.78,
+      "peak_vram_mb": 5109
+    }
+  }
+}

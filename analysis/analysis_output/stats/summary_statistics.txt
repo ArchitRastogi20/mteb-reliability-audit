@@ -1,0 +1,18 @@
+# Key Numbers
+
+Gap range (small multilingual): -10.9 to 21.5 pts
+Gap range (large multilingual): -49.4 to 13.7 pts
+
+Avg inflation ratio (italian): 3.52x (range 2.41-6.25x)
+Avg inflation ratio (japanese): 1.70x (range 1.27-2.41x)
+Avg inflation ratio (hindi): 1.47x (range 1.07-2.14x)
+
+italian: best small=jina-v5-nano (93.0), best large=Qwen3-8B (96.0), small achieves 96.9%, param ratio 38x
+japanese: best small=ml-e5-small (77.8), best large=nemotron-8b (87.0), small achieves 89.5%, param ratio 64x
+hindi: best small=jina-v5-nano (74.3), best large=nemotron-8b (83.9), small achieves 88.6%, param ratio 35x
+
+Languages: 3 (Italian, Japanese, Hindi)
+Models (working set): 17
+Excluded: 3 (jina-v3 eval failure, gte-Qwen2-7B eval failure, pplx-embed near-random)
+MTEB tasks: Italian=2, Japanese=2, Hindi=4
+RAG datasets: 4 (ja_finance, ja_law, hi_finance, hi_law)

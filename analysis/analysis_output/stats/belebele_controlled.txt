@@ -1,0 +1,26 @@
+# BelebeleRetrieval-Only Controlled Comparison
+
+## Italian
+  mean=11.09, std=9.01, min=-16.11, max=21.97
+
+## Japanese
+  mean=7.50, std=13.68, min=-29.92, max=23.15
+
+## Hindi
+  mean=4.31, std=9.06, min=-24.46, max=17.66
+
+## Spearman rho matrix (belebele_gap, common models only)
+  italian-italian: rho=1.000
+  italian-japanese: rho=0.938
+  italian-hindi: rho=0.662
+  japanese-italian: rho=0.938
+  japanese-japanese: rho=1.000
+  japanese-hindi: rho=0.789
+  hindi-italian: rho=0.662
+  hindi-japanese: rho=0.789
+  hindi-hindi: rho=1.000
+
+## Comparison with full-average Spearman
+  italian-japanese: belebele=0.938 vs full-avg=0.512 (higher) — task composition may drive the cross-language correlation pattern
+  japanese-hindi: belebele=0.789 vs full-avg=0.829 (lower) — task composition does not appear to drive the cross-language correlation pattern
+  italian-hindi: belebele=0.662 vs full-avg=0.459 (higher) — task composition may drive the cross-language correlation pattern

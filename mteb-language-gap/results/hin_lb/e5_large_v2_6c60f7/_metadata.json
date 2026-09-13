@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/e5-large-v2",
+  "lang_code": "hin",
+  "peak_vram_mb": 2418,
+  "query_encode_sec": 10.01,
+  "total_wall_sec": 479.49,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 81153
+}

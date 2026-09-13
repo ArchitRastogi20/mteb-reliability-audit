@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "lang_code": "swa",
+  "peak_vram_mb": 647,
+  "query_encode_sec": 0.98,
+  "total_wall_sec": 50.78,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

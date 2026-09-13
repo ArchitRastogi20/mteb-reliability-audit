@@ -1,0 +1,9 @@
+{
+  "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "lang_code": "ita",
+  "peak_vram_mb": 5280,
+  "query_encode_sec": 2.34,
+  "total_wall_sec": 49.2,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 13988
+}

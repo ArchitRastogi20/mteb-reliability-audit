@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/multilingual-e5-large-instruct",
+  "lang_code": "hin",
+  "peak_vram_mb": 1628,
+  "query_encode_sec": 9.65,
+  "total_wall_sec": 319.82,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 81153
+}

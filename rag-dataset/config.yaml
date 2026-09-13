@@ -1,0 +1,37 @@
+# Global configuration for the RAG dataset generation pipeline.
+# Edit these values before running to control dataset size and costs.
+
+corpus:
+  docs_per_combo: 250          # documents generated per language×domain combination
+
+queries:
+  factual: 175                 # single-sentence fact lookup (gpt-5.4-nano)
+  multi_hop: 175               # multi-event reasoning (gpt-5.4-mini)
+  summarization: 100           # whole-document synthesis (gpt-5.4-mini)
+  unanswerable: 50             # entity not in corpus (gpt-5.4-nano)
+
+models:
+  config_gen: "gpt-5.4-nano"
+  article_gen: "gpt-5.4-mini"
+  factual_query: "gpt-5.4-nano"
+  complex_query: "gpt-5.4-mini"   # used for multi_hop and summarization
+  refinement: "gpt-5.4-nano"
+  validation: "gpt-5.4-nano"
+  answer_gen: "gpt-5.4-mini"
+  keypoint_gen: "gpt-5.4-nano"
+  answer_validation: "gpt-5.4-nano"
+
+semaphores:
+  stage1: 50
+  stage2: 30
+  stage3: 40
+  stage4: 50
+  stage5: 30
+  validation: 50
+
+budget_usd: 25.0
+
+paths:
+  checkpoint_dir: "checkpoints"
+  output_dir: "output"
+  evaluation_dir: "evaluation"

@@ -1,0 +1,34 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "lang": "ja",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.8379398006302988,
+    "recall_at_10": 0.9620853080568721,
+    "mrr": 0.7982171067479124
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.872493334211685,
+      "recall_at_10": 0.9771428571428571,
+      "mrr": 0.838845804988662
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.8352402438546074,
+      "recall_at_10": 0.9640718562874252,
+      "mrr": 0.7939787092481703
+    },
+    "summarization": {
+      "ndcg_at_10": 0.7679892706902726,
+      "recall_at_10": 0.925,
+      "mrr": 0.7181894841269841
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 4.67,
+  "peak_vram_mb": 448
+}

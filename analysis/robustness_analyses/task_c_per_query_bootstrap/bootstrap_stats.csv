@@ -1,0 +1,2 @@
+task,model_a,model_b,n_queries,mean_delta,ci_lo,ci_hi,zero_in_ci,n_bootstrap
+BelebeleRetrieval_ita,bge-m3,snowflake-arctic-embed-l-v2.0,900,0.274318,0.249728,0.299217,no,10000

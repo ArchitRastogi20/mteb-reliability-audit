@@ -1,0 +1,5 @@
+roster_variant,n_models_median,median_tau,median_inversion_rate,n_languages,roster_n_models
+family_balanced,18.0,0.34640522875817,0.32679738562091504,17,18
+ge10_lang_coverage,25.0,0.3399999999999999,0.33,17,25
+headline_curated,25.0,0.3399999999999999,0.33,17,25
+no_instruction_tuned,20.0,0.3333333333333333,0.3333333333333333,17,20

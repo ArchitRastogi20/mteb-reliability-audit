@@ -1,0 +1,7 @@
+config,factual,factual_n,multi_hop,multi_hop_n,summarization,summarization_n
+it_finance,-0.202,19,0.032,19,-0.151,19
+it_law,0.046,19,0.245,19,0.163,19
+ja_finance,0.352,18,0.333,18,0.32,18
+ja_law,0.064,18,0.413,18,0.404,18
+hi_finance,0.408,18,0.48,18,0.231,18
+hi_law,-0.162,18,0.27,18,0.283,18

@@ -1,0 +1,16 @@
+# Kendall tau and inversion proportion bootstrap CIs
+
+## Italian (n=14)
+  tau = 0.451  [95% CI: 0.000, 0.831]  p=0.0264
+  inversions = 25/91 (27.5%)
+  inversion proportion 95% CI: [8.4%, 50.0%]
+
+## Japanese (n=15)
+  tau = 0.467  [95% CI: 0.000, 0.794]  p=0.0155
+  inversions = 28/105 (26.7%)
+  inversion proportion 95% CI: [10.3%, 50.0%]
+
+## Hindi (n=15)
+  tau = 0.600  [95% CI: 0.155, 0.918]  p=0.0013
+  inversions = 21/105 (20.0%)
+  inversion proportion 95% CI: [4.1%, 42.3%]

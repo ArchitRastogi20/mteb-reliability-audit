@@ -1,0 +1,27 @@
+## Italian (n=14)
+  Kendall tau = 0.451  (p=0.026)
+  Rank inversions: 25 / 91 pairs (27.5%)
+  Notable inversions:
+    bge-m3: MTEB rank 4 → Italian rank 8
+    snowflake-l-v2: MTEB rank 6 → Italian rank 14
+    SFR-Mistral: MTEB rank 7 → Italian rank 2
+    jina-v5-nano: MTEB rank 13 → Italian rank 5
+
+## Japanese (n=15)
+  Kendall tau = 0.467  (p=0.016)
+  Rank inversions: 28 / 105 pairs (26.7%)
+  Notable inversions:
+    snowflake-l-v2: MTEB rank 7 → Japanese rank 15
+    SFR-Mistral: MTEB rank 8 → Japanese rank 12
+    e5-mistral-7b: MTEB rank 10 → Japanese rank 14
+    ml-e5-small: MTEB rank 13 → Japanese rank 8
+    jina-v5-nano: MTEB rank 14 → Japanese rank 9
+    granite-107m: MTEB rank 15 → Japanese rank 10
+
+## Hindi (n=15)
+  Kendall tau = 0.600  (p=0.001)
+  Rank inversions: 21 / 105 pairs (20.0%)
+  Notable inversions:
+    snowflake-l-v2: MTEB rank 7 → Hindi rank 15
+    ml-e5-small: MTEB rank 13 → Hindi rank 9
+    jina-v5-nano: MTEB rank 14 → Hindi rank 8

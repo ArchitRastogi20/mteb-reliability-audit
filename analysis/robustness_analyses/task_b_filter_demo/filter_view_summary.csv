@@ -1,0 +1,5 @@
+task_name,exposed_per_language,n_languages_in_csv,demonstration_cell,value_in_filter_view
+BelebeleRetrieval (Italian filter),False,1,bge-m3,not_exposed
+MIRACLRetrievalHardNegatives (Japanese filter),True,2,bge-m3,88.2184
+MIRACLRetrievalHardNegatives (Hindi filter),True,7,bge-m3,75.46855555555555
+BelebeleRetrieval (Japanese filter),False,2,bge-m3,not_exposed

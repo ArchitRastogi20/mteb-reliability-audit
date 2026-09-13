@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/e5-large-v2",
+  "lang_code": "jpn",
+  "peak_vram_mb": 2418,
+  "query_encode_sec": 2.35,
+  "total_wall_sec": 785.74,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 185807
+}

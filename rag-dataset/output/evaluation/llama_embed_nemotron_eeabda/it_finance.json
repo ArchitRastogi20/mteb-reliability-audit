@@ -1,0 +1,34 @@
+{
+  "model_id": "nvidia/llama-embed-nemotron-8b",
+  "lang": "it",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.44033275144736583,
+    "recall_at_10": 0.5866336633663366,
+    "mrr": 0.39433246896118185
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.4636488039425318,
+      "recall_at_10": 0.6114285714285714,
+      "mrr": 0.4172154195011339
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.2631407726611335,
+      "recall_at_10": 0.38461538461538464,
+      "mrr": 0.2254051504051504
+    },
+    "summarization": {
+      "ndcg_at_10": 0.6875204698168684,
+      "recall_at_10": 0.872093023255814,
+      "mrr": 0.6286590992986342
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 204.59,
+  "peak_vram_mb": 20421
+}

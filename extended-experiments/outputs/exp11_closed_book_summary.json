@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "config": "it_finance",
+      "n_queries_scored": 404,
+      "total_keypoints": 6194,
+      "coverage_openai_judge": 0.14546335163061028,
+      "coverage_claude_judge": null,
+      "bm25_ndcg_at_10": 0.7874468381418347,
+      "best_dense_model": "jina_embeddings_v5_t_eed139",
+      "best_dense_ndcg_at_10": 0.7831109617688455,
+      "wall_seconds": 1191.8,
+      "new_api_calls": 806
+    },
+    {
+      "config": "it_law",
+      "n_queries_scored": 416,
+      "total_keypoints": 6248,
+      "coverage_openai_judge": 0.1939820742637644,
+      "coverage_claude_judge": null,
+      "bm25_ndcg_at_10": 0.6290229999648367,
+      "best_dense_model": "Qwen3_Embedding_4B_8f1f6c",
+      "best_dense_ndcg_at_10": 0.5895152526014218,
+      "wall_seconds": 1303.6,
+      "new_api_calls": 830
+    },
+    {
+      "config": "ja_finance",
+      "n_queries_scored": 422,
+      "total_keypoints": 4977,
+      "coverage_openai_judge": 0.16656620454088808,
+      "coverage_claude_judge": null,
+      "bm25_ndcg_at_10": 0.5033053011661064,
+      "best_dense_model": "Qwen3_Embedding_8B_c07e5f",
+      "best_dense_ndcg_at_10": 0.9693611418720208,
+      "wall_seconds": 1305.3,
+      "new_api_calls": 842
+    },
+    {
+      "config": "ja_law",
+      "n_queries_scored": 444,
+      "total_keypoints": 4382,
+      "coverage_openai_judge": 0.16225467822911913,
+      "coverage_claude_judge": null,
+      "bm25_ndcg_at_10": 0.3095840631357276,
+      "best_dense_model": "Qwen3_Embedding_4B_8f1f6c",
+      "best_dense_ndcg_at_10": 0.2862341948261507,
+      "wall_seconds": 1334.0,
+      "new_api_calls": 886
+    },
+    {
+      "config": "hi_finance",
+      "n_queries_scored": 325,
+      "total_keypoints": 3294,
+      "coverage_openai_judge": 0.2677595628415301,
+      "coverage_claude_judge": null,
+      "bm25_ndcg_at_10": 0.9231152220791885,
+      "best_dense_model": "Qwen3_Embedding_4B_8f1f6c",
+      "best_dense_ndcg_at_10": 0.8125893973633034,
+      "wall_seconds": 961.7,
+      "new_api_calls": 648
+    },
+    {
+      "config": "hi_law",
+      "n_queries_scored": 414,
+      "total_keypoints": 5540,
+      "coverage_openai_judge": 0.3575812274368231,
+      "coverage_claude_judge": null,
+      "bm25_ndcg_at_10": 0.7898434032818543,
+      "best_dense_model": "Qwen3_Embedding_8B_c07e5f",
+      "best_dense_ndcg_at_10": 0.6281398858541831,
+      "wall_seconds": 1429.7,
+      "new_api_calls": 826
+    }
+  ],
+  "total_cost_usd": 3.92050575
+}

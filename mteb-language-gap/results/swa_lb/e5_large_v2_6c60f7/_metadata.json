@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/e5-large-v2",
+  "lang_code": "swa",
+  "peak_vram_mb": 2352,
+  "query_encode_sec": 1.3,
+  "total_wall_sec": 5.96,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

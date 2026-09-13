@@ -1,0 +1,34 @@
+{
+  "model_id": "Salesforce/SFR-Embedding-Mistral",
+  "lang": "ja",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.925243590401757,
+    "recall_at_10": 0.9928909952606635,
+    "mrr": 0.9026555329872866
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.9218603751936361,
+      "recall_at_10": 0.9942857142857143,
+      "mrr": 0.8976825396825397
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.9276745891577065,
+      "recall_at_10": 0.9940119760479041,
+      "mrr": 0.9055460507556317
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9275696637664762,
+      "recall_at_10": 0.9875,
+      "mrr": 0.9075
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 242.26,
+  "peak_vram_mb": 17095
+}

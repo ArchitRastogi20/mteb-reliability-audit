@@ -1,0 +1,10 @@
+{
+  "cross_language_median_tau_resampled": 0.6999999999999998,
+  "curated_tier_median_tau": 0.34,
+  "extended_tier_median_tau": 0.69,
+  "n_languages_resamplable": 17,
+  "n_subsets_per_language": 100,
+  "subset_size": 25,
+  "seed": 20260510,
+  "interpretation": "selection_bias_in_extended"
+}

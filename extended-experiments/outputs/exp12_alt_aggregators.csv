@@ -1,0 +1,6 @@
+Aggregator,ita_n,ita_tau,ita_inv_pct,jpn_n,jpn_tau,jpn_inv_pct,hin_n,hin_tau,hin_inv_pct
+Mean(Task),24,0.362,31.9,25,0.333,33.3,24,0.464,26.8
+Min-score,24,0.13,43.5,25,-0.087,54.3,24,0.087,45.7
+Median(Task),24,0.457,27.2,25,0.327,33.7,24,0.601,19.9
+Harmonic mean,24,0.203,39.9,25,-0.007,50.3,24,0.145,42.8
+Trimmed mean 10%,24,0.391,30.4,25,0.36,32.0,24,0.493,25.4

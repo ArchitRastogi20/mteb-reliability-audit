@@ -1,0 +1,22 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "params": "568M",
+  "dim": 1024,
+  "embedding_dim": 1024,
+  "batch_size": 32,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 5362.7,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 3072.6,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 31.837,
+  "corpus_encode_sec_std": 0.16,
+  "query_throughput_qps_mean": 830.033,
+  "query_throughput_qps_std": 7.82,
+  "latency_p50_ms_mean": 14.893,
+  "latency_p50_ms_std": 0.792,
+  "latency_p99_ms_mean": 17.995,
+  "latency_p99_ms_std": 2.515
+}

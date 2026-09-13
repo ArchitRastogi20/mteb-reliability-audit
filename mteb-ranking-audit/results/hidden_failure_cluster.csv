@@ -1,0 +1,6 @@
+model,best_global_rank,median_local_rank,n_languages_affected_curated,n_languages_affected_extended,n_languages_affected_restricted,mteb_agg_curated
+granite-311m,12,24.0,16,0,0,0.64213
+harrier-0.6b,2,21.0,10,0,7,0.70055
+Seed1.6-embed,9,20.0,6,0,0,0.65316
+inf-retriever-v1,7,20.0,4,0,0,0.65826
+ibm-granite__granite-embedding-97m-multilingual-r2,28,40.5,0,5,0,

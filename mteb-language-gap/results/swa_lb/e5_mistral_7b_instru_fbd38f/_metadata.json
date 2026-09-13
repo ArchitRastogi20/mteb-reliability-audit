@@ -1,0 +1,9 @@
+{
+  "model_id": "intfloat/e5-mistral-7b-instruct",
+  "lang_code": "swa",
+  "peak_vram_mb": 15779,
+  "query_encode_sec": 18.46,
+  "total_wall_sec": 69.41,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

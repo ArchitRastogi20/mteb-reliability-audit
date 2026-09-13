@@ -1,0 +1,219 @@
+,Rank (Borda),Model,Zero-shot,Active Parameters (B),Total Parameters (B),Embedding Dimensions,Max Tokens,Mean (Task),Mean (TaskType),Retrieval
+0,1,[gemini-embedding-001](https://ai.google.dev/gemini-api/docs/embeddings),75%,,,3072.0,2048.0,84.02,84.02,84.02
+1,2,[llama-embed-nemotron-8b](https://huggingface.co/nvidia/llama-embed-nemotron-8b),75%,6.98,7.505,4096.0,32768.0,83.87,83.87,83.87
+2,3,[Qwen3-Embedding-8B](https://huggingface.co/Qwen/Qwen3-Embedding-8B),75%,6.946,7.567,4096.0,32768.0,83.59,83.59,83.59
+3,4,[Octen-Embedding-8B](https://huggingface.co/Octen/Octen-Embedding-8B),75%,6.946,7.567,4096.0,32768.0,82.43,82.43,82.43
+4,5,[KaLM-Embedding-Gemma3-12B-2511](https://huggingface.co/tencent/KaLM-Embedding-Gemma3-12B-2511),75%,10.759,11.766,3840.0,32768.0,81.74,81.74,81.74
+5,6,[harrier-oss-v1-27b](https://huggingface.co/microsoft/harrier-oss-v1-27b),75%,25.599,27.009,5376.0,131072.0,81.82,81.82,81.82
+6,7,[Qwen3-Embedding-4B](https://huggingface.co/Qwen/Qwen3-Embedding-4B),75%,3.634,4.022,2560.0,32768.0,81.3,81.3,81.3
+7,8,[pplx-embed-v1-4b](https://huggingface.co/perplexity-ai/pplx-embed-v1-4b),75%,3.611,4.0,2560.0,32768.0,80.16,80.16,80.16
+8,9,[voyage-3-large](https://blog.voyageai.com/2025/01/07/voyage-3-large/),100%,,,1024.0,32000.0,80.09,80.09,80.09
+9,10,[F2LLM-v2-14B](https://huggingface.co/codefuse-ai/F2LLM-v2-14B),75%,13.214,13.99,5120.0,40960.0,79.76,79.76,79.76
+10,11,[F2LLM-v2-8B](https://huggingface.co/codefuse-ai/F2LLM-v2-8B),75%,6.947,7.568,4096.0,40960.0,79.59,79.59,79.59
+11,12,[embeddinggemma-300m](https://ai.google.dev/gemma/docs/embeddinggemma/model_card),75%,0.106,0.308,768.0,2048.0,76.88,76.88,76.88
+12,13,[F2LLM-v2-4B](https://huggingface.co/codefuse-ai/F2LLM-v2-4B),75%,3.634,4.022,2560.0,40960.0,78.6,78.6,78.6
+13,13,[BOOM_4B_v1](https://huggingface.co/ICT-TIME-and-Querit/BOOM_4B_v1),75%,3.633,4.022,2560.0,32768.0,78.35,78.35,78.35
+14,15,[jina-embeddings-v5-text-small](https://huggingface.co/jinaai/jina-embeddings-v5-text-small),⚠️ NA,0.44,0.596,1024.0,32768.0,77.2,77.2,77.2
+15,16,[zembed-1](https://huggingface.co/zeroentropy/zembed-1),⚠️ NA,3.634,4.022,2560.0,32768.0,77.74,77.74,77.74
+16,17,[inf-retriever-v1](https://huggingface.co/infly/inf-retriever-v1),100%,6.526,7.069,3584.0,32768.0,78.17,78.17,78.17
+17,18,[pplx-embed-v1-0.6b](https://huggingface.co/perplexity-ai/pplx-embed-v1-0.6b),75%,0.44,0.596,1024.0,32768.0,76.28,76.28,76.28
+18,19,[Cohere-embed-multilingual-v3.0](https://cohere.com/blog/introducing-embed-v3),⚠️ NA,,,512.0,,75.7,75.7,75.7
+19,20,[Seed1.6-embedding-1215](https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=doubao-embedding-vision),75%,,,2048.0,32768.0,77.88,77.88,77.88
+20,21,[jina-embeddings-v5-text-nano](https://huggingface.co/jinaai/jina-embeddings-v5-text-nano),⚠️ NA,0.113,0.212,768.0,8192.0,75.94,75.94,75.94
+21,22,[F2LLM-v2-1.7B](https://huggingface.co/codefuse-ai/F2LLM-v2-1.7B),75%,1.41,1.721,2048.0,40960.0,76.31,76.31,76.31
+22,23,[bge-m3](https://huggingface.co/BAAI/bge-m3),75%,0.312,0.568,1024.0,8194.0,72.69,72.69,72.69
+23,24,[snowflake-arctic-embed-l-v2.0](https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0),75%,0.312,0.568,1024.0,8192.0,74.06,74.06,74.06
+24,25,[voyage-3](https://blog.voyageai.com/2024/09/18/voyage-3/),100%,,,1024.0,32000.0,74.23,74.23,74.23
+25,26,[voyage-3.5](https://blog.voyageai.com/2025/05/20/voyage-3-5/),100%,,,1024.0,32000.0,73.04,73.04,73.04
+26,27,[multilingual-e5-large-instruct](https://huggingface.co/intfloat/multilingual-e5-large-instruct),75%,0.304,0.56,1024.0,514.0,73.36,73.36,73.36
+27,27,[BidirLM-Omni-2.5B-Embedding](https://huggingface.co/BidirLM/BidirLM-Omni-2.5B-Embedding),75%,2.13,2.445,2048.0,32768.0,74.86,74.86,74.86
+28,29,[BidirLM-1B-Embedding](https://huggingface.co/BidirLM/BidirLM-1B-Embedding),75%,0.698,1.0,1152.0,512.0,73.87,73.87,73.87
+29,30,[BidirLM-1.7B-Embedding](https://huggingface.co/BidirLM/BidirLM-1.7B-Embedding),75%,1.409,1.721,2048.0,512.0,73.93,73.93,73.93
+30,31,[gte-Qwen2-7B-instruct](https://huggingface.co/Alibaba-NLP/gte-Qwen2-7B-instruct),⚠️ NA,6.526,7.069,3584.0,32768.0,74.93,74.93,74.93
+31,31,[jina-embeddings-v3](https://huggingface.co/jinaai/jina-embeddings-v3),100%,0.316,0.572,1024.0,8194.0,72.91,72.91,72.91
+32,33,[text-multilingual-embedding-002](https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings),75%,,,768.0,2048.0,73.54,73.54,73.54
+33,34,[Solon-embeddings-large-0.1](https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1),⚠️ NA,0.304,0.56,1024.0,514.0,72.53,72.53,72.53
+34,34,[harrier-oss-v1-0.6b](https://huggingface.co/microsoft/harrier-oss-v1-0.6b),75%,0.44,0.596,1024.0,32768.0,72.21,72.21,72.21
+35,36,[jina-embeddings-v4](https://huggingface.co/jinaai/jina-embeddings-v4),100%,3.624,3.935,2048.0,32768.0,72.9,72.9,72.9
+36,37,[F2LLM-v2-0.6B](https://huggingface.co/codefuse-ai/F2LLM-v2-0.6B),75%,0.441,0.596,1024.0,40960.0,71.7,71.7,71.7
+37,38,[multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base),75%,0.086,0.278,768.0,514.0,69.16,69.16,69.16
+38,39,[inf-retriever-v1-1.5b](https://huggingface.co/infly/inf-retriever-v1-1.5b),100%,1.31,1.543,1536.0,32768.0,70.44,70.44,70.44
+39,40,[Cohere-embed-multilingual-light-v3.0](https://cohere.com/blog/introducing-embed-v3),⚠️ NA,,,384.0,512.0,68.76,68.76,68.76
+40,41,[bilingual-embedding-large](https://huggingface.co/Lajavaness/bilingual-embedding-large),100%,0.304,0.56,1024.0,514.0,69.91,69.91,69.91
+41,42,[F2LLM-v2-330M](https://huggingface.co/codefuse-ai/F2LLM-v2-330M),75%,0.198,0.334,896.0,40960.0,70.19,70.19,70.19
+42,43,[Qwen3-Embedding-0.6B](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B),75%,0.44,0.596,1024.0,32768.0,70.64,70.64,70.64
+43,43,[GritLM-7B](https://huggingface.co/GritLM/GritLM-7B),75%,7.109,7.24,4096.0,32768.0,69.81,69.81,69.81
+44,45,[bge-m3-custom-fr](https://huggingface.co/manu/bge-m3-custom-fr),75%,0.312,0.568,1024.0,8194.0,67.87,67.87,67.87
+45,46,[gte-Qwen2-1.5B-instruct](https://huggingface.co/Alibaba-NLP/gte-Qwen2-1.5B-instruct),⚠️ NA,1.31,1.543,8960.0,32768.0,69.78,69.78,69.78
+46,47,[SFR-Embedding-Mistral](https://huggingface.co/Salesforce/SFR-Embedding-Mistral),75%,6.98,7.111,4096.0,32768.0,69.28,69.28,69.28
+47,48,[harrier-oss-v1-270m](https://huggingface.co/microsoft/harrier-oss-v1-270m),75%,0.1,0.268,640.0,32768.0,68.44,68.44,68.44
+48,49,[GritLM-8x7B](https://huggingface.co/GritLM/GritLM-8x7B),75%,13.0,57.92,32768.0,32768.0,69.99,69.99,69.99
+49,50,[Linq-Embed-Mistral](https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral),75%,6.98,7.111,4096.0,32768.0,68.98,68.98,68.98
+50,51,[e5-mistral-7b-instruct](https://huggingface.co/intfloat/e5-mistral-7b-instruct),75%,6.98,7.111,4096.0,32768.0,68.06,68.06,68.06
+51,52,[NV-Embed-v2](https://huggingface.co/nvidia/NV-Embed-v2),75%,7.719,7.85,4096.0,32768.0,68.93,68.93,68.93
+52,53,[snowflake-arctic-embed-m-v2.0](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v2.0),75%,0.113,0.305,768.0,8192.0,65.88,65.88,65.88
+53,54,[bilingual-embedding-base](https://huggingface.co/Lajavaness/bilingual-embedding-base),100%,0.086,0.278,768.0,514.0,67.31,67.31,67.31
+54,55,[KaLM-embedding-multilingual-mini-v1](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-v1),75%,0.358,0.494,896.0,512.0,66.74,66.74,66.74
+55,55,[text-embedding-3-large](https://openai.com/index/new-embedding-models-and-api-updates/),⚠️ NA,,,3072.0,8191.0,67.25,67.25,67.25
+56,57,[voyage-3-lite](https://blog.voyageai.com/2024/09/18/voyage-3/),100%,,,512.0,32000.0,64.5,64.5,64.5
+57,58,[SFR-Embedding-2_R](https://huggingface.co/Salesforce/SFR-Embedding-2_R),75%,6.98,7.111,4096.0,32768.0,65.25,65.25,65.25
+58,59,[F2LLM-v2-160M](https://huggingface.co/codefuse-ai/F2LLM-v2-160M),75%,0.062,0.159,640.0,40960.0,65.37,65.37,65.37
+59,60,[NV-Embed-v1](https://huggingface.co/nvidia/NV-Embed-v1),75%,7.719,7.85,4096.0,32768.0,65.08,65.08,65.08
+60,61,[bilingual-embedding-small](https://huggingface.co/Lajavaness/bilingual-embedding-small),100%,0.022,0.118,384.0,512.0,64.11,64.11,64.11
+61,62,[BidirLM-0.6B-Embedding](https://huggingface.co/BidirLM/BidirLM-0.6B-Embedding),75%,0.44,0.596,1024.0,512.0,64.11,64.11,64.11
+62,63,[Euler-Legal-Embedding-V1](https://huggingface.co/Mira190/Euler-Legal-Embedding-V1),75%,6.946,7.567,4096.0,1536.0,,,
+63,64,[granite-embedding-278m-multilingual](https://huggingface.co/ibm-granite/granite-embedding-278m-multilingual),50%,0.086,0.278,768.0,512.0,62.69,62.69,62.69
+64,65,[gte-Qwen1.5-7B-instruct](https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct),⚠️ NA,6.477,7.099,4096.0,32768.0,59.7,59.7,59.7
+65,66,[F2LLM-v2-80M](https://huggingface.co/codefuse-ai/F2LLM-v2-80M),75%,0.032,0.08,320.0,40960.0,61.19,61.19,61.19
+66,67,[BidirLM-270M-Embedding](https://huggingface.co/BidirLM/BidirLM-270M-Embedding),75%,0.1,0.268,640.0,512.0,60.3,60.3,60.3
+67,68,[jasper_en_vision_language_v1](https://huggingface.co/infgrad/jasper_en_vision_language_v1),75%,1.332,1.565,8960.0,131072.0,55.31,55.31,55.31
+68,69,[granite-embedding-107m-multilingual](https://huggingface.co/ibm-granite/granite-embedding-107m-multilingual),50%,0.011,0.107,384.0,512.0,58.67,58.67,58.67
+69,70,[Arabic-all-nli-triplet-Matryoshka](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-all-nli-triplet-Matryoshka),100%,0.086,0.278,768.0,514.0,50.48,50.48,50.48
+70,71,[stella_en_1.5B_v5](https://huggingface.co/NovaSearch/stella_en_1.5B_v5),75%,1.307,1.54,8960.0,131072.0,50.42,50.42,50.42
+71,71,[Arabic-labse-Matryoshka](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-labse-Matryoshka),⚠️ NA,0.086,0.471,768.0,512.0,50.61,50.61,50.61
+72,73,[paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2),100%,0.086,0.278,768.0,512.0,47.21,47.21,47.21
+73,74,[LaBSE](https://huggingface.co/sentence-transformers/LaBSE),100%,0.086,0.471,768.0,512.0,45.72,45.72,45.72
+74,75,[LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised](https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised),75%,7.022,7.153,4096.0,32768.0,42.06,42.06,42.06
+75,76,[paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2),100%,0.022,0.118,384.0,512.0,43.78,43.78,43.78
+76,77,[KaLM-embedding-multilingual-mini-instruct-v1](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1),75%,0.358,0.494,896.0,512.0,45.24,45.24,45.24
+77,78,[potion-multilingual-128M](https://huggingface.co/minishlab/potion-multilingual-128M),50%,0.0,0.128,256.0,,40.59,40.59,40.59
+78,78,[Arabic-MiniLM-L12-v2-all-nli-triplet](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-MiniLM-L12-v2-all-nli-triplet),100%,0.022,0.118,384.0,512.0,43.68,43.68,43.68
+79,80,[arabic-english-sts-matryoshka](https://huggingface.co/omarelshehy/arabic-english-sts-matryoshka),⚠️ NA,0.304,0.56,1024.0,514.0,42.87,42.87,42.87
+80,80,[STS-multilingual-mpnet-base-v2](https://huggingface.co/Gameselo/STS-multilingual-mpnet-base-v2),100%,0.086,0.278,768.0,514.0,40.44,40.44,40.44
+81,82,[static-similarity-mrl-multilingual-v1](https://huggingface.co/sentence-transformers/static-similarity-mrl-multilingual-v1),100%,0.0,0.108,1024.0,,32.42,32.42,32.42
+82,83,[udever-bloom-1b1](https://huggingface.co/izhx/udever-bloom-1b1),100%,0.68,1.065,,,29.97,29.97,29.97
+83,84,[baseline-bm25s](https://github.com/xhluca/bm25s),⚠️ NA,,,,,27.15,27.15,27.15
+84,85,[sgpt-bloom-7b1-msmarco](https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco),⚠️ NA,6.041,7.068,4096.0,,26.99,26.99,26.99
+85,86,[multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small),75%,0.022,0.118,384.0,512.0,,,
+86,86,[Cohere-embed-english-v3.0](https://cohere.com/blog/introducing-embed-v3),⚠️ NA,,,1024.0,512.0,21.39,21.39,21.39
+87,88,[embedder-100p](https://huggingface.co/deepfile/embedder-100p),⚠️ NA,0.086,0.278,768.0,514.0,20.16,20.16,20.16
+88,89,[LLM2Vec-Mistral-7B-Instruct-v2-mntp-unsup-simcse](https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-unsup-simcse),100%,7.022,7.153,4096.0,32768.0,24.51,24.51,24.51
+89,90,[e5-large-v2](https://huggingface.co/intfloat/e5-large-v2),100%,0.304,0.335,1024.0,514.0,15.65,15.65,15.65
+90,91,[e5-base-v2](https://huggingface.co/intfloat/e5-base-v2),100%,0.086,0.109,768.0,512.0,15.46,15.46,15.46
+91,92,[nomic-embed-text-v1-unsupervised](https://huggingface.co/nomic-ai/nomic-embed-text-v1-unsupervised),75%,,0.137,768.0,8192.0,15.23,15.23,15.23
+92,93,[text2vec-base-multilingual](https://huggingface.co/shibing624/text2vec-base-chinese-paraphrase),100%,0.022,0.118,384.0,256.0,21.43,21.43,21.43
+93,94,[stella_en_400M_v5](https://huggingface.co/NovaSearch/stella_en_400M_v5),75%,,0.435,4096.0,8192.0,15.77,15.77,15.77
+94,95,[sentence_croissant_alpha_v0.4](https://huggingface.co/manu/sentence_croissant_alpha_v0.4),100%,1.214,1.28,2048.0,2048.0,13.79,13.79,13.79
+95,95,[nomic-embed-text-v1-ablated](https://huggingface.co/nomic-ai/nomic-embed-text-v1-ablated),75%,,0.137,768.0,8192.0,14.19,14.19,14.19
+96,97,[sentence_croissant_alpha_v0.3](https://huggingface.co/manu/sentence_croissant_alpha_v0.3),100%,1.214,1.28,2048.0,2048.0,12.67,12.67,12.67
+97,98,[Cohere-embed-english-light-v3.0](https://cohere.com/blog/introducing-embed-v3),⚠️ NA,,,384.0,512.0,12.19,12.19,12.19
+98,99,[granite-embedding-125m-english](https://huggingface.co/ibm-granite/granite-embedding-125m-english),50%,0.086,0.125,768.0,512.0,12.96,12.96,12.96
+99,100,[GIST-large-Embedding-v0](https://huggingface.co/avsolatorio/GIST-large-Embedding-v0),75%,0.304,0.335,1024.0,512.0,13.13,13.13,13.13
+100,101,[sentence_croissant_alpha_v0.2](https://huggingface.co/manu/sentence_croissant_alpha_v0.2),100%,1.214,1.28,2048.0,2048.0,12.63,12.63,12.63
+101,102,[speed-embedding-7b-instruct](https://huggingface.co/Haon-Chen/speed-embedding-7b-instruct),⚠️ NA,6.98,7.111,,32768.0,,,
+102,103,[snowflake-arctic-embed-m-v1.5](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5),100%,0.086,0.109,768.0,512.0,10.24,10.24,10.24
+103,103,[e5-large](https://huggingface.co/intfloat/e5-large),100%,0.304,0.335,1024.0,512.0,11.07,11.07,11.07
+104,105,[GIST-Embedding-v0](https://huggingface.co/avsolatorio/GIST-Embedding-v0),75%,0.086,0.109,768.0,512.0,10.9,10.9,10.9
+105,106,[UAE-Large-V1](https://huggingface.co/WhereIsAI/UAE-Large-V1),100%,0.304,0.335,1024.0,512.0,10.17,10.17,10.17
+106,107,[nomic-embed-text-v1](https://huggingface.co/nomic-ai/nomic-embed-text-v1),75%,,0.137,768.0,8192.0,11.67,11.67,11.67
+107,108,[bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5),75%,0.086,0.109,768.0,512.0,10.69,10.69,10.69
+108,109,[stella-base-en-v2](https://huggingface.co/infgrad/stella-base-en-v2),⚠️ NA,0.086,0.109,,512.0,10.37,10.37,10.37
+109,109,[bge-large-en-v1.5](https://huggingface.co/BAAI/bge-large-en-v1.5),75%,0.304,0.335,1024.0,512.0,9.61,9.61,9.61
+110,111,[snowflake-arctic-embed-m](https://huggingface.co/Snowflake/snowflake-arctic-embed-m),100%,0.086,0.109,768.0,512.0,9.42,9.42,9.42
+111,112,[mmlw-e5-large](https://huggingface.co/sdadas/mmlw-e5-large),75%,0.304,0.56,1024.0,514.0,9.86,9.86,9.86
+112,113,[mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1),100%,0.304,0.335,1024.0,512.0,9.49,9.49,9.49
+113,113,[e5-base-4k](https://huggingface.co/dwzhu/e5-base-4k),100%,0.089,0.112,,4096.0,9.61,9.61,9.61
+114,115,[granite-embedding-30m-english](https://huggingface.co/ibm-granite/granite-embedding-30m-english),50%,0.011,0.03,384.0,512.0,9.6,9.6,9.6
+115,116,[multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large),75%,0.304,0.56,1024.0,514.0,,,
+116,117,[snowflake-arctic-embed-m-long](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long),75%,,0.137,768.0,2048.0,9.77,9.77,9.77
+117,118,[e5-small-v2](https://huggingface.co/intfloat/e5-small-v2),100%,0.021,0.033,384.0,512.0,10.48,10.48,10.48
+118,119,[snowflake-arctic-embed-l](https://huggingface.co/Snowflake/snowflake-arctic-embed-l),100%,0.304,0.335,1024.0,512.0,9.09,9.09,9.09
+119,120,[gemma-2b-embeddings](https://huggingface.co/Jaume/gemma-2b-embeddings),100%,1.982,2.506,2048.0,8192.0,9.74,9.74,9.74
+120,121,[nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5),75%,,0.137,768.0,8192.0,9.57,9.57,9.57
+121,122,[udever-bloom-560m](https://huggingface.co/izhx/udever-bloom-560m),100%,0.302,0.559,,,10.22,10.22,10.22
+122,123,[gte-large](https://huggingface.co/thenlper/gte-large),⚠️ NA,0.304,0.335,1024.0,512.0,8.77,8.77,8.77
+123,124,[gte-multilingual-base](https://huggingface.co/Alibaba-NLP/gte-multilingual-base),75%,0.113,0.305,768.0,8192.0,,,
+124,125,[gte-base](https://huggingface.co/thenlper/gte-base),⚠️ NA,0.086,0.109,768.0,512.0,8.82,8.82,8.82
+125,126,[e5-base](https://huggingface.co/intfloat/e5-base),100%,0.086,0.109,768.0,512.0,8.38,8.38,8.38
+126,127,[Ivysaur](https://huggingface.co/Mihaiii/Ivysaur),⚠️ NA,0.011,0.023,384.0,512.0,8.52,8.52,8.52
+127,128,[udever-bloom-3b](https://huggingface.co/izhx/udever-bloom-3b),100%,2.36,3.003,,,,,
+128,129,[udever-bloom-7b1](https://huggingface.co/izhx/udever-bloom-7b1),100%,,,,,,,
+129,130,[Arabic-mpnet-base-all-nli-triplet](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-mpnet-base-all-nli-triplet),100%,0.086,0.109,768.0,514.0,5.62,5.62,5.62
+130,131,[e5-small](https://huggingface.co/intfloat/e5-small),100%,0.021,0.033,384.0,512.0,7.9,7.9,7.9
+131,132,[GIST-small-Embedding-v0](https://huggingface.co/avsolatorio/GIST-small-Embedding-v0),75%,0.022,0.033,384.0,512.0,7.6,7.6,7.6
+132,133,[snowflake-arctic-embed-s](https://huggingface.co/Snowflake/snowflake-arctic-embed-s),100%,0.022,0.033,384.0,512.0,8.11,8.11,8.11
+133,134,[NoInstruct-small-Embedding-v0](https://huggingface.co/avsolatorio/NoInstruct-small-Embedding-v0),⚠️ NA,0.022,0.033,384.0,512.0,7.85,7.85,7.85
+134,135,[M2V_base_glove_subword](https://huggingface.co/minishlab/M2V_base_glove_subword),75%,0.0,0.103,256.0,,5.0,5.0,5.0
+135,136,[Wartortle](https://huggingface.co/Mihaiii/Wartortle),75%,0.006,0.017,384.0,512.0,6.55,6.55,6.55
+136,137,[Squirtle](https://huggingface.co/Mihaiii/Squirtle),75%,0.004,0.016,384.0,512.0,5.86,5.86,5.86
+137,138,[mmlw-e5-base](https://huggingface.co/sdadas/mmlw-e5-base),75%,0.086,0.278,768.0,514.0,7.58,7.58,7.58
+138,139,[potion-base-8M](https://huggingface.co/minishlab/potion-base-8M),75%,0.0,0.008,256.0,,5.19,5.19,5.19
+139,140,[M2V_base_output](https://huggingface.co/minishlab/M2V_base_output),75%,0.0,0.008,256.0,,4.54,4.54,4.54
+140,140,[snowflake-arctic-embed-xs](https://huggingface.co/Snowflake/snowflake-arctic-embed-xs),100%,0.011,0.023,384.0,512.0,7.17,7.17,7.17
+141,142,[MedEmbed-small-v0.1](https://huggingface.co/abhinand/MedEmbed-small-v0.1),75%,0.022,0.033,384.0,512.0,7.78,7.78,7.78
+142,142,[bge-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5),75%,0.022,0.033,512.0,512.0,7.63,7.63,7.63
+143,144,[potion-base-4M](https://huggingface.co/minishlab/potion-base-4M),75%,0.0,0.004,128.0,,4.69,4.69,4.69
+144,145,[text-embedding-3-small](https://openai.com/index/new-embedding-models-and-api-updates/),⚠️ NA,,,1536.0,8191.0,,,
+145,146,[LaBSE-ru-turbo](https://huggingface.co/sergeyzh/LaBSE-ru-turbo),100%,0.087,0.129,768.0,512.0,6.93,6.93,6.93
+146,147,[Bulbasaur](https://huggingface.co/Mihaiii/Bulbasaur),⚠️ NA,0.006,0.017,384.0,512.0,6.06,6.06,6.06
+147,148,[gte-small](https://huggingface.co/thenlper/gte-small),⚠️ NA,0.022,0.033,384.0,512.0,7.38,7.38,7.38
+148,149,[Venusaur](https://huggingface.co/Mihaiii/Venusaur),⚠️ NA,0.004,0.016,384.0,512.0,5.45,5.45,5.45
+149,150,[potion-base-2M](https://huggingface.co/minishlab/potion-base-2M),75%,0.0,0.002,64.0,,3.97,3.97,3.97
+150,151,[gte-micro-v4](https://huggingface.co/Mihaiii/gte-micro-v4),⚠️ NA,0.007,0.019,384.0,512.0,5.62,5.62,5.62
+151,152,[mmlw-roberta-large](https://huggingface.co/sdadas/mmlw-roberta-large),100%,0.304,0.435,1024.0,514.0,6.76,6.76,6.76
+152,153,[SearchMap_Preview](https://huggingface.co/VPLabs/SearchMap_Preview),⚠️ NA,0.404,0.435,4096.0,8192.0,,,
+153,154,[mmlw-e5-small](https://huggingface.co/sdadas/mmlw-e5-small),75%,0.022,0.118,384.0,512.0,6.88,6.88,6.88
+154,155,[LaBSE-en-ru](https://huggingface.co/cointegrated/LaBSE-en-ru),100%,0.087,0.129,768.0,512.0,6.62,6.62,6.62
+155,156,[GIST-all-MiniLM-L6-v2](https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2),75%,0.011,0.023,384.0,512.0,6.86,6.86,6.86
+156,157,[mmlw-roberta-base](https://huggingface.co/sdadas/mmlw-roberta-base),100%,0.086,0.124,768.0,514.0,6.04,6.04,6.04
+157,158,[all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2),100%,0.086,0.109,768.0,384.0,,,
+158,159,[USER-bge-m3](https://huggingface.co/deepvk/USER-base),75%,0.312,0.359,1024.0,8194.0,,,
+159,160,[all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2),100%,0.011,0.023,384.0,256.0,6.47,6.47,6.47
+160,160,[slx-v0.1](https://huggingface.co/brahmairesearch/slx-v0.1),⚠️ NA,0.011,0.023,384.0,512.0,6.47,6.47,6.47
+161,162,[all-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2),100%,0.022,0.033,384.0,256.0,,,
+162,163,[ru-en-RoSBERTa](https://huggingface.co/ai-forever/ru-en-RoSBERTa),75%,0.303,0.404,1024.0,512.0,5.17,5.17,5.17
+163,164,[German_Semantic_STS_V2](https://huggingface.co/aari1995/German_Semantic_STS_V2),⚠️ NA,0.304,0.336,1024.0,512.0,3.83,3.83,3.83
+164,165,[gemini-embedding-2-preview](https://ai.google.dev/gemini-api/docs/embeddings),75%,,,3072.0,2048.0,,,
+165,166,[gte-micro](https://huggingface.co/Mihaiii/gte-micro),⚠️ NA,0.006,0.017,384.0,512.0,3.97,3.97,3.97
+166,167,[jina-embeddings-v2-base-en](https://huggingface.co/jinaai/jina-embeddings-v2-base-en),100%,0.114,0.137,768.0,8192.0,4.95,4.95,4.95
+167,168,[silma-embeddding-matryoshka-v0.1](https://huggingface.co/silma-ai/silma-embeddding-matryoshka-v0.1),⚠️ NA,0.086,0.135,768.0,512.0,4.02,4.02,4.02
+168,169,[MoD-Embedding](https://huggingface.co/bflhc/MoD-Embedding),75%,3.634,4.022,2560.0,32768.0,,,
+169,170,[cai-lunaris-text-embeddings](https://huggingface.co/consciousAI/cai-lunaris-text-embeddings),⚠️ NA,0.304,0.335,1024.0,512.0,4.47,4.47,4.47
+170,171,[rubert-tiny-turbo](https://huggingface.co/sergeyzh/rubert-tiny-turbo),100%,0.003,0.029,312.0,2048.0,3.91,3.91,3.91
+171,172,[Arabert-all-nli-triplet-Matryoshka](https://huggingface.co/Omartificial-Intelligence-Space/Arabert-all-nli-triplet-Matryoshka),100%,0.086,0.135,768.0,512.0,3.43,3.43,3.43
+172,173,[Cohere-embed-v4.0](https://docs.cohere.com/docs/cohere-embed),⚠️ NA,,,1536.0,128000.0,,,
+173,174,[Cohere-embed-v4.0 (output_dtype=int8)](https://docs.cohere.com/docs/embeddings),⚠️ NA,,,1536.0,128000.0,,,
+174,175,[voyage-4-large (embed_dim=2048)](https://blog.voyageai.com/2026/01/15/voyage-4/),100%,,,2048.0,32000.0,,,
+175,176,[Octen-Embedding-4B](https://huggingface.co/Octen/Octen-Embedding-4B),75%,3.634,4.022,2560.0,32768.0,,,
+176,177,[Octen-Embedding-8B-INT8](https://huggingface.co/Octen/Octen-Embedding-8B-INT8),75%,6.946,7.567,1024.0,32768.0,,,
+177,178,[Octen-Embedding-4B-INT8](https://huggingface.co/Octen/Octen-Embedding-4B-INT8),75%,3.634,4.022,1024.0,32768.0,,,
+178,179,[M2V_base_glove](https://huggingface.co/minishlab/M2V_base_glove),75%,0.0,0.102,256.0,,2.61,2.61,2.61
+179,179,[voyage-4-large](https://blog.voyageai.com/2026/01/15/voyage-4/),100%,,,1024.0,32000.0,,,
+180,181,[PIXIE-Rune-v1.0](https://huggingface.co/telepix/PIXIE-Rune-v1.0),75%,0.312,0.568,1024.0,6144.0,,,
+181,182,[rubert-tiny2](https://huggingface.co/cointegrated/rubert-tiny2),100%,0.003,0.029,312.0,2048.0,2.29,2.29,2.29
+182,183,[voyage-4](https://blog.voyageai.com/2026/01/15/voyage-4/),100%,,,1024.0,32000.0,,,
+183,184,[rubert-base-cased-sentence](https://huggingface.co/DeepPavlov/rubert-base-cased-sentence),100%,0.015,0.107,768.0,512.0,2.15,2.15,2.15
+184,184,[Marbert-all-nli-triplet-Matryoshka](https://huggingface.co/Omartificial-Intelligence-Space/Marbert-all-nli-triplet-Matryoshka),100%,0.086,0.163,768.0,512.0,2.13,2.13,2.13
+185,186,[Cohere-embed-v4.0 (output_dtype=binary)](https://docs.cohere.com/docs/embeddings),⚠️ NA,,,1536.0,128000.0,,,
+186,187,[voyage-4-lite](https://blog.voyageai.com/2026/01/15/voyage-4/),100%,,,1024.0,32000.0,,,
+187,188,[Octen-Embedding-0.6B](https://huggingface.co/Octen/Octen-Embedding-0.6B),75%,0.44,0.596,1024.0,32768.0,,,
+188,189,[sbert_large_mt_nlu_ru](https://huggingface.co/ai-forever/sbert_large_mt_nlu_ru),100%,0.304,0.427,1024.0,512.0,1.53,1.53,1.53
+189,190,[voyage-3.5 (output_dtype=int8)](https://blog.voyageai.com/2025/05/20/voyage-3-5/),100%,,,1024.0,32000.0,,,
+190,191,[USER-base](https://huggingface.co/deepvk/USER-base),100%,0.388,0.427,768.0,512.0,,,
+191,192,[rubert-tiny](https://huggingface.co/cointegrated/rubert-tiny),100%,0.003,0.012,312.0,512.0,1.22,1.22,1.22
+192,192,[sbert_large_nlu_ru](https://huggingface.co/ai-forever/sbert_large_nlu_ru),100%,0.304,0.427,1024.0,512.0,1.21,1.21,1.21
+193,194,[jina-embedding-b-en-v1](https://huggingface.co/jinaai/jina-embedding-b-en-v1),100%,0.085,0.11,768.0,512.0,,,
+194,195,[voyage-large-2-instruct](https://blog.voyageai.com/2024/05/05/voyage-large-2-instruct-instruction-tuned-and-rank-1-on-mteb/),100%,,,1024.0,16000.0,,,
+195,196,[bge-m3-unsupervised](https://huggingface.co/BAAI/bge-m3-unsupervised),75%,0.312,0.568,1024.0,8192.0,,,
+196,197,[jina-embeddings-v2-small-en](https://huggingface.co/jinaai/jina-embeddings-v2-small-en),100%,0.017,0.033,512.0,8192.0,1.06,1.06,1.06
+197,198,[distilrubert-small-cased-conversational](https://huggingface.co/DeepPavlov/distilrubert-small-cased-conversational),100%,0.015,0.107,768.0,512.0,0.99,0.99,0.99
+198,199,[Hinvec](https://huggingface.co/Sailesh97/Hinvec),75%,0.872,0.94,2048.0,2048.0,,,
+199,200,[ternary-weight-embedding](https://huggingface.co/malenia1/ternary-weight-embedding),⚠️ NA,,0.099,1024.0,512.0,0.73,0.73,0.73
+200,201,[voyage-3.5 (output_dtype=binary)](https://blog.voyageai.com/2025/05/20/voyage-3-5/),100%,,,1024.0,32000.0,,,
+201,202,[deberta-v1-base](https://huggingface.co/deepvk/deberta-v1-base),75%,0.085,0.124,768.0,512.0,0.72,0.72,0.72
+202,203,[jina-embedding-s-en-v1](https://huggingface.co/jinaai/jina-embedding-s-en-v1),100%,0.019,0.035,512.0,512.0,,,
+203,204,baseline-random-encoder,100%,,,32.0,,0.62,0.62,0.62
+204,205,[M2V_multilingual_output](https://huggingface.co/minishlab/M2V_multilingual_output),⚠️ NA,0.0,0.128,256.0,,,,
+205,206,[granite-embedding-english-r2](https://huggingface.co/ibm-granite/granite-embedding-english-r2),50%,0.11,0.149,768.0,8192.0,,,
+206,207,[rubert-base-cased](https://huggingface.co/DeepPavlov/rubert-base-cased),75%,1.188,1.28,768.0,512.0,,,
+207,208,[static-retrieval-mrl-en-v1](https://huggingface.co/sentence-transformers/static-retrieval-mrl-en-v1),75%,0.0,0.031,1024.0,,,,
+208,209,[bge-large-en](https://huggingface.co/BAAI/bge-large-en),75%,0.304,0.335,1024.0,512.0,,,
+209,210,[gte-base-en-v1.5](https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5),⚠️ NA,0.113,0.137,768.0,8192.0,,,
+210,211,[granite-embedding-small-english-r2](https://huggingface.co/ibm-granite/granite-embedding-small-english-r2),50%,0.028,0.048,384.0,8192.0,,,
+211,212,[bge-base-en](https://huggingface.co/BAAI/bge-base-en),75%,0.086,0.109,768.0,512.0,,,
+212,213,[Arabic-Triplet-Matryoshka-V2](https://huggingface.co/Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2),100%,0.086,0.135,768.0,768.0,,,
+213,214,[bge-large-zh-v1.5](https://huggingface.co/BAAI/bge-large-zh-v1.5),100%,0.313,0.335,1024.0,512.0,,,
+214,215,[multi-qa-MiniLM-L6-cos-v1](https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1),100%,0.011,0.023,384.0,512.0,,,
+215,216,[bge-base-zh-v1.5](https://huggingface.co/BAAI/bge-base-zh-v1.5),100%,0.093,0.109,768.0,512.0,,,
+216,216,[text2vec-base-chinese](https://huggingface.co/shibing624/text2vec-base-chinese),100%,0.086,0.102,768.0,512.0,,,
+217,218,[bge-small-zh-v1.5](https://huggingface.co/BAAI/bge-small-zh-v1.5),100%,0.023,0.033,512.0,512.0,,,

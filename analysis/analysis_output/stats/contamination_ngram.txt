@@ -1,0 +1,37 @@
+# N-gram contamination check — RAG corpus vs Wikipedia + Belebele
+
+Method: 8-gram set overlap. Word-level for IT/HI (whitespace token),
+character-level for JA (no word boundaries).
+Reference corpora:
+  - Wikipedia: streaming first 1000 docs per language
+    (wikimedia/wikipedia 20231101 subset)
+  - BelebeleRetrieval: full corpus (~488 unique passages per language)
+
+Config        #docs      #8gr   wiki%   bele%
+--------------------------------------------------
+it_finance      250   297,673   0.00%   0.00%
+it_law          250   305,868   0.00%   0.00%
+ja_finance      250   437,890   1.31%   0.08%
+ja_law          250   351,394   1.13%   0.06%
+hi_finance      250   453,020   0.82%   0.05%
+hi_law          250   419,038   0.50%   0.03%
+
+AVERAGE Wikipedia 8-gram overlap: 0.63%
+AVERAGE Belebele  8-gram overlap: 0.04%
+
+INTERPRETATION:
+  - Wikipedia overlap < 5% indicates the GPT-5.4-generated corpus
+    is substantively distinct from web-Wikipedia text the evaluated
+    embedding models likely saw during pretraining.
+  - Belebele overlap < 1% confirms our RAG corpus is not paraphrasing
+    the Belebele probe (which would invalidate §4.5's controlled probe).
+  - Higher overlap on common-language n-grams (function words, dates,
+    common entities) is expected and not a contamination signal.
+
+CAVEATS:
+  - 8-gram exact-match is conservative; semantic paraphrase can pass
+    this filter and still be considered contamination by some reviewers.
+  - Wikipedia is a proxy for the larger web pretraining corpora
+    (mC4, CommonCrawl) we cannot fully replicate here.
+  - For Japanese we use character 8-grams (no word boundaries), giving
+    higher overlap baselines; compare JA configs to JA Wikipedia row only.

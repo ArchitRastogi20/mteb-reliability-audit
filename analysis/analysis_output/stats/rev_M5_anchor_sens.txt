@@ -1,0 +1,8 @@
+# Anchor-pair inflation sensitivity sweep
+
+Small                                         Large                                          Italian   Japanese    Hindi
+intfloat/multilingual-e5-small                Qwen/Qwen3-Embedding-8B                          2.56x      1.61x    1.23x
+ibm-granite/granite-embedding-107m-multilingu Qwen/Qwen3-Embedding-8B                          2.66x      2.18x    1.16x
+ibm-granite/granite-embedding-107m-multilingu nvidia/llama-embed-nemotron-8b                  -0.45x      1.76x    1.00x
+jinaai/jina-embeddings-v5-text-nano           Qwen/Qwen3-Embedding-4B                         15.88x      1.97x    1.93x
+intfloat/multilingual-e5-small                intfloat/multilingual-e5-large-instruct          4.96x      5.71x    2.19x

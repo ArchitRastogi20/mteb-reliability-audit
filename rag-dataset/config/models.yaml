@@ -1,0 +1,162 @@
+# 20 models for this study evaluation
+# tier: maps to batch_size in config/hardware.yaml
+# model_kwargs: extra kwargs passed to SentenceTransformer()
+models:
+  # ── Small (≤200M, encoder) ─────────────────────────────────────────
+  - id: intfloat/multilingual-e5-small
+    params: "118M"
+    dim: 384
+    tier: small
+    passage_prefix: "passage: "
+    query_prefix: "query: "
+
+  - id: intfloat/e5-small-v2
+    params: "33M"
+    dim: 384
+    tier: small
+    passage_prefix: "passage: "
+    query_prefix: "query: "
+
+  - id: ibm-granite/granite-embedding-107m-multilingual
+    params: "107M"
+    dim: 768
+    tier: small
+    passage_prefix: ""
+    query_prefix: ""
+
+  - id: jinaai/jina-embeddings-v5-text-nano
+    params: "212M"
+    dim: 1024
+    tier: small
+    passage_prefix: ""
+    query_prefix: ""
+    model_kwargs:
+      default_task: "retrieval"
+
+  # ── Medium (200M–700M, encoder) ────────────────────────────────────
+  - id: intfloat/multilingual-e5-base
+    params: "278M"
+    dim: 768
+    tier: medium
+    passage_prefix: "passage: "
+    query_prefix: "query: "
+
+  - id: intfloat/multilingual-e5-large
+    params: "560M"
+    dim: 1024
+    tier: medium
+    passage_prefix: "passage: "
+    query_prefix: "query: "
+
+  - id: intfloat/multilingual-e5-large-instruct
+    params: "560M"
+    dim: 1024
+    tier: medium
+    passage_prefix: ""
+    query_prefix: "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: "
+
+  - id: BAAI/bge-m3
+    params: "568M"
+    dim: 1024
+    tier: medium
+    passage_prefix: ""
+    query_prefix: ""
+    model_kwargs:
+      use_safetensors: false
+
+  - id: jinaai/jina-embeddings-v3
+    params: "572M"
+    dim: 1024
+    tier: medium
+    passage_prefix: ""
+    query_prefix: ""
+    model_kwargs:
+      torch_dtype: "bfloat16"
+    tokenizer_kwargs:
+      fix_mistral_regex: true
+    passage_encode_kwargs:
+      task: "retrieval.passage"
+    query_encode_kwargs:
+      task: "retrieval.query"
+
+  - id: Snowflake/snowflake-arctic-embed-l-v2.0
+    params: "568M"
+    dim: 1024
+    tier: medium
+    passage_prefix: ""
+    query_prefix: "Represent this sentence for searching relevant passages: "
+
+  - id: intfloat/e5-large-v2
+    params: "335M"
+    dim: 1024
+    tier: medium
+    passage_prefix: "passage: "
+    query_prefix: "query: "
+
+  - id: perplexity-ai/pplx-embed-v1-0.6b
+    params: "596M"
+    dim: 1024
+    tier: medium
+    passage_prefix: ""
+    query_prefix: ""
+
+  - id: microsoft/harrier-oss-v1-0.6b
+    params: "596M"
+    dim: 1024
+    tier: medium
+    passage_prefix: ""
+    query_prefix: ""
+
+  # ── Qwen sub-1B (decoder architecture — needs low batch size) ──────
+  - id: Qwen/Qwen3-Embedding-0.6B
+    params: "600M"
+    dim: 1024
+    tier: qwen_sub1b
+    passage_prefix: ""
+    query_prefix: ""
+
+  # ── Large (4B–7B) ──────────────────────────────────────────────────
+  - id: Qwen/Qwen3-Embedding-4B
+    params: "4B"
+    dim: 2560
+    tier: large
+    passage_prefix: ""
+    query_prefix: ""
+
+  - id: Salesforce/SFR-Embedding-Mistral
+    params: "7B"
+    dim: 4096
+    tier: large
+    passage_prefix: ""
+    query_prefix: "Instruct: Given a web search query, retrieve relevant passages\nQuery: "
+
+  - id: intfloat/e5-mistral-7b-instruct
+    params: "7B"
+    dim: 4096
+    tier: large
+    passage_prefix: ""
+    query_prefix: "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: "
+
+  # - id: Alibaba-NLP/gte-Qwen2-7B-instruct
+  #   params: "7B"
+  #   dim: 3584
+  #   tier: large
+  #   passage_prefix: ""
+  #   query_prefix: ""
+  #   model_kwargs:
+  #     torch_dtype: "float16"
+
+  # ── XLarge (7.5B–8B) ───────────────────────────────────────────────
+  - id: nvidia/llama-embed-nemotron-8b
+    params: "7.5B"
+    dim: 4096
+    tier: xlarge
+    passage_prefix: ""
+    query_prefix: ""
+
+  - id: Qwen/Qwen3-Embedding-8B
+    params: "8B"
+    dim: 4096
+    tier: xlarge
+    passage_prefix: ""
+    query_prefix: ""

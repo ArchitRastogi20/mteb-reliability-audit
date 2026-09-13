@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "mteb-reliability-audit"
+authors:
+  - family-names: "Rastogi"
+    given-names: "Archit"
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/ArchitRastogi20/mteb-reliability-audit"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "A Reliability Audit of Aggregated MTEB Retrieval Scores: Coverage Asymmetry and Language-Specific Rank Inversions Across 17 Languages"
+  authors:
+    - family-names: "Rastogi"
+      given-names: "Archit"
+      affiliation: "Independent Researcher"
+  year: 2026
+  conference:
+    name: "The 2026 Joint Conference of the Asia-Pacific Chapter of the ACL and the International Joint Conference on NLP (AACL-IJCNLP 2026)"

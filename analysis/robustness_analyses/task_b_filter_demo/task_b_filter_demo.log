@@ -1,0 +1,48 @@
+2026-09-13 16:20:28,544 Task B: MMTEB filter-view demonstration
+2026-09-13 16:20:28,544 all folder (all_mteb): ['all_performance_per_language.csv', 'all_performance_per_task.csv', 'all_summary.csv']
+2026-09-13 16:20:28,544 Folder not found: C:\D_Backup\Archit_repo\MTEB_try_code\mteb-reliability-audit\analysis\mteb_csvs\italian_mteb
+2026-09-13 16:20:28,544 japanese folder (japnese_mteb): ['japanese_performace_per_langauge.csv', 'japanese_performance_per_task.csv', 'japanese_summary.csv']
+2026-09-13 16:20:28,544 hindi folder (hindi_mteb): ['hindi_performance_per_language.csv', 'hindi_performance_per_task.csv', 'hindi_summary.csv']
+2026-09-13 16:20:28,563 all_task: all_performance_per_task.csv, shape=(375, 20), cols=['Unnamed: 0', 'Model', 'AILAStatutes', 'ArguAna', 'BelebeleRetrieval', 'CovidRetrieval', 'HagridRetrieval', 'LEMBPasskeyRetrieval', 'LegalBenchCorporateLobbying', 'MIRACLRetrievalHardNegatives', 'MLQARetrieval', 'SCIDOCS', 'SpartQA', 'StackOverflowQA', 'StatcanDialogueDatasetRetrieval', 'TRECCOVID', 'TempReasonL1', 'TwitterHjerneRetrieval', 'WikipediaRetrievalMultilingual', 'WinoGrande']
+2026-09-13 16:20:28,563 Not found: C:\D_Backup\Archit_repo\MTEB_try_code\mteb-reliability-audit\analysis\mteb_csvs\italian_mteb\italian_performance_per_task.csv
+2026-09-13 16:20:28,563 Not found: C:\D_Backup\Archit_repo\MTEB_try_code\mteb-reliability-audit\analysis\mteb_csvs\italian_mteb\italian_performance_per_langauge.csv
+2026-09-13 16:20:28,563 jp_task: japanese_performance_per_task.csv, shape=(215, 4), cols=['Unnamed: 0', 'Model', 'BelebeleRetrieval', 'MIRACLRetrievalHardNegatives']
+2026-09-13 16:20:28,563 jp_lang: japanese_performace_per_langauge.csv, shape=(215, 4), cols=['Unnamed: 0', 'Model', 'eng-Latn', 'jpn-Jpan']
+2026-09-13 16:20:28,563 hi_task: hindi_performance_per_task.csv, shape=(218, 6), cols=['Unnamed: 0', 'Model', 'BelebeleRetrieval', 'MIRACLRetrievalHardNegatives', 'MLQARetrieval', 'WikipediaRetrievalMultilingual']
+2026-09-13 16:20:28,563 hi_lang: hindi_performance_per_language.csv, shape=(218, 9), cols=['Unnamed: 0', 'Model', 'ara-Arab', 'deu-Latn', 'eng-Latn', 'hin-Deva', 'spa-Latn', 'vie-Latn', 'zho-Hans']
+2026-09-13 16:20:28,576 Demonstration A -- bge-m3 + BelebeleRetrieval:
+2026-09-13 16:20:28,576   Score in all_task CSV:             78.1585505319149
+2026-09-13 16:20:28,576   Score in italian_filter_task CSV:  None
+2026-09-13 16:20:28,576   Italian per-language CSV columns:  []
+2026-09-13 16:20:28,576   'ita-Latn' exposed: False
+2026-09-13 16:20:28,576   BelebeleRetrieval (Italian filter): exposed=False, n_langs=0, value=N/A
+2026-09-13 16:20:28,576   MIRACLRetrievalHardNegatives (Japanese filter): exposed=True, n_langs=2, value=88.2184
+2026-09-13 16:20:28,576   MIRACLRetrievalHardNegatives (Hindi filter): exposed=True, n_langs=7, value=75.46855555555555
+2026-09-13 16:20:28,576   BelebeleRetrieval (Japanese filter): exposed=False, n_langs=2, value=not_exposed
+2026-09-13 16:20:28,581 Saved filter_view_summary.csv
+2026-09-13 16:20:28,581 Saved reproduce_filter_view.py
+2026-09-13 16:20:28,581 Saved filter_view.md. Done in 0.0s
+2026-09-13 16:21:15,579 Task B: MMTEB filter-view demonstration
+2026-09-13 16:21:15,581 all folder (all_mteb): ['all_performance_per_language.csv', 'all_performance_per_task.csv', 'all_summary.csv']
+2026-09-13 16:21:15,581 italian folder (italian_mteb): ['italian_performance_per_langauge.csv']
+2026-09-13 16:21:15,582 japanese folder (japnese_mteb): ['japanese_performace_per_langauge.csv', 'japanese_performance_per_task.csv', 'japanese_summary.csv']
+2026-09-13 16:21:15,582 hindi folder (hindi_mteb): ['hindi_performance_per_language.csv', 'hindi_performance_per_task.csv', 'hindi_summary.csv']
+2026-09-13 16:21:15,588 all_task: all_performance_per_task.csv, shape=(375, 20), cols=['Unnamed: 0', 'Model', 'AILAStatutes', 'ArguAna', 'BelebeleRetrieval', 'CovidRetrieval', 'HagridRetrieval', 'LEMBPasskeyRetrieval', 'LegalBenchCorporateLobbying', 'MIRACLRetrievalHardNegatives', 'MLQARetrieval', 'SCIDOCS', 'SpartQA', 'StackOverflowQA', 'StatcanDialogueDatasetRetrieval', 'TRECCOVID', 'TempReasonL1', 'TwitterHjerneRetrieval', 'WikipediaRetrievalMultilingual', 'WinoGrande']
+2026-09-13 16:21:15,588 Not found: C:\D_Backup\Archit_repo\MTEB_try_code\mteb-reliability-audit\analysis\mteb_csvs\italian_mteb\italian_performance_per_task.csv
+2026-09-13 16:21:15,588 it_lang: italian_performance_per_langauge.csv, shape=(180, 3), cols=['Unnamed: 0', 'Model', 'eng-Latn']
+2026-09-13 16:21:15,588 jp_task: japanese_performance_per_task.csv, shape=(215, 4), cols=['Unnamed: 0', 'Model', 'BelebeleRetrieval', 'MIRACLRetrievalHardNegatives']
+2026-09-13 16:21:15,588 jp_lang: japanese_performace_per_langauge.csv, shape=(215, 4), cols=['Unnamed: 0', 'Model', 'eng-Latn', 'jpn-Jpan']
+2026-09-13 16:21:15,600 hi_task: hindi_performance_per_task.csv, shape=(218, 6), cols=['Unnamed: 0', 'Model', 'BelebeleRetrieval', 'MIRACLRetrievalHardNegatives', 'MLQARetrieval', 'WikipediaRetrievalMultilingual']
+2026-09-13 16:21:15,603 hi_lang: hindi_performance_per_language.csv, shape=(218, 9), cols=['Unnamed: 0', 'Model', 'ara-Arab', 'deu-Latn', 'eng-Latn', 'hin-Deva', 'spa-Latn', 'vie-Latn', 'zho-Hans']
+2026-09-13 16:21:15,603 Demonstration A -- bge-m3 + BelebeleRetrieval:
+2026-09-13 16:21:15,603   Score in all_task CSV:             78.1585505319149
+2026-09-13 16:21:15,603   Score in italian_filter_task CSV:  None
+2026-09-13 16:21:15,603   Italian per-language CSV columns:  ['Unnamed: 0', 'Model', 'eng-Latn']
+2026-09-13 16:21:15,603   'ita-Latn' exposed: False
+2026-09-13 16:21:15,603   BelebeleRetrieval (Italian filter): exposed=False, n_langs=1, value=not_exposed
+2026-09-13 16:21:15,603   MIRACLRetrievalHardNegatives (Japanese filter): exposed=True, n_langs=2, value=88.2184
+2026-09-13 16:21:15,603   MIRACLRetrievalHardNegatives (Hindi filter): exposed=True, n_langs=7, value=75.46855555555555
+2026-09-13 16:21:15,603   BelebeleRetrieval (Japanese filter): exposed=False, n_langs=2, value=not_exposed
+2026-09-13 16:21:15,603 Saved filter_view_summary.csv
+2026-09-13 16:21:15,603 Saved reproduce_filter_view.py
+2026-09-13 16:21:15,603 Saved filter_view.md. Done in 0.0s

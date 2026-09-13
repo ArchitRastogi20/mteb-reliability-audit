@@ -1,0 +1,81 @@
+# P0.4 — Rank-inversion pattern on additional languages
+Using MMTEB language-filtered scores from all_mteb/all_performance_per_language.csv
+for our 17 models. Predictor = MTEB-overall-aggregate; outcome = MMTEB-lang-filtered.
+
+## Swahili (swa-Latn, n=14)
+  Kendall tau = 0.560  [95% CI: 0.294, 0.780]  p=0.0046
+  Inversions: 20/91 (22.0%)
+  Notable inversions:
+    ml-e5-large-i: MTEB rank 5 -> swahili rank 9 (delta=-4)
+    SFR-Mistral: MTEB rank 7 -> swahili rank 11 (delta=-4)
+    ml-e5-base: MTEB rank 8 -> swahili rank 4 (delta=4)
+    ml-e5-small: MTEB rank 12 -> swahili rank 8 (delta=4)
+
+## Tamil (tam-Taml, n=15)
+  Kendall tau = 0.676  [95% CI: 0.280, 0.939]  p=0.0002
+  Inversions: 17/105 (16.2%)
+  Notable inversions:
+    SFR-Mistral: MTEB rank 8 -> tamil rank 14 (delta=-6)
+    e5-mistral-7b: MTEB rank 10 -> tamil rank 15 (delta=-5)
+    jina-v5-nano: MTEB rank 14 -> tamil rank 8 (delta=6)
+
+## Bengali (ben-Beng, n=15)
+  Kendall tau = 0.657  [95% CI: 0.229, 0.960]  p=0.0003
+  Inversions: 18/105 (17.1%)
+  Notable inversions:
+    ml-e5-large: MTEB rank 4 -> bengali rank 8 (delta=-4)
+    ml-e5-base: MTEB rank 9 -> bengali rank 13 (delta=-4)
+    jina-v5-nano: MTEB rank 14 -> bengali rank 4 (delta=10)
+
+## Marathi (mar-Deva, n=15)
+  Kendall tau = 0.695  [95% CI: 0.299, 0.939]  p=0.0001
+  Inversions: 16/105 (15.2%)
+  Notable inversions:
+    SFR-Mistral: MTEB rank 8 -> marathi rank 13 (delta=-5)
+    e5-mistral-7b: MTEB rank 10 -> marathi rank 14 (delta=-4)
+    jina-v5-nano: MTEB rank 14 -> marathi rank 8 (delta=6)
+
+## Telugu (tel-Telu, n=15)
+  Kendall tau = 0.638  [95% CI: 0.250, 0.898]  p=0.0005
+  Inversions: 19/105 (18.1%)
+  Notable inversions:
+    SFR-Mistral: MTEB rank 8 -> telugu rank 14 (delta=-6)
+    e5-mistral-7b: MTEB rank 10 -> telugu rank 15 (delta=-5)
+    jina-v5-nano: MTEB rank 14 -> telugu rank 8 (delta=6)
+
+## Korean (kor-Hang, n=15)
+  Kendall tau = 0.657  [95% CI: 0.221, 0.959]  p=0.0003
+  Inversions: 18/105 (17.1%)
+  Notable inversions:
+    ml-e5-base: MTEB rank 9 -> korean rank 13 (delta=-4)
+    jina-v5-nano: MTEB rank 14 -> korean rank 4 (delta=10)
+
+## Vietnamese (vie-Latn, n=15)
+  Kendall tau = 0.619  [95% CI: 0.179, 0.940]  p=0.0008
+  Inversions: 20/105 (19.0%)
+  Notable inversions:
+    SFR-Mistral: MTEB rank 8 -> vietnamese rank 12 (delta=-4)
+    jina-v5-nano: MTEB rank 14 -> vietnamese rank 4 (delta=10)
+
+## Arabic (ara-Arab, n=15)
+  Kendall tau = 0.676  [95% CI: 0.278, 0.939]  p=0.0002
+  Inversions: 17/105 (16.2%)
+  Notable inversions:
+    SFR-Mistral: MTEB rank 8 -> arabic rank 12 (delta=-4)
+    jina-v5-nano: MTEB rank 14 -> arabic rank 7 (delta=7)
+
+## SUMMARY across additional languages
+Language        n      tau     inv%          p
+swahili        14    0.560    22.0%     0.0046
+tamil          15    0.676    16.2%     0.0002
+bengali        15    0.657    17.1%     0.0003
+marathi        15    0.695    15.2%     0.0001
+telugu         15    0.638    18.1%     0.0005
+korean         15    0.657    17.1%     0.0003
+vietnamese     15    0.619    19.0%     0.0008
+arabic         15    0.676    16.2%     0.0002
+---
+Plus paper's main 3 (already reported in Table 3):
+italian        14    0.451    27.5%      0.040
+japanese       15    0.467    26.7%      0.028
+hindi          15    0.600    20.0%      0.004

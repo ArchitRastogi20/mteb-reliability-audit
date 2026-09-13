@@ -1,0 +1,4 @@
+language,n_models,total_pairs,headline_inversions,significant_inversions,proportion_robust,status
+IT,14,91,25,N/A,N/A,blocked_no_per_query_ndcg
+JA,15,105,28,N/A,N/A,blocked_no_per_query_ndcg
+HI,15,105,21,N/A,N/A,blocked_no_per_query_ndcg

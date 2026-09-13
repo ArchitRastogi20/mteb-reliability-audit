@@ -1,0 +1,35 @@
+{
+  "model_id": "BM25",
+  "lang": "hi",
+  "domain": "finance",
+  "num_docs": 250,
+  "num_queries": 375,
+  "overall": {
+    "ndcg_at_10": 0.9231152220791885,
+    "recall_at_10": 0.9661538461538461,
+    "mrr": 0.9092857142857141
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.8987325272800488,
+      "recall_at_10": 0.9595375722543352,
+      "mrr": 0.87943848059455
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.9346588393120869,
+      "recall_at_10": 0.9611650485436893,
+      "mrr": 0.9259708737864077
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9849359083090391,
+      "recall_at_10": 1.0,
+      "mrr": 0.9795918367346939
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 1.71
+}

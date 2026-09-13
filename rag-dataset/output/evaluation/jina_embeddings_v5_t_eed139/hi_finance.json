@@ -1,0 +1,34 @@
+{
+  "model_id": "jinaai/jina-embeddings-v5-text-nano",
+  "lang": "hi",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.7346956592808859,
+    "recall_at_10": 0.7784615384615384,
+    "mrr": 0.7203675213675215
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.6653956043724196,
+      "recall_at_10": 0.7167630057803468,
+      "mrr": 0.6488118175979447
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7297344632025177,
+      "recall_at_10": 0.7766990291262136,
+      "mrr": 0.7139967637540452
+    },
+    "summarization": {
+      "ndcg_at_10": 0.9897959183673469,
+      "recall_at_10": 1.0,
+      "mrr": 0.9863945578231291
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 12.61,
+  "peak_vram_mb": 8178
+}

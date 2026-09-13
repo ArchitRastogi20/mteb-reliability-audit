@@ -1,0 +1,9 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-8B",
+  "lang_code": "ita",
+  "peak_vram_mb": 23254,
+  "query_encode_sec": 32.96,
+  "total_wall_sec": 617.48,
+  "corpus_cache_hits": 6744,
+  "corpus_cache_misses": 7244
+}

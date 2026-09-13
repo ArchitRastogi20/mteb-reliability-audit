@@ -1,0 +1,9 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-4B",
+  "lang_code": "swa",
+  "peak_vram_mb": 14433,
+  "query_encode_sec": 9.38,
+  "total_wall_sec": 40.76,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}

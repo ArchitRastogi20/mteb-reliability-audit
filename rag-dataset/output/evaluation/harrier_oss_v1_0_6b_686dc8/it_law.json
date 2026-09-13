@@ -1,0 +1,34 @@
+{
+  "model_id": "microsoft/harrier-oss-v1-0.6b",
+  "lang": "it",
+  "domain": "law",
+  "overall": {
+    "ndcg_at_10": 0.5448290215447756,
+    "recall_at_10": 0.7427884615384616,
+    "mrr": 0.4823517628205129
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.4473283840602681,
+      "recall_at_10": 0.6511627906976745,
+      "mrr": 0.3833448689553341
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.6191708031027959,
+      "recall_at_10": 0.8323353293413174,
+      "mrr": 0.5514114627887083
+    },
+    "summarization": {
+      "ndcg_at_10": 0.6013878803388788,
+      "recall_at_10": 0.7532467532467533,
+      "mrr": 0.5537311894454753
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 34.27,
+  "peak_vram_mb": 4536
+}

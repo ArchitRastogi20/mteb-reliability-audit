@@ -1,0 +1,34 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "lang": "it",
+  "domain": "finance",
+  "overall": {
+    "ndcg_at_10": 0.7468958483669296,
+    "recall_at_10": 0.8514851485148515,
+    "mrr": 0.7132307873644507
+  },
+  "by_type": {
+    "factual": {
+      "ndcg_at_10": 0.7058462736814218,
+      "recall_at_10": 0.8057142857142857,
+      "mrr": 0.6739591836734694
+    },
+    "multi_hop": {
+      "ndcg_at_10": 0.7333311599982729,
+      "recall_at_10": 0.8461538461538461,
+      "mrr": 0.6973165723165724
+    },
+    "summarization": {
+      "ndcg_at_10": 0.8529821972818333,
+      "recall_at_10": 0.9534883720930233,
+      "mrr": 0.8196059431524548
+    },
+    "unanswerable": {
+      "ndcg_at_10": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "evaluation_time_sec": 38.13,
+  "peak_vram_mb": 13243
+}

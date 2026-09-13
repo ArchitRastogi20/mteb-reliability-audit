@@ -1,0 +1,22 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-4B",
+  "params": "4B",
+  "dim": 2560,
+  "embedding_dim": 2560,
+  "batch_size": 4,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 15306.6,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 8583.1,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 979.702,
+  "corpus_encode_sec_std": 6.051,
+  "query_throughput_qps_mean": 39.8,
+  "query_throughput_qps_std": 0.082,
+  "latency_p50_ms_mean": 27.42,
+  "latency_p50_ms_std": 0.041,
+  "latency_p99_ms_mean": 28.739,
+  "latency_p99_ms_std": 1.527
+}

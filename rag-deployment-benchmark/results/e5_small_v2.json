@@ -1,0 +1,22 @@
+{
+  "model_id": "intfloat/e5-small-v2",
+  "params": "33M",
+  "dim": 384,
+  "embedding_dim": 384,
+  "batch_size": 32,
+  "n_runs": 3,
+  "n_docs": 1000,
+  "n_queries": 1744,
+  "vram_corpus_mb_mean": 402.8,
+  "vram_corpus_mb_std": 0.0,
+  "vram_query_mb_mean": 328.9,
+  "vram_query_mb_std": 0.0,
+  "corpus_encode_sec_mean": 4.61,
+  "corpus_encode_sec_std": 0.094,
+  "query_throughput_qps_mean": 2274.8,
+  "query_throughput_qps_std": 34.847,
+  "latency_p50_ms_mean": 7.871,
+  "latency_p50_ms_std": 0.064,
+  "latency_p99_ms_mean": 8.817,
+  "latency_p99_ms_std": 0.013
+}

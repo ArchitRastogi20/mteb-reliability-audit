@@ -1,0 +1,7 @@
+config,n_docs,n_ngrams,wiki_pct,bele_pct
+it_finance,250,297673,0.0,0.0
+it_law,250,305868,0.0,0.0
+ja_finance,250,437890,1.31,0.08
+ja_law,250,351394,1.13,0.06
+hi_finance,250,453020,0.82,0.05
+hi_law,250,419038,0.5,0.03

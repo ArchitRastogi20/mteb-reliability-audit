@@ -1,0 +1,9 @@
+{
+  "model_id": "Salesforce/SFR-Embedding-Mistral",
+  "lang_code": "swa",
+  "peak_vram_mb": 15785,
+  "query_encode_sec": 17.83,
+  "total_wall_sec": 68.88,
+  "corpus_cache_hits": 0,
+  "corpus_cache_misses": 488
+}
