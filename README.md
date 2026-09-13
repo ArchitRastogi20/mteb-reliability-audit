@@ -43,7 +43,11 @@ Two quantities do the work throughout:
 
 **The core audit needs no GPU, no API key, and no paid service.** It is pure
 pandas/numpy/scipy over a public leaderboard snapshot, and runs in roughly
-30 minutes — almost all of which is the initial download.
+30 minutes.
+
+It does need **network and disk**: step one shallow-clones the public MTEB
+results repository, which is multi-gigabyte and dominates the runtime. Every
+step after it is offline and takes seconds.
 
 ```bash
 git clone https://github.com/ArchitRastogi20/mteb-reliability-audit.git
@@ -58,7 +62,7 @@ python 02_verify.py          # cross-checks downloaded scores against the paper
 python 03_analyze.py         # Kendall tau + bootstrap CI + inversion rate
 python 03_analyze.py --curated
 python 03_analyze.py --extended
-python 05_audit_artifacts.py # -> results/sensitivity_table.csv  (Table 1)
+python 05_audit_artifacts.py # -> ../sensitivity_table.csv  (Table 1; see Known issues 7)
 python 06_followup_analyses.py
 ```
 
@@ -428,6 +432,30 @@ provenance audit during camera-ready preparation.
    located during the provenance audit.
 6. **`extended-experiments/tests/` is empty** — the sub-project that produces
    the headline mitigation number has no unit tests.
+7. **A fresh run writes its outputs one directory above the released copies.**
+   `03_analyze.py`, `05_audit_artifacts.py` and `06_followup_analyses.py` write
+   `summary*.csv`, `sensitivity_table.csv` and `hidden_failures.csv` to the
+   `mteb-ranking-audit/` root; the released copies of those same artifacts live
+   in `mteb-ranking-audit/results/`, which is where this README's artifact map
+   points. The scripts agree with each other, so the pipeline runs end to end —
+   but compare a fresh run against `results/` rather than expecting it to
+   overwrite that directory.
+8. **`exp5_threshold_sensitivity.py` reports a 4-model cluster, not 5.** This is
+   correct, not a failed reproduction. `exp5` sweeps the **curated tier (n=25)**
+   only, and `granite-97m-r2` is not in the curated roster — it has 0
+   curated-tier affected languages and 5 extended-tier ones
+   (`hidden_failure_cluster.csv`). The paper's five-model cluster is four
+   curated-tier models plus that one extended-tier model. Note that
+   `extended-experiments/outputs/SUMMARY.md` prints
+   "Headline cluster composition differs from manuscript: missing
+   {'granite-97m-r2'}" without this context — the tier scope is the explanation.
+9. **`extended-experiments/outputs/SUMMARY.md` is an append log, not a report.**
+   `run_all.py` appends on every run, so the file holds several stacked copies
+   of each experiment block from different points in the project's history, and
+   some values drift between blocks (Mean(18) median inversion appears as both
+   0.327 and 0.330; the 6-task strict-taxonomy p as 0.0049, 0.0205 and 0.0243).
+   **The CSVs in `outputs/` are authoritative**; `SUMMARY.md` is kept only as a
+   run trace. The paper's cited values come from the CSVs.
 
 ---
 
@@ -451,5 +479,14 @@ provenance audit during camera-ready preparation.
 
 [MIT](LICENSE) © 2026 Archit Rastogi.
 
-Released results derived from the public MTEB/MMTEB leaderboard remain subject
-to the licences of their respective benchmark datasets and model providers.
+The MIT licence covers the code and the analysis outputs produced by it.
+
+It does **not** relicense third-party material that those outputs are derived
+from. The released CSV/JSON results contain scores computed over public
+benchmark datasets — including BelebeleRetrieval, MIRACL, MLQA and
+WikipediaRetrievalMultilingual, reached through the `mteb` package — and scores
+attributed to named third-party embedding models. Those datasets and model
+weights remain under their own licences and terms, held by their respective
+publishers; consult each dataset card and model card before redistributing or
+building on the corresponding rows. No third-party source code or model weights
+are vendored in this repository.

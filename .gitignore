@@ -12,3 +12,4 @@ venv/
 .cache/
 model_cache/
 *.npy
+*.log
