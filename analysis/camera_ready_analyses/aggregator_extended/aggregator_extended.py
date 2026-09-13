@@ -3,7 +3,7 @@ Extended-tier aggregator comparison: baseline global aggregate vs. a
 language-balanced leave-one-out (LOO) aggregate.
 
 This extends the curated-tier comparison in
-anon-repo/extended-experiments/exp7_alt_aggregators.py (25 models, 17
+extended-experiments/exp7_alt_aggregators.py (25 models, 17
 languages), which found that `lang_macro_18lang_loo` -- per-language mean
 first, then macro-average across the OTHER 16 languages, leave-one-out --
 cuts the median pairwise inversion rate relative to the global aggregate.
@@ -37,19 +37,19 @@ Design decisions (see NOTES.md for full discussion)
 
 Data provenance / deviations from the naive brief (full detail in NOTES.md)
 -----------------------------------------------------------------------------
-- anon-repo/extended-experiments/data/lang_avg_per_model.csv turned out to
+- extended-experiments/data/lang_avg_per_model.csv turned out to
   contain ONLY tier="curated" rows (420 rows, no "extended" tier present).
   Per-model, per-language extended-tier scores are read instead directly
   from extended_roster.csv's own `lang_avg` column -- which already IS the
   per-model-per-language score for the extended tier (that is what the file
   was built for).
-- anon-repo/extended-experiments/data/mteb_agg_per_model.csv covers only 26
+- extended-experiments/data/mteb_agg_per_model.csv covers only 26
   unique models under short aliases (33 rows: 25 "curated" + 1 "extended" +
   7 "restricted" duplicates of curated models), not the 57-model extended
   roster (which uses "org__model"
   identifiers), and no alias-mapping table covering all 57 models exists.
   The global aggregate used here instead comes from
-  anon-repo/mteb-ranking-audit/global/mteb_agg_extended.csv (byte-identical
+  mteb-ranking-audit/global/mteb_agg_extended.csv (byte-identical
   to mteb_audit_data/global/mteb_agg_extended.csv), which is keyed by the
   exact same "org__model" identifiers as extended_roster.csv (57/57 overlap,
   verified) and holds each model's Mean(Task) aggregate over the 18 MMTEB
@@ -72,8 +72,8 @@ exactly on this data.
 
 Inputs
 ------
-  anon-repo/analysis/extended_roster.csv
-  anon-repo/mteb-ranking-audit/global/mteb_agg_extended.csv
+  analysis/extended_roster.csv
+  mteb-ranking-audit/global/mteb_agg_extended.csv
   mteb_audit_data/summary_extended.csv   (read-only, calibration reference)
 
 Outputs (this directory)

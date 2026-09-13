@@ -24,7 +24,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import kendalltau
 
-ROOT = Path(__file__).resolve().parents[1]  # anon_repo root
+ROOT = Path(__file__).resolve().parents[1]  # repo root
 OUT = ROOT / "analysis_output"
 STATS = OUT / "stats"
 FIGS = OUT / "figures"
@@ -70,7 +70,7 @@ LANG_CODES = {
 
 def load_filtered_view():
     """Per-language MMTEB averages for our 17 models."""
-    df = pd.read_csv(ROOT / "all_mteb" / "all_performance_per_language.csv")
+    df = pd.read_csv(ROOT / "analysis" / "mteb_csvs" / "all_mteb" / "all_performance_per_language.csv")
     # The model column doesn't have the leading index sometimes; check
     # Header row 1 is the model name column
     col_model = df.columns[1]  # "Model"

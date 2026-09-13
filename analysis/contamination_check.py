@@ -38,7 +38,7 @@ import re
 from pathlib import Path
 from typing import Iterable
 
-ROOT = Path(__file__).resolve().parents[1]  # anon_repo root
+ROOT = Path(__file__).resolve().parents[1]  # repo root
 RAG_BASE = ROOT / "rag-dataset" / "output"
 STATS = ROOT / "analysis_output" / "stats"
 N = 8  # 8-gram

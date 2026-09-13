@@ -13,7 +13,7 @@ import pandas as pd
 from matplotlib.lines import Line2D
 from scipy.stats import kendalltau
 
-ROOT = Path(__file__).resolve().parents[1]  # anon_repo root
+ROOT = Path(__file__).resolve().parents[1]  # repo root
 OUT = ROOT / "analysis_output"
 FIGS = OUT / "figures"
 

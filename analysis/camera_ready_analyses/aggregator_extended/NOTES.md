@@ -5,7 +5,7 @@ Output table: `extended_aggregator_summary.csv` (per-language rows + `MEDIAN` ro
 
 ## Question
 
-The curated-tier experiment (`anon-repo/extended-experiments/exp7_alt_aggregators.py`, 25 models,
+The curated-tier experiment (`extended-experiments/exp7_alt_aggregators.py`, 25 models,
 17 languages) showed that a language-balanced leave-one-out aggregator (`lang_macro_18lang_loo`:
 per-language mean first, then macro-average over the other languages) cuts the median pairwise
 inversion rate from 0.33 to 0.145 (median tau 0.71). Does the same intervention still help on the
@@ -15,7 +15,7 @@ baseline global-vs-local disagreement is milder to begin with (median inversion 
 ## Design
 
 1. **Model sets.** The balanced aggregator needs multi-language coverage per model, but extended
-   rosters are per-language. From `anon-repo/analysis/extended_roster.csv` (890 rows, all
+   rosters are per-language. From `analysis/extended_roster.csv` (890 rows, all
    `included=True`, 57 distinct models):
    - **intersection** — models present in ALL 17 language rosters: **28 models**.
      (Spanish is the binding constraint: its roster has only 28 models, and all 28 appear everywhere else.)
@@ -75,6 +75,6 @@ the full roster.
   no extended tier), so per-model per-language extended scores are read from `extended_roster.csv`'s
   own `lang_avg` column; `extended-experiments/data/mteb_agg_per_model.csv` covers only 33 models
   under short aliases, so the global aggregate comes from
-  `anon-repo/mteb-ranking-audit/global/mteb_agg_extended.csv` (byte-identical to
+  `mteb-ranking-audit/global/mteb_agg_extended.csv` (byte-identical to
   `mteb_audit_data/global/mteb_agg_extended.csv`), which shares the exact `org__model` keys with the
   roster (57/57 overlap) and holds each model's Mean(Task) aggregate over the 18 retrieval tasks.

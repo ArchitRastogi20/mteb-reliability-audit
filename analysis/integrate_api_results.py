@@ -130,7 +130,7 @@ def integrate_belebele() -> None:
 
 
 def append_to_all_mteb_per_language() -> None:
-    csv_path = ROOT / "all_mteb" / "all_performance_per_language.csv"
+    csv_path = ROOT / "mteb_csvs" / "all_mteb" / "all_performance_per_language.csv"
     df = pd.read_csv(csv_path)
     df = df[~df[df.columns[1]].isin(m["leaderboard_name"] for m in API_MODELS.values())]
 

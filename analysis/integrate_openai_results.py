@@ -119,7 +119,7 @@ def append_to_all_mteb_per_language() -> None:
     For all other language columns we leave NaN — the downstream code already
     tolerates missing values (fillna in p0_revisions.py / regen_figures.py).
     """
-    csv_path = ROOT / "all_mteb" / "all_performance_per_language.csv"
+    csv_path = ROOT / "mteb_csvs" / "all_mteb" / "all_performance_per_language.csv"
     df = pd.read_csv(csv_path)
     bel = json.loads((EVAL / "openai_belebele.json").read_text())
 

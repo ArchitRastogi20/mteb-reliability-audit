@@ -13,9 +13,9 @@ this script quantifies, using ONLY local data (no network access):
 Inputs (all local):
   - `mteb` benchmark registry (task lists, task types, eval splits, subsets)
   - raw results clone: results/<org>__<model>/<revision>/<TaskName>.json
-  - curated roster:            anon-repo/analysis/roster_membership.csv
-  - per-language scores:       anon-repo/extended-experiments/data/lang_avg_per_model.csv
-  - global aggregate scores:   anon-repo/extended-experiments/data/mteb_agg_per_model.csv
+  - curated roster:            analysis/roster_membership.csv
+  - per-language scores:       extended-experiments/data/lang_avg_per_model.csv
+  - global aggregate scores:   extended-experiments/data/mteb_agg_per_model.csv
 
 Outputs (written next to this script):
   - fork_concordance.csv       one row per fork

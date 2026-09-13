@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import kendalltau, spearmanr
 
-ROOT = Path(__file__).resolve().parents[1]  # anon_repo root
+ROOT = Path(__file__).resolve().parents[1]  # repo root
 OUT = ROOT / "analysis_output"
 STATS = OUT / "stats"
 FIGS = OUT / "figures"

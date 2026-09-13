@@ -111,7 +111,8 @@ number in the paper's abstract.
 The three-tier audit itself. Downloads the public MMTEB(Multilingual)
 leaderboard snapshot (18 retrieval tasks, 2026-05) and compares aggregated
 rankings against per-language rankings across three nested model rosters:
-restricted (n=7), curated (n=25), and extended (n=28–57).
+restricted (n=7; n=6 for Persian, Italian, German, Bengali and Hindi), curated
+(n=25), and extended (n=28–57).
 
 | Script | Purpose | Cost |
 |---|---|---|
@@ -125,9 +126,23 @@ restricted (n=7), curated (n=25), and extended (n=28–57).
 | `08_english_profile.py` | English-vs-multilingual task profile for the cluster | cheap |
 | `09_extended_resample.py` | 100 random size-25 draws from the extended tier per language | cheap |
 | `10_cluster_table.py` | Hidden-failure cluster table (global rank vs per-language rank) | cheap |
+| `15_recompute_cluster_medians.py` | **Required after `06`** — corrects the cluster median local ranks | cheap |
 
-Run `01` → `10` in numeric order. Everything after `01` states "no new
-downloads required".
+Run `01` → `10` in numeric order, **then `15`**. Everything after `01` states
+"no new downloads required".
+
+> **`15` is not optional.** `06_followup_analyses.py` computes
+> `median_local_rank` by pooling local ranks across tiers whose roster sizes
+> are not comparable (restricted n=7 vs curated n=25) and by including Tamil,
+> which the audit drops elsewhere for having a single task. `15` recomputes the
+> column over the 17 audit languages within each model's own tier, which is
+> what the paper reports. Running `01`→`10` alone regenerates
+> `hidden_failure_cluster.csv` with the superseded values (harrier 20 instead
+> of 21, inf-retriever 22 instead of 20, granite-97m-r2 41 instead of 40.5).
+> The released copy already has the corrected values.
+>
+> Scripts `11`–`14` are legacy near-duplicates of `07`–`10` written against an
+> older layout. They are not part of the pipeline; ignore them.
 
 > **On roster membership.** The curated roster is a **hand-selected,
 > judgment-based, deployment-relevant list**, hardcoded as `MODELS_CURATED` /
@@ -309,10 +324,10 @@ important mappings:
 | `tab:roster-sensitivity` — 4 roster variants | `extended-experiments/outputs/exp8_roster_summary.csv` |
 | `tab:probes` — task-fixed paired bootstrap | `extended-experiments/outputs/exp10_paired_bootstrap.csv` |
 | App. — Borda replication | `analysis/robustness_analyses/task1_borda/borda_replication.csv` |
-| **Table 6** — RAG results, 17 models × 6 configs | `rag-dataset/output/evaluation/<model>/*.json` |
+| **Table 6** — RAG results, 17-model roster × 6 configs | `rag-dataset/output/evaluation/<model>/*.json` (24 directories: the 17-model roster plus 7 API-model runs, two of them partial) |
 | §5 — closed-book baseline, $3.92 / 4,838 calls | `extended-experiments/outputs/exp11_closed_book_summary.json` |
 | §5 — MTEB-to-RAG propagation ρ | `extended-experiments/outputs/exp14_mteb_to_rag_propagation.csv` |
-| App. — deployment benchmark, 126 cells | `rag-deployment-benchmark/results/deployment_results_merged.csv` |
+| App. — deployment benchmark (17 measured models; the paper's 18th row is Qwen3-8B, reported OOM, so it has no file here) | `rag-deployment-benchmark/results/deployment_results_merged.csv` + `analysis/analysis_output/stats/rev_S12_index_build.json` |
 | App. — index-build cost (≈2.5× overhead) | `analysis/analysis_output/stats/rev_S12_index_build.json` |
 | App. — API deployment latency/pricing, n=50 | `analysis/analysis_output/stats/rev_S1_api_deployment.json` |
 
@@ -363,16 +378,19 @@ cp .env.example .env    # then fill in only the keys you need
 
 ## Tests
 
-34 unit-test files across four sub-projects. `mteb-language-gap/tests/` mocks
+34 unit-test files, contributed by three sub-projects: `rag-dataset` (20),
+`mteb-language-gap` (12) and `analysis` (2). `mteb-language-gap/tests/` mocks
 `SentenceTransformer` with a seeded 8-dim fixture and provides an ephemeral
 ChromaDB, so most tests run **without a GPU or any model download**.
 
 ```bash
-cd rag-dataset      && pytest      # ships a pytest.ini (asyncio_mode=auto)
+cd rag-dataset       && pytest       # ships a pytest.ini (asyncio_mode=auto)
 cd mteb-language-gap && pytest tests/
+pytest analysis/tests/               # 6 tests; exercises rag-dataset's embedding helpers
 ```
 
-`mteb-ranking-audit/` and `rag-deployment-benchmark/` have no test suite.
+`mteb-ranking-audit/` and `rag-deployment-benchmark/` have no test suite, and
+`extended-experiments/tests/` is an empty directory (Known issue 6).
 
 ---
 
@@ -420,13 +438,17 @@ provenance audit during camera-ready preparation.
    `07`–`10`, written against a different directory layout. They are not in the
    sub-project's canonical `01`→`10` run order and are not runnable as shipped.
    Use `07`–`10`.
-3. **`exp13` and `exp14` reference paths outside this tree** and are not
-   runnable as pathed. `exp14`'s output CSV ships, so the paper's numbers
-   remain inspectable.
-4. **Hardcoded `/workspace` paths** appear in `mteb-language-gap/scripts/`
-   (`cache_datasets.py`, `model_pipeline.py`, `utils.py`) and
-   `rag-dataset/scripts/`. These assume a Linux container mount and will need
-   editing on any other machine.
+3. **`exp13` and `exp14` carry stale docstring paths.** Their header comments
+   cite directories outside this repository. The comments are wrong; the code
+   is fine — both resolve their real inputs through
+   `extended-experiments/_common.py`, both run offline, and both reproduce
+   their shipped CSVs byte-for-byte.
+4. **Hardcoded `/workspace` paths appear in 15 files** across
+   `mteb-language-gap/scripts/` (including `eval_bm25.py` and
+   `lb_evaluator.py`, both on the documented quick-start path),
+   `rag-dataset/scripts/`, `rag-deployment-benchmark/`, and two test files.
+   They assume a Linux container mount and need editing on any other machine.
+   Find them with `grep -rl /workspace --include=*.py .`
 5. **One appendix table row has no producing script.** The Belebele-only rows
    were computed from the per-language CSVs, but the script that did it was not
    located during the provenance audit.
